@@ -60,7 +60,10 @@ namespace Embervale.Client
                 StatusText = "Game data failed to load: " + e.Message;
             }
 
-            Audio = gameObject.AddComponent<AudioManager>();
+            // Own object, never moved: WorldRoot is a child of GameSession, so nothing may move this transform.
+            var audioGo = new GameObject("Audio");
+            audioGo.transform.SetParent(transform, false);
+            Audio = audioGo.AddComponent<AudioManager>();
             UI = UIRoot.Create(this);
             SetState(ClientState.Login);
             Audio.PlayMusic("music_title");
