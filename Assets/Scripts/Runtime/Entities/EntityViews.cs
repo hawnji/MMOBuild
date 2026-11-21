@@ -40,11 +40,15 @@ namespace Embervale.Client
             _target = Ground(s.X, s.Z);
             transform.position = _target;
             _facing = s.Facing;
-            transform.rotation = Quaternion.Euler(0, _facing, 0);
+            transform.rotation = Quaternion.Euler(0, Yaw(_facing), 0);
             _visualKey = VisualKey(s);
             rebuild(this);
             ApplyState(true);
         }
+
+        /// <summary>The Blender pipeline exports models facing -Z; the server's facing 0 means +Z (north).</summary>
+        public const float ModelYawOffset = 180f;
+        private float Yaw(float facing) => IsActor ? facing + ModelYawOffset : facing;
 
         private Vector3 Ground(float x, float z) => new Vector3(x, _terrain.SampleHeight(x, z) + Hover, z);
 
@@ -139,7 +143,7 @@ namespace Embervale.Client
                 if (IsActor) _facing = Snapshot.Facing;
             }
             if (IsActor)
-                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, _facing, 0), 12f * Time.deltaTime);
+                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, Yaw(_facing), 0), 12f * Time.deltaTime);
             if (Anim != null && !_dead)
             {
                 bool moving = dist > 0.05f || Time.time - _lastMoveTime < 0.1f;
