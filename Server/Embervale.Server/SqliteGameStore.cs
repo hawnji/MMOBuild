@@ -21,7 +21,9 @@ namespace Embervale.Server
         {
             var dir = Path.GetDirectoryName(Path.GetFullPath(path));
             if (!string.IsNullOrEmpty(dir)) Directory.CreateDirectory(dir);
-            _db = new SqliteConnection(new SqliteConnectionStringBuilder { DataSource = path, Mode = SqliteOpenMode.ReadWriteCreate }.ToString());
+            // Pooling off: the store keeps one long-lived connection, and a pooled handle would keep the
+            // file locked on Windows after Dispose (blocking deletes, backups and restarts).
+            _db = new SqliteConnection(new SqliteConnectionStringBuilder { DataSource = path, Mode = SqliteOpenMode.ReadWriteCreate, Pooling = false }.ToString());
             _db.Open();
             Exec("PRAGMA journal_mode=WAL;");
             Exec("PRAGMA synchronous=NORMAL;");
