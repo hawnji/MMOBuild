@@ -1,0 +1,312 @@
+[
+ {
+  "id": "first_forge",
+  "name": "The First Forge",
+  "category": "Crafting",
+  "questPoints": 1,
+  "description": "Hollin the Smith will teach you the basics of smithing.",
+  "requirements": {},
+  "stages": [
+   {
+    "id": "make",
+    "journal": "Mine copper and tin, smelt a bronze bar and forge a bronze dagger.",
+    "objectives": [
+     {
+      "type": "Craft",
+      "target": "bronze_dagger",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "id": "return",
+    "journal": "Bring the dagger to Hollin.",
+    "objectives": [
+     {
+      "type": "Talk",
+      "target": "hollin_smith",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "xp": [
+    {
+     "skill": "Smithing",
+     "amount": 250
+    },
+    {
+     "skill": "Mining",
+     "amount": 150
+    }
+   ],
+   "items": [
+    {
+     "item": "bronze_bar",
+     "qty": 5
+    },
+    {
+     "item": "coins",
+     "qty": 100
+    }
+   ]
+  }
+ },
+ {
+  "id": "goblin_trouble",
+  "name": "Goblin Trouble",
+  "category": "Combat",
+  "questPoints": 1,
+  "description": "Elder Maren needs the goblin raiders driven off.",
+  "requirements": {},
+  "stages": [
+   {
+    "id": "hunt",
+    "journal": "Defeat five goblins and collect three goblin charms.",
+    "objectives": [
+     {
+      "type": "Kill",
+      "target": "goblin",
+      "count": 5
+     },
+     {
+      "type": "Collect",
+      "target": "goblin_charm",
+      "count": 3,
+      "consume": true
+     }
+    ]
+   },
+   {
+    "id": "return",
+    "journal": "Return to Elder Maren.",
+    "objectives": [
+     {
+      "type": "Talk",
+      "target": "elder_maren",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "xp": [
+    {
+     "skill": "Attack",
+     "amount": 300
+    },
+    {
+     "skill": "Strength",
+     "amount": 300
+    }
+   ],
+   "items": [
+    {
+     "item": "iron_sword",
+     "qty": 1
+    },
+    {
+     "item": "coins",
+     "qty": 250
+    }
+   ]
+  }
+ },
+ {
+  "id": "fishy_favour",
+  "name": "A Fishy Favour",
+  "category": "Gathering",
+  "questPoints": 1,
+  "description": "Odo the Fisher is hungry for cooked perch.",
+  "requirements": {
+   "skills": [
+    {
+     "skill": "Fishing",
+     "level": 5
+    }
+   ]
+  },
+  "stages": [
+   {
+    "id": "catch",
+    "journal": "Catch and cook five perch.",
+    "objectives": [
+     {
+      "type": "Gather",
+      "target": "raw_perch",
+      "count": 5
+     },
+     {
+      "type": "Collect",
+      "target": "perch",
+      "count": 5,
+      "consume": true
+     }
+    ]
+   },
+   {
+    "id": "return",
+    "journal": "Bring the perch to Odo.",
+    "objectives": [
+     {
+      "type": "Talk",
+      "target": "fisher_odo",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "xp": [
+    {
+     "skill": "Fishing",
+     "amount": 400
+    },
+    {
+     "skill": "Cooking",
+     "amount": 400
+    }
+   ],
+   "items": [
+    {
+     "item": "coins",
+     "qty": 300
+    }
+   ]
+  }
+ },
+ {
+  "id": "lost_map",
+  "name": "The Lost Grove",
+  "category": "Exploration",
+  "questPoints": 2,
+  "description": "Bram's grandmother hid a map to a secret grove.",
+  "requirements": {},
+  "stages": [
+   {
+    "id": "scrap",
+    "journal": "Find the old map scrap. The goblins may have it.",
+    "objectives": [
+     {
+      "type": "Collect",
+      "target": "old_map_scrap",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "id": "visit",
+    "journal": "Find the hidden grove deep in Greenleaf Forest.",
+    "objectives": [
+     {
+      "type": "Visit",
+      "target": "hidden_grove",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "id": "return",
+    "journal": "Tell Bram what you found.",
+    "objectives": [
+     {
+      "type": "Talk",
+      "target": "innkeeper_bram",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "xp": [
+    {
+     "skill": "Woodcutting",
+     "amount": 600
+    },
+    {
+     "skill": "Agility",
+     "amount": 400
+    }
+   ],
+   "items": [
+    {
+     "item": "coins",
+     "qty": 500
+    },
+    {
+     "item": "uncut_jade",
+     "qty": 1
+    }
+   ]
+  }
+ },
+ {
+  "id": "hollow_warden",
+  "name": "The Hollow Warden",
+  "category": "Story",
+  "questPoints": 5,
+  "description": "Defeat the guardian of the Ancient Ruins.",
+  "requirements": {
+   "quests": [
+    "goblin_trouble"
+   ],
+   "skills": [
+    {
+     "skill": "Attack",
+     "level": 40
+    }
+   ]
+  },
+  "stages": [
+   {
+    "id": "defeat",
+    "journal": "Defeat the Hollow Warden in the depths of the Ancient Ruins.",
+    "objectives": [
+     {
+      "type": "Kill",
+      "target": "ruin_warden",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "id": "return",
+    "journal": "Return to Seeker Ilsa in Highmarch.",
+    "objectives": [
+     {
+      "type": "Talk",
+      "target": "warden_seeker",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "xp": [
+    {
+     "skill": "Attack",
+     "amount": 20000
+    },
+    {
+     "skill": "Defense",
+     "amount": 20000
+    },
+    {
+     "skill": "Vitality",
+     "amount": 10000
+    }
+   ],
+   "items": [
+    {
+     "item": "coins",
+     "qty": 10000
+    },
+    {
+     "item": "starmetal_bar",
+     "qty": 2
+    }
+   ]
+  }
+ }
+]

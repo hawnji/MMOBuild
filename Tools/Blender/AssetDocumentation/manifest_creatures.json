@@ -1,0 +1,254 @@
+[
+ {
+  "name": "enemy_goblin",
+  "type": "creature",
+  "source": null,
+  "exported": "Assets/Art/Creatures/enemy_goblin.fbx",
+  "prefab": "Assets/Prefabs/Creatures/enemy_goblin.prefab",
+  "triangles": 1160,
+  "bones": 20,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "status": "exported",
+  "validation": "pending-unity-import",
+  "notes": ""
+ },
+ {
+  "name": "enemy_orc",
+  "type": "creature",
+  "source": null,
+  "exported": "Assets/Art/Creatures/enemy_orc.fbx",
+  "prefab": "Assets/Prefabs/Creatures/enemy_orc.prefab",
+  "triangles": 1290,
+  "bones": 20,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "status": "exported",
+  "validation": "pending-unity-import",
+  "notes": ""
+ },
+ {
+  "name": "enemy_troll",
+  "type": "creature",
+  "source": null,
+  "exported": "Assets/Art/Creatures/enemy_troll.fbx",
+  "prefab": "Assets/Prefabs/Creatures/enemy_troll.prefab",
+  "triangles": 1400,
+  "bones": 20,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "status": "exported",
+  "validation": "pending-unity-import",
+  "notes": ""
+ },
+ {
+  "name": "enemy_skeleton",
+  "type": "creature",
+  "source": null,
+  "exported": "Assets/Art/Creatures/enemy_skeleton.fbx",
+  "prefab": "Assets/Prefabs/Creatures/enemy_skeleton.prefab",
+  "triangles": 780,
+  "bones": 20,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "status": "exported",
+  "validation": "pending-unity-import",
+  "notes": ""
+ },
+ {
+  "name": "enemy_zombie",
+  "type": "creature",
+  "source": null,
+  "exported": "Assets/Art/Creatures/enemy_zombie.fbx",
+  "prefab": "Assets/Prefabs/Creatures/enemy_zombie.prefab",
+  "triangles": 1184,
+  "bones": 20,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "status": "exported",
+  "validation": "pending-unity-import",
+  "notes": ""
+ },
+ {
+  "name": "enemy_bandit",
+  "type": "creature",
+  "source": null,
+  "exported": "Assets/Art/Creatures/enemy_bandit.fbx",
+  "prefab": "Assets/Prefabs/Creatures/enemy_bandit.prefab",
+  "triangles": 1594,
+  "bones": 20,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "status": "exported",
+  "validation": "pending-unity-import",
+  "notes": ""
+ },
+ {
+  "name": "enemy_forest_spirit",
+  "type": "creature",
+  "source": null,
+  "exported": "Assets/Art/Creatures/enemy_forest_spirit.fbx",
+  "prefab": "Assets/Prefabs/Creatures/enemy_forest_spirit.prefab",
+  "triangles": 554,
+  "bones": 20,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "status": "exported",
+  "validation": "pending-unity-import",
+  "notes": ""
+ },
+ {
+  "name": "boss_warden",
+  "type": "creature",
+  "source": null,
+  "exported": "Assets/Art/Creatures/boss_warden.fbx",
+  "prefab": "Assets/Prefabs/Creatures/boss_warden.prefab",
+  "triangles": 664,
+  "bones": 20,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "status": "exported",
+  "validation": "pending-unity-import",
+  "notes": ""
+ },
+ {
+  "name": "enemy_rat",
+  "type": "creature",
+  "source": null,
+  "exported": "Assets/Art/Creatures/enemy_rat.fbx",
+  "prefab": "Assets/Prefabs/Creatures/enemy_rat.prefab",
+  "triangles": 676,
+  "bones": 20,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "status": "exported",
+  "validation": "pending-unity-import",
+  "notes": ""
+ },
+ {
+  "name": "enemy_wolf",
+  "type": "creature",
+  "source": null,
+  "exported": "Assets/Art/Creatures/enemy_wolf.fbx",
+  "prefab": "Assets/Prefabs/Creatures/enemy_wolf.prefab",
+  "triangles": 666,
+  "bones": 20,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "status": "exported",
+  "validation": "pending-unity-import",
+  "notes": ""
+ },
+ {
+  "name": "boss_mire_queen",
+  "type": "creature",
+  "source": null,
+  "exported": "Assets/Art/Creatures/boss_mire_queen.fbx",
+  "prefab": "Assets/Prefabs/Creatures/boss_mire_queen.prefab",
+  "triangles": 1122,
+  "bones": 20,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "status": "exported",
+  "validation": "pending-unity-import",
+  "notes": ""
+ },
+ {
+  "name": "enemy_spider",
+  "type": "creature",
+  "source": null,
+  "exported": "Assets/Art/Creatures/enemy_spider.fbx",
+  "prefab": "Assets/Prefabs/Creatures/enemy_spider.prefab",
+  "triangles": 740,
+  "bones": 22,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "status": "exported",
+  "validation": "pending-unity-import",
+  "notes": ""
+ }
+]

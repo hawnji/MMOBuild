@@ -1,0 +1,30 @@
+{
+    "name": "Embervale.Editor",
+    "rootNamespace": "Embervale.EditorTools",
+    "references": [
+        "Embervale.Shared",
+        "Embervale.Client",
+        "UnityEngine.UI",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Core.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "1.0.0",
+            "define": "EV_URP"
+        }
+    ],
+    "noEngineReferences": false
+}

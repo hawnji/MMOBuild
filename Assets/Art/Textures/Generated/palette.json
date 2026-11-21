@@ -1,0 +1,1044 @@
+{
+ "cells": 16,
+ "cellPx": 32,
+ "names": [
+  "wood_light",
+  "wood",
+  "wood_dark",
+  "wood_red",
+  "wood_grey",
+  "bark",
+  "bark_pale",
+  "bark_dark",
+  "thatch",
+  "stone_light",
+  "stone",
+  "stone_dark",
+  "stone_warm",
+  "stone_moss",
+  "slate",
+  "roof_red",
+  "roof_blue",
+  "roof_slate",
+  "dirt",
+  "soil",
+  "sand",
+  "clay",
+  "ruin",
+  "ruin_dark",
+  "marble",
+  "leaf",
+  "leaf_light",
+  "leaf_dark",
+  "pine",
+  "willow",
+  "maple",
+  "yew",
+  "ghost_leaf",
+  "grass",
+  "grass_dry",
+  "moss",
+  "reed",
+  "marsh",
+  "flower_red",
+  "flower_yellow",
+  "flower_blue",
+  "flower_white",
+  "flower_purple",
+  "potato",
+  "onion",
+  "cabbage",
+  "wheat",
+  "sunroot",
+  "mirewort",
+  "ashbloom",
+  "mushroom_red",
+  "mushroom_cap",
+  "mushroom_stem",
+  "ore_copper",
+  "ore_tin",
+  "ore_iron",
+  "ore_coal",
+  "ore_silver",
+  "ore_gold",
+  "ore_mithril",
+  "ore_duskite",
+  "ore_starmetal",
+  "essence",
+  "gem_amber",
+  "gem_jade",
+  "gem_garnet",
+  "gem_sapphire",
+  "gem_starstone",
+  "iron",
+  "iron_dark",
+  "steel",
+  "brass",
+  "gold",
+  "copper",
+  "bronze",
+  "leather",
+  "leather_dark",
+  "rope",
+  "cloth_red",
+  "cloth_blue",
+  "cloth_green",
+  "cloth_white",
+  "cloth_brown",
+  "cloth_purple",
+  "cloth_black",
+  "cloth_yellow",
+  "canvas",
+  "fur_grey",
+  "fur_dark",
+  "fur_brown",
+  "skin_goblin",
+  "skin_orc",
+  "skin_troll",
+  "skin_zombie",
+  "bone",
+  "bone_dark",
+  "rat",
+  "rat_pink",
+  "spider",
+  "spider_mark",
+  "spirit",
+  "spirit_core",
+  "toad",
+  "toad_belly",
+  "black",
+  "white",
+  "eye",
+  "eye_white",
+  "teeth",
+  "lips",
+  "fire",
+  "fire_core",
+  "ember",
+  "water",
+  "water_light",
+  "glass",
+  "potion_red",
+  "potion_green",
+  "potion_blue",
+  "potion_purple",
+  "potion_yellow",
+  "rune_glow",
+  "paper",
+  "bread",
+  "meat",
+  "meat_cooked",
+  "burnt",
+  "fish",
+  "fish_belly",
+  "ash",
+  "coin",
+  "lamp_glow",
+  "blood",
+  "ghost"
+ ],
+ "colors": {
+  "wood_light": [
+   0.62,
+   0.45,
+   0.28
+  ],
+  "wood": [
+   0.47,
+   0.32,
+   0.19
+  ],
+  "wood_dark": [
+   0.3,
+   0.2,
+   0.12
+  ],
+  "wood_red": [
+   0.5,
+   0.25,
+   0.16
+  ],
+  "wood_grey": [
+   0.45,
+   0.42,
+   0.38
+  ],
+  "bark": [
+   0.33,
+   0.25,
+   0.18
+  ],
+  "bark_pale": [
+   0.6,
+   0.56,
+   0.48
+  ],
+  "bark_dark": [
+   0.2,
+   0.16,
+   0.13
+  ],
+  "thatch": [
+   0.72,
+   0.6,
+   0.33
+  ],
+  "stone_light": [
+   0.7,
+   0.68,
+   0.64
+  ],
+  "stone": [
+   0.52,
+   0.51,
+   0.49
+  ],
+  "stone_dark": [
+   0.33,
+   0.33,
+   0.34
+  ],
+  "stone_warm": [
+   0.62,
+   0.55,
+   0.47
+  ],
+  "stone_moss": [
+   0.4,
+   0.46,
+   0.33
+  ],
+  "slate": [
+   0.3,
+   0.33,
+   0.4
+  ],
+  "roof_red": [
+   0.58,
+   0.22,
+   0.16
+  ],
+  "roof_blue": [
+   0.25,
+   0.32,
+   0.5
+  ],
+  "roof_slate": [
+   0.27,
+   0.29,
+   0.33
+  ],
+  "dirt": [
+   0.42,
+   0.32,
+   0.22
+  ],
+  "soil": [
+   0.28,
+   0.2,
+   0.13
+  ],
+  "sand": [
+   0.82,
+   0.74,
+   0.52
+  ],
+  "clay": [
+   0.62,
+   0.4,
+   0.3
+  ],
+  "ruin": [
+   0.55,
+   0.53,
+   0.46
+  ],
+  "ruin_dark": [
+   0.36,
+   0.35,
+   0.31
+  ],
+  "marble": [
+   0.86,
+   0.85,
+   0.82
+  ],
+  "leaf": [
+   0.3,
+   0.52,
+   0.2
+  ],
+  "leaf_light": [
+   0.45,
+   0.64,
+   0.25
+  ],
+  "leaf_dark": [
+   0.17,
+   0.35,
+   0.15
+  ],
+  "pine": [
+   0.16,
+   0.36,
+   0.22
+  ],
+  "willow": [
+   0.44,
+   0.58,
+   0.28
+  ],
+  "maple": [
+   0.72,
+   0.34,
+   0.14
+  ],
+  "yew": [
+   0.12,
+   0.28,
+   0.18
+  ],
+  "ghost_leaf": [
+   0.65,
+   0.78,
+   0.8
+  ],
+  "grass": [
+   0.38,
+   0.58,
+   0.22
+  ],
+  "grass_dry": [
+   0.62,
+   0.6,
+   0.3
+  ],
+  "moss": [
+   0.33,
+   0.45,
+   0.2
+  ],
+  "reed": [
+   0.55,
+   0.55,
+   0.3
+  ],
+  "marsh": [
+   0.3,
+   0.35,
+   0.22
+  ],
+  "flower_red": [
+   0.8,
+   0.2,
+   0.2
+  ],
+  "flower_yellow": [
+   0.95,
+   0.8,
+   0.2
+  ],
+  "flower_blue": [
+   0.35,
+   0.45,
+   0.85
+  ],
+  "flower_white": [
+   0.92,
+   0.92,
+   0.88
+  ],
+  "flower_purple": [
+   0.6,
+   0.35,
+   0.75
+  ],
+  "potato": [
+   0.7,
+   0.55,
+   0.33
+  ],
+  "onion": [
+   0.85,
+   0.7,
+   0.45
+  ],
+  "cabbage": [
+   0.55,
+   0.75,
+   0.4
+  ],
+  "wheat": [
+   0.88,
+   0.75,
+   0.38
+  ],
+  "sunroot": [
+   0.95,
+   0.65,
+   0.15
+  ],
+  "mirewort": [
+   0.35,
+   0.55,
+   0.45
+  ],
+  "ashbloom": [
+   0.75,
+   0.7,
+   0.75
+  ],
+  "mushroom_red": [
+   0.75,
+   0.15,
+   0.12
+  ],
+  "mushroom_cap": [
+   0.65,
+   0.5,
+   0.35
+  ],
+  "mushroom_stem": [
+   0.9,
+   0.86,
+   0.75
+  ],
+  "ore_copper": [
+   0.8,
+   0.45,
+   0.22
+  ],
+  "ore_tin": [
+   0.72,
+   0.74,
+   0.74
+  ],
+  "ore_iron": [
+   0.55,
+   0.32,
+   0.25
+  ],
+  "ore_coal": [
+   0.1,
+   0.1,
+   0.11
+  ],
+  "ore_silver": [
+   0.85,
+   0.87,
+   0.92
+  ],
+  "ore_gold": [
+   0.95,
+   0.76,
+   0.2
+  ],
+  "ore_mithril": [
+   0.35,
+   0.5,
+   0.85
+  ],
+  "ore_duskite": [
+   0.45,
+   0.25,
+   0.6
+  ],
+  "ore_starmetal": [
+   0.85,
+   0.95,
+   1.0
+  ],
+  "essence": [
+   0.7,
+   0.8,
+   0.95
+  ],
+  "gem_amber": [
+   0.95,
+   0.6,
+   0.1
+  ],
+  "gem_jade": [
+   0.3,
+   0.75,
+   0.45
+  ],
+  "gem_garnet": [
+   0.65,
+   0.1,
+   0.2
+  ],
+  "gem_sapphire": [
+   0.15,
+   0.3,
+   0.85
+  ],
+  "gem_starstone": [
+   0.95,
+   0.95,
+   1.0
+  ],
+  "iron": [
+   0.4,
+   0.4,
+   0.42
+  ],
+  "iron_dark": [
+   0.22,
+   0.22,
+   0.24
+  ],
+  "steel": [
+   0.62,
+   0.64,
+   0.68
+  ],
+  "brass": [
+   0.75,
+   0.6,
+   0.3
+  ],
+  "gold": [
+   0.9,
+   0.72,
+   0.25
+  ],
+  "copper": [
+   0.72,
+   0.42,
+   0.25
+  ],
+  "bronze": [
+   0.7,
+   0.5,
+   0.28
+  ],
+  "leather": [
+   0.45,
+   0.3,
+   0.18
+  ],
+  "leather_dark": [
+   0.26,
+   0.17,
+   0.1
+  ],
+  "rope": [
+   0.68,
+   0.58,
+   0.4
+  ],
+  "cloth_red": [
+   0.62,
+   0.18,
+   0.15
+  ],
+  "cloth_blue": [
+   0.2,
+   0.3,
+   0.58
+  ],
+  "cloth_green": [
+   0.24,
+   0.45,
+   0.24
+  ],
+  "cloth_white": [
+   0.88,
+   0.86,
+   0.8
+  ],
+  "cloth_brown": [
+   0.45,
+   0.34,
+   0.24
+  ],
+  "cloth_purple": [
+   0.4,
+   0.22,
+   0.5
+  ],
+  "cloth_black": [
+   0.12,
+   0.12,
+   0.14
+  ],
+  "cloth_yellow": [
+   0.85,
+   0.7,
+   0.25
+  ],
+  "canvas": [
+   0.8,
+   0.75,
+   0.62
+  ],
+  "fur_grey": [
+   0.48,
+   0.47,
+   0.45
+  ],
+  "fur_dark": [
+   0.25,
+   0.23,
+   0.22
+  ],
+  "fur_brown": [
+   0.45,
+   0.35,
+   0.25
+  ],
+  "skin_goblin": [
+   0.42,
+   0.58,
+   0.25
+  ],
+  "skin_orc": [
+   0.36,
+   0.48,
+   0.3
+  ],
+  "skin_troll": [
+   0.45,
+   0.5,
+   0.42
+  ],
+  "skin_zombie": [
+   0.5,
+   0.55,
+   0.42
+  ],
+  "bone": [
+   0.88,
+   0.85,
+   0.75
+  ],
+  "bone_dark": [
+   0.6,
+   0.56,
+   0.48
+  ],
+  "rat": [
+   0.4,
+   0.33,
+   0.28
+  ],
+  "rat_pink": [
+   0.85,
+   0.6,
+   0.58
+  ],
+  "spider": [
+   0.15,
+   0.13,
+   0.14
+  ],
+  "spider_mark": [
+   0.75,
+   0.15,
+   0.1
+  ],
+  "spirit": [
+   0.55,
+   0.85,
+   0.65
+  ],
+  "spirit_core": [
+   0.85,
+   1.0,
+   0.8
+  ],
+  "toad": [
+   0.35,
+   0.42,
+   0.25
+  ],
+  "toad_belly": [
+   0.75,
+   0.72,
+   0.5
+  ],
+  "black": [
+   0.05,
+   0.05,
+   0.06
+  ],
+  "white": [
+   0.95,
+   0.95,
+   0.95
+  ],
+  "eye": [
+   0.1,
+   0.08,
+   0.07
+  ],
+  "eye_white": [
+   0.95,
+   0.95,
+   0.92
+  ],
+  "teeth": [
+   0.92,
+   0.9,
+   0.8
+  ],
+  "lips": [
+   0.65,
+   0.35,
+   0.32
+  ],
+  "fire": [
+   1.0,
+   0.55,
+   0.1
+  ],
+  "fire_core": [
+   1.0,
+   0.9,
+   0.4
+  ],
+  "ember": [
+   0.85,
+   0.25,
+   0.05
+  ],
+  "water": [
+   0.25,
+   0.5,
+   0.75
+  ],
+  "water_light": [
+   0.55,
+   0.75,
+   0.9
+  ],
+  "glass": [
+   0.7,
+   0.85,
+   0.9
+  ],
+  "potion_red": [
+   0.85,
+   0.15,
+   0.15
+  ],
+  "potion_green": [
+   0.25,
+   0.75,
+   0.3
+  ],
+  "potion_blue": [
+   0.25,
+   0.45,
+   0.9
+  ],
+  "potion_purple": [
+   0.6,
+   0.25,
+   0.75
+  ],
+  "potion_yellow": [
+   0.9,
+   0.8,
+   0.2
+  ],
+  "rune_glow": [
+   0.55,
+   0.8,
+   1.0
+  ],
+  "paper": [
+   0.9,
+   0.85,
+   0.7
+  ],
+  "bread": [
+   0.8,
+   0.58,
+   0.3
+  ],
+  "meat": [
+   0.7,
+   0.3,
+   0.25
+  ],
+  "meat_cooked": [
+   0.5,
+   0.3,
+   0.18
+  ],
+  "burnt": [
+   0.26,
+   0.19,
+   0.14
+  ],
+  "fish": [
+   0.6,
+   0.65,
+   0.68
+  ],
+  "fish_belly": [
+   0.88,
+   0.86,
+   0.8
+  ],
+  "ash": [
+   0.55,
+   0.55,
+   0.55
+  ],
+  "coin": [
+   0.85,
+   0.55,
+   0.25
+  ],
+  "lamp_glow": [
+   1.0,
+   0.85,
+   0.5
+  ],
+  "blood": [
+   0.45,
+   0.05,
+   0.05
+  ],
+  "ghost": [
+   0.6,
+   0.85,
+   1.0
+  ]
+ },
+ "tints": {
+  "bronze": [
+   0.7,
+   0.48,
+   0.25
+  ],
+  "iron": [
+   0.45,
+   0.45,
+   0.48
+  ],
+  "steel": [
+   0.72,
+   0.74,
+   0.78
+  ],
+  "mithril": [
+   0.4,
+   0.55,
+   0.9
+  ],
+  "duskite": [
+   0.42,
+   0.25,
+   0.55
+  ],
+  "starmetal": [
+   0.9,
+   0.95,
+   1.0
+  ],
+  "silver": [
+   0.85,
+   0.87,
+   0.92
+  ],
+  "gold": [
+   0.92,
+   0.75,
+   0.25
+  ],
+  "oak": [
+   0.6,
+   0.43,
+   0.25
+  ],
+  "pine": [
+   0.55,
+   0.4,
+   0.25
+  ],
+  "willow": [
+   0.68,
+   0.58,
+   0.38
+  ],
+  "maple": [
+   0.7,
+   0.38,
+   0.2
+  ],
+  "yew": [
+   0.45,
+   0.25,
+   0.15
+  ],
+  "ghostwood": [
+   0.7,
+   0.8,
+   0.82
+  ],
+  "blue": [
+   0.25,
+   0.35,
+   0.7
+  ],
+  "fire": [
+   0.8,
+   0.3,
+   0.1
+  ],
+  "amber": [
+   0.95,
+   0.6,
+   0.1
+  ],
+  "jade": [
+   0.3,
+   0.75,
+   0.45
+  ],
+  "garnet": [
+   0.65,
+   0.1,
+   0.2
+  ],
+  "sapphire": [
+   0.15,
+   0.3,
+   0.85
+  ],
+  "starstone": [
+   0.95,
+   0.95,
+   1.0
+  ],
+  "copper": [
+   0.8,
+   0.45,
+   0.22
+  ],
+  "tin": [
+   0.72,
+   0.74,
+   0.74
+  ],
+  "coal": [
+   0.15,
+   0.15,
+   0.16
+  ],
+  "air": [
+   0.85,
+   0.92,
+   1.0
+  ],
+  "water": [
+   0.25,
+   0.5,
+   0.95
+  ],
+  "earth": [
+   0.55,
+   0.4,
+   0.2
+  ],
+  "mind": [
+   0.95,
+   0.6,
+   0.2
+  ],
+  "life": [
+   0.35,
+   0.9,
+   0.4
+  ],
+  "chaos": [
+   0.85,
+   0.2,
+   0.6
+  ],
+  "void": [
+   0.35,
+   0.15,
+   0.55
+  ],
+  "ward": [
+   0.95,
+   0.85,
+   0.35
+  ],
+  "path": [
+   0.3,
+   0.85,
+   0.85
+  ],
+  "minnow": [
+   0.7,
+   0.72,
+   0.7
+  ],
+  "perch": [
+   0.6,
+   0.65,
+   0.35
+  ],
+  "trout": [
+   0.65,
+   0.55,
+   0.5
+  ],
+  "pike": [
+   0.45,
+   0.55,
+   0.4
+  ],
+  "eel": [
+   0.35,
+   0.35,
+   0.3
+  ],
+  "salmon": [
+   0.9,
+   0.55,
+   0.45
+  ],
+  "deepcod": [
+   0.45,
+   0.5,
+   0.6
+  ],
+  "swordfish": [
+   0.4,
+   0.55,
+   0.75
+  ],
+  "healing_potion": [
+   0.9,
+   0.2,
+   0.2
+  ],
+  "focus_potion": [
+   0.3,
+   0.5,
+   0.95
+  ],
+  "guard_potion": [
+   0.85,
+   0.75,
+   0.25
+  ],
+  "hunter_potion": [
+   0.35,
+   0.8,
+   0.35
+  ],
+  "vigor_potion": [
+   0.7,
+   0.3,
+   0.85
+  ]
+ }
+}

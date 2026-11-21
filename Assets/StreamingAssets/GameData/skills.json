@@ -1,0 +1,122 @@
+[
+ {
+  "id": "Attack",
+  "category": "Combat",
+  "description": "Accuracy with melee weapons.",
+  "icon": "skill_attack"
+ },
+ {
+  "id": "Strength",
+  "category": "Combat",
+  "description": "Raw melee damage.",
+  "icon": "skill_strength"
+ },
+ {
+  "id": "Defense",
+  "category": "Combat",
+  "description": "Avoiding incoming blows and wearing heavier armour.",
+  "icon": "skill_defense"
+ },
+ {
+  "id": "Ranged",
+  "category": "Combat",
+  "description": "Bows, crossbows and thrown weapons.",
+  "icon": "skill_ranged"
+ },
+ {
+  "id": "Magic",
+  "category": "Combat",
+  "description": "Channelling runes into spells.",
+  "icon": "skill_magic"
+ },
+ {
+  "id": "Vitality",
+  "category": "Combat",
+  "description": "Your life force. Each level grants extra health.",
+  "icon": "skill_vitality"
+ },
+ {
+  "id": "Woodcutting",
+  "category": "Gathering",
+  "description": "Felling trees for logs.",
+  "icon": "skill_woodcutting"
+ },
+ {
+  "id": "Mining",
+  "category": "Gathering",
+  "description": "Extracting ore and stone.",
+  "icon": "skill_mining"
+ },
+ {
+  "id": "Fishing",
+  "category": "Gathering",
+  "description": "Catching fish from rivers, lakes and the sea.",
+  "icon": "skill_fishing"
+ },
+ {
+  "id": "Farming",
+  "category": "Gathering",
+  "description": "Growing crops and herbs in tended patches.",
+  "icon": "skill_farming"
+ },
+ {
+  "id": "Smithing",
+  "category": "Crafting",
+  "description": "Smelting ore and forging metal equipment.",
+  "icon": "skill_smithing"
+ },
+ {
+  "id": "Cooking",
+  "category": "Crafting",
+  "description": "Preparing food that restores health.",
+  "icon": "skill_cooking"
+ },
+ {
+  "id": "Crafting",
+  "category": "Crafting",
+  "description": "Leatherwork, jewellery and utility items.",
+  "icon": "skill_crafting"
+ },
+ {
+  "id": "Fletching",
+  "category": "Crafting",
+  "description": "Carving bows and making arrows.",
+  "icon": "skill_fletching"
+ },
+ {
+  "id": "Herblore",
+  "category": "Crafting",
+  "description": "Brewing potions from herbs.",
+  "icon": "skill_herblore"
+ },
+ {
+  "id": "Runecrafting",
+  "category": "Crafting",
+  "description": "Binding raw essence into spell runes.",
+  "icon": "skill_runecrafting"
+ },
+ {
+  "id": "Agility",
+  "category": "Support",
+  "description": "Moving across obstacles and difficult terrain.",
+  "icon": "skill_agility"
+ },
+ {
+  "id": "Thieving",
+  "category": "Support",
+  "description": "Picking pockets and lifting goods from stalls.",
+  "icon": "skill_thieving"
+ },
+ {
+  "id": "Prayer",
+  "category": "Support",
+  "description": "Honouring the old spirits for protective blessings.",
+  "icon": "skill_prayer"
+ },
+ {
+  "id": "Firemaking",
+  "category": "Support",
+  "description": "Lighting fires for warmth and cooking.",
+  "icon": "skill_firemaking"
+ }
+]

@@ -1,0 +1,352 @@
+[
+ {
+  "id": "brookhollow_general",
+  "name": "Brookhollow General Goods",
+  "generalStore": true,
+  "buyMultiplier": 1.0,
+  "sellMultiplier": 0.4,
+  "stock": [
+   {
+    "item": "bronze_pickaxe",
+    "qty": 5,
+    "restockTicks": 50
+   },
+   {
+    "item": "bronze_hatchet",
+    "qty": 5,
+    "restockTicks": 50
+   },
+   {
+    "item": "small_net",
+    "qty": 5,
+    "restockTicks": 50
+   },
+   {
+    "item": "fishing_rod",
+    "qty": 5,
+    "restockTicks": 50
+   },
+   {
+    "item": "bait_worms",
+    "qty": 500,
+    "restockTicks": 50
+   },
+   {
+    "item": "tinderbox",
+    "qty": 5,
+    "restockTicks": 50
+   },
+   {
+    "item": "knife",
+    "qty": 5,
+    "restockTicks": 50
+   },
+   {
+    "item": "hammer",
+    "qty": 5,
+    "restockTicks": 50
+   },
+   {
+    "item": "needle",
+    "qty": 5,
+    "restockTicks": 50
+   },
+   {
+    "item": "thread",
+    "qty": 200,
+    "restockTicks": 50
+   },
+   {
+    "item": "chisel",
+    "qty": 5,
+    "restockTicks": 50
+   },
+   {
+    "item": "bucket",
+    "qty": 10,
+    "restockTicks": 50
+   },
+   {
+    "item": "vial",
+    "qty": 20,
+    "restockTicks": 50
+   },
+   {
+    "item": "watering_can",
+    "qty": 5,
+    "restockTicks": 50
+   },
+   {
+    "item": "rake",
+    "qty": 5,
+    "restockTicks": 50
+   },
+   {
+    "item": "spade",
+    "qty": 5,
+    "restockTicks": 50
+   },
+   {
+    "item": "potato_seed",
+    "qty": 50,
+    "restockTicks": 50
+   },
+   {
+    "item": "onion_seed",
+    "qty": 30,
+    "restockTicks": 50
+   },
+   {
+    "item": "bread",
+    "qty": 10,
+    "restockTicks": 50
+   },
+   {
+    "item": "ring_mould",
+    "qty": 3,
+    "restockTicks": 50
+   },
+   {
+    "item": "amulet_mould",
+    "qty": 3,
+    "restockTicks": 50
+   }
+  ]
+ },
+ {
+  "id": "brookhollow_smith",
+  "name": "Hollin's Forge",
+  "generalStore": false,
+  "buyMultiplier": 1.2,
+  "sellMultiplier": 0.5,
+  "stock": [
+   {
+    "item": "bronze_sword",
+    "qty": 3,
+    "restockTicks": 100
+   },
+   {
+    "item": "bronze_dagger",
+    "qty": 3,
+    "restockTicks": 100
+   },
+   {
+    "item": "bronze_helm",
+    "qty": 3,
+    "restockTicks": 100
+   },
+   {
+    "item": "bronze_chest",
+    "qty": 2,
+    "restockTicks": 100
+   },
+   {
+    "item": "bronze_legs",
+    "qty": 2,
+    "restockTicks": 100
+   },
+   {
+    "item": "bronze_shield",
+    "qty": 2,
+    "restockTicks": 100
+   },
+   {
+    "item": "iron_sword",
+    "qty": 2,
+    "restockTicks": 100
+   },
+   {
+    "item": "iron_pickaxe",
+    "qty": 2,
+    "restockTicks": 100
+   },
+   {
+    "item": "iron_hatchet",
+    "qty": 2,
+    "restockTicks": 100
+   },
+   {
+    "item": "bronze_arrow",
+    "qty": 300,
+    "restockTicks": 100
+   },
+   {
+    "item": "oak_shortbow",
+    "qty": 2,
+    "restockTicks": 100
+   },
+   {
+    "item": "hammer",
+    "qty": 3,
+    "restockTicks": 100
+   }
+  ]
+ },
+ {
+  "id": "highmarch_magic",
+  "name": "The Gilded Sigil",
+  "generalStore": false,
+  "buyMultiplier": 1.1,
+  "sellMultiplier": 0.5,
+  "stock": [
+   {
+    "item": "air_rune",
+    "qty": 1000,
+    "restockTicks": 60
+   },
+   {
+    "item": "water_rune",
+    "qty": 500,
+    "restockTicks": 60
+   },
+   {
+    "item": "earth_rune",
+    "qty": 500,
+    "restockTicks": 60
+   },
+   {
+    "item": "fire_rune",
+    "qty": 500,
+    "restockTicks": 60
+   },
+   {
+    "item": "mind_rune",
+    "qty": 800,
+    "restockTicks": 60
+   },
+   {
+    "item": "path_rune",
+    "qty": 50,
+    "restockTicks": 60
+   },
+   {
+    "item": "apprentice_staff",
+    "qty": 3,
+    "restockTicks": 60
+   },
+   {
+    "item": "acolyte_robe",
+    "qty": 3,
+    "restockTicks": 60
+   },
+   {
+    "item": "acolyte_hat",
+    "qty": 3,
+    "restockTicks": 60
+   }
+  ]
+ },
+ {
+  "id": "highmarch_arms",
+  "name": "Highmarch Armoury",
+  "generalStore": false,
+  "buyMultiplier": 1.15,
+  "sellMultiplier": 0.5,
+  "stock": [
+   {
+    "item": "steel_sword",
+    "qty": 3,
+    "restockTicks": 120
+   },
+   {
+    "item": "steel_greatsword",
+    "qty": 2,
+    "restockTicks": 120
+   },
+   {
+    "item": "steel_chest",
+    "qty": 2,
+    "restockTicks": 120
+   },
+   {
+    "item": "steel_legs",
+    "qty": 2,
+    "restockTicks": 120
+   },
+   {
+    "item": "steel_helm",
+    "qty": 3,
+    "restockTicks": 120
+   },
+   {
+    "item": "steel_shield",
+    "qty": 2,
+    "restockTicks": 120
+   },
+   {
+    "item": "willow_longbow",
+    "qty": 2,
+    "restockTicks": 120
+   },
+   {
+    "item": "iron_arrow",
+    "qty": 500,
+    "restockTicks": 120
+   },
+   {
+    "item": "oak_crossbow",
+    "qty": 2,
+    "restockTicks": 120
+   },
+   {
+    "item": "iron_bolt",
+    "qty": 300,
+    "restockTicks": 120
+   },
+   {
+    "item": "leather_body",
+    "qty": 3,
+    "restockTicks": 120
+   },
+   {
+    "item": "leather_chaps",
+    "qty": 3,
+    "restockTicks": 120
+   },
+   {
+    "item": "harpoon",
+    "qty": 2,
+    "restockTicks": 120
+   }
+  ]
+ },
+ {
+  "id": "highmarch_apothecary",
+  "name": "Mossbottle Apothecary",
+  "generalStore": false,
+  "buyMultiplier": 1.1,
+  "sellMultiplier": 0.5,
+  "stock": [
+   {
+    "item": "vial_water",
+    "qty": 50,
+    "restockTicks": 80
+   },
+   {
+    "item": "sunroot_seed",
+    "qty": 20,
+    "restockTicks": 80
+   },
+   {
+    "item": "mirewort_seed",
+    "qty": 10,
+    "restockTicks": 80
+   },
+   {
+    "item": "healing_potion",
+    "qty": 5,
+    "restockTicks": 80
+   },
+   {
+    "item": "cabbage_seed",
+    "qty": 30,
+    "restockTicks": 80
+   },
+   {
+    "item": "wheat_seed",
+    "qty": 30,
+    "restockTicks": 80
+   }
+  ]
+ }
+]

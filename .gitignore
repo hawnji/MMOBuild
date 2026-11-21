@@ -61,3 +61,6 @@ Server/Data/*.db
 Server/Data/*.db-*
 *.pem
 *.key
+
+# ---- Blender preview renders (contact sheets are committed, single frames are not) ----
+Tools/Blender/Previews/*/

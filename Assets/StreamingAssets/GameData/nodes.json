@@ -1,0 +1,448 @@
+[
+ {
+  "id": "copper_rock",
+  "name": "Copper Rock",
+  "skill": "Mining",
+  "toolType": "Pickaxe",
+  "level": 1,
+  "yields": [
+   {
+    "item": "copper_ore",
+    "level": 1,
+    "xp": 17,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.545,
+  "depleteChance": 1.0,
+  "respawnTicks": 6,
+  "model": "rock_copper",
+  "depletedModel": "rock_depleted",
+  "gemChance": 0.004
+ },
+ {
+  "id": "tin_rock",
+  "name": "Tin Rock",
+  "skill": "Mining",
+  "toolType": "Pickaxe",
+  "level": 1,
+  "yields": [
+   {
+    "item": "tin_ore",
+    "level": 1,
+    "xp": 17,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.545,
+  "depleteChance": 1.0,
+  "respawnTicks": 6,
+  "model": "rock_tin",
+  "depletedModel": "rock_depleted",
+  "gemChance": 0.004
+ },
+ {
+  "id": "iron_rock",
+  "name": "Iron Rock",
+  "skill": "Mining",
+  "toolType": "Pickaxe",
+  "level": 15,
+  "yields": [
+   {
+    "item": "iron_ore",
+    "level": 15,
+    "xp": 35,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.47500000000000003,
+  "depleteChance": 1.0,
+  "respawnTicks": 12,
+  "model": "rock_iron",
+  "depletedModel": "rock_depleted",
+  "gemChance": 0.004
+ },
+ {
+  "id": "coal_rock",
+  "name": "Coal Rock",
+  "skill": "Mining",
+  "toolType": "Pickaxe",
+  "level": 30,
+  "yields": [
+   {
+    "item": "coal_ore",
+    "level": 30,
+    "xp": 50,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.4,
+  "depleteChance": 1.0,
+  "respawnTicks": 40,
+  "model": "rock_coal",
+  "depletedModel": "rock_depleted",
+  "gemChance": 0.004
+ },
+ {
+  "id": "silver_rock",
+  "name": "Silver Rock",
+  "skill": "Mining",
+  "toolType": "Pickaxe",
+  "level": 20,
+  "yields": [
+   {
+    "item": "silver_ore",
+    "level": 20,
+    "xp": 40,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.45000000000000007,
+  "depleteChance": 1.0,
+  "respawnTicks": 60,
+  "model": "rock_silver",
+  "depletedModel": "rock_depleted",
+  "gemChance": 0.004
+ },
+ {
+  "id": "gold_rock",
+  "name": "Gold Rock",
+  "skill": "Mining",
+  "toolType": "Pickaxe",
+  "level": 40,
+  "yields": [
+   {
+    "item": "gold_ore",
+    "level": 40,
+    "xp": 65,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.35000000000000003,
+  "depleteChance": 1.0,
+  "respawnTicks": 80,
+  "model": "rock_gold",
+  "depletedModel": "rock_depleted",
+  "gemChance": 0.004
+ },
+ {
+  "id": "mithril_rock",
+  "name": "Mithril Rock",
+  "skill": "Mining",
+  "toolType": "Pickaxe",
+  "level": 55,
+  "yields": [
+   {
+    "item": "mithril_ore",
+    "level": 55,
+    "xp": 80,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.275,
+  "depleteChance": 1.0,
+  "respawnTicks": 160,
+  "model": "rock_mithril",
+  "depletedModel": "rock_depleted",
+  "gemChance": 0.004
+ },
+ {
+  "id": "duskite_rock",
+  "name": "Duskite Rock",
+  "skill": "Mining",
+  "toolType": "Pickaxe",
+  "level": 70,
+  "yields": [
+   {
+    "item": "duskite_ore",
+    "level": 70,
+    "xp": 95,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.2,
+  "depleteChance": 1.0,
+  "respawnTicks": 300,
+  "model": "rock_duskite",
+  "depletedModel": "rock_depleted",
+  "gemChance": 0.004
+ },
+ {
+  "id": "starmetal_rock",
+  "name": "Starmetal Rock",
+  "skill": "Mining",
+  "toolType": "Pickaxe",
+  "level": 85,
+  "yields": [
+   {
+    "item": "starmetal_ore",
+    "level": 85,
+    "xp": 125,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.12500000000000006,
+  "depleteChance": 1.0,
+  "respawnTicks": 600,
+  "model": "rock_starmetal",
+  "depletedModel": "rock_depleted",
+  "gemChance": 0.004
+ },
+ {
+  "id": "oak_tree",
+  "name": "Oak Tree",
+  "skill": "Woodcutting",
+  "toolType": "Hatchet",
+  "level": 1,
+  "yields": [
+   {
+    "item": "oak_logs",
+    "level": 1,
+    "xp": 25,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.495,
+  "depleteChance": 1.0,
+  "respawnTicks": 30,
+  "model": "tree_oak",
+  "depletedModel": "tree_stump"
+ },
+ {
+  "id": "pine_tree",
+  "name": "Pine Tree",
+  "skill": "Woodcutting",
+  "toolType": "Hatchet",
+  "level": 15,
+  "yields": [
+   {
+    "item": "pine_logs",
+    "level": 15,
+    "xp": 38,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.425,
+  "depleteChance": 0.125,
+  "respawnTicks": 40,
+  "model": "tree_pine",
+  "depletedModel": "tree_stump"
+ },
+ {
+  "id": "willow_tree",
+  "name": "Willow Tree",
+  "skill": "Woodcutting",
+  "toolType": "Hatchet",
+  "level": 30,
+  "yields": [
+   {
+    "item": "willow_logs",
+    "level": 30,
+    "xp": 68,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.35,
+  "depleteChance": 0.125,
+  "respawnTicks": 50,
+  "model": "tree_willow",
+  "depletedModel": "tree_stump"
+ },
+ {
+  "id": "maple_tree",
+  "name": "Maple Tree",
+  "skill": "Woodcutting",
+  "toolType": "Hatchet",
+  "level": 45,
+  "yields": [
+   {
+    "item": "maple_logs",
+    "level": 45,
+    "xp": 100,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.275,
+  "depleteChance": 0.1111111111111111,
+  "respawnTicks": 70,
+  "model": "tree_maple",
+  "depletedModel": "tree_stump"
+ },
+ {
+  "id": "yew_tree",
+  "name": "Elderyew Tree",
+  "skill": "Woodcutting",
+  "toolType": "Hatchet",
+  "level": 60,
+  "yields": [
+   {
+    "item": "yew_logs",
+    "level": 60,
+    "xp": 175,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.2,
+  "depleteChance": 0.1,
+  "respawnTicks": 120,
+  "model": "tree_yew",
+  "depletedModel": "tree_stump"
+ },
+ {
+  "id": "ghostwood_tree",
+  "name": "Ghostwood Tree",
+  "skill": "Woodcutting",
+  "toolType": "Hatchet",
+  "level": 75,
+  "yields": [
+   {
+    "item": "ghostwood_logs",
+    "level": 75,
+    "xp": 250,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.125,
+  "depleteChance": 0.08333333333333333,
+  "respawnTicks": 200,
+  "model": "tree_ghostwood",
+  "depletedModel": "tree_stump"
+ },
+ {
+  "id": "net_spot",
+  "name": "Shallow Water",
+  "skill": "Fishing",
+  "toolType": "FishingNet",
+  "model": "fishing_spot",
+  "yields": [
+   {
+    "item": "raw_minnow",
+    "level": 1,
+    "xp": 10,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.35,
+  "respawnTicks": 0,
+  "depleteChance": 0.0
+ },
+ {
+  "id": "rod_spot",
+  "name": "Rippling Water",
+  "skill": "Fishing",
+  "toolType": "FishingRod",
+  "bait": "bait_worms",
+  "model": "fishing_spot",
+  "yields": [
+   {
+    "item": "raw_perch",
+    "level": 5,
+    "xp": 20,
+    "weight": 4
+   },
+   {
+    "item": "raw_trout",
+    "level": 20,
+    "xp": 50,
+    "weight": 3
+   },
+   {
+    "item": "raw_pike",
+    "level": 30,
+    "xp": 70,
+    "weight": 2
+   },
+   {
+    "item": "raw_salmon",
+    "level": 35,
+    "xp": 80,
+    "weight": 2
+   }
+  ],
+  "baseChance": 0.3,
+  "respawnTicks": 0,
+  "depleteChance": 0.0
+ },
+ {
+  "id": "marsh_spot",
+  "name": "Murky Water",
+  "skill": "Fishing",
+  "toolType": "FishingRod",
+  "bait": "bait_worms",
+  "model": "fishing_spot",
+  "yields": [
+   {
+    "item": "raw_eel",
+    "level": 50,
+    "xp": 105,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.25,
+  "respawnTicks": 0,
+  "depleteChance": 0.0
+ },
+ {
+  "id": "deep_spot",
+  "name": "Deep Water",
+  "skill": "Fishing",
+  "toolType": "Harpoon",
+  "model": "fishing_spot",
+  "yields": [
+   {
+    "item": "raw_swordfish",
+    "level": 60,
+    "xp": 120,
+    "weight": 3
+   },
+   {
+    "item": "raw_deepcod",
+    "level": 76,
+    "xp": 150,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.22,
+  "respawnTicks": 0,
+  "depleteChance": 0.0
+ },
+ {
+  "id": "essence_rock",
+  "name": "Essence Vein",
+  "skill": "Mining",
+  "toolType": "Pickaxe",
+  "level": 1,
+  "yields": [
+   {
+    "item": "blank_essence",
+    "level": 1,
+    "xp": 5,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.8,
+  "depleteChance": 0.0,
+  "respawnTicks": 0,
+  "model": "rock_essence"
+ },
+ {
+  "id": "sand_pit",
+  "name": "Sand Pit",
+  "skill": "Mining",
+  "toolType": "Spade",
+  "level": 1,
+  "yields": [
+   {
+    "item": "sand",
+    "level": 1,
+    "xp": 2,
+    "weight": 1
+   }
+  ],
+  "baseChance": 0.9,
+  "depleteChance": 0.0,
+  "respawnTicks": 0,
+  "model": "sand_pit",
+  "requiresItem": "bucket"
+ }
+]

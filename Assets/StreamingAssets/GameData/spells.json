@@ -1,0 +1,224 @@
+[
+ {
+  "id": "gale_bolt",
+  "name": "Gale Bolt",
+  "type": "Attack",
+  "element": "Air",
+  "level": 1,
+  "maxHit": 4,
+  "runes": [
+   {
+    "item": "air_rune",
+    "qty": 1
+   },
+   {
+    "item": "mind_rune",
+    "qty": 1
+   }
+  ],
+  "xp": 6,
+  "range": 8
+ },
+ {
+  "id": "tide_bolt",
+  "name": "Tide Bolt",
+  "type": "Attack",
+  "element": "Water",
+  "level": 5,
+  "maxHit": 6,
+  "runes": [
+   {
+    "item": "water_rune",
+    "qty": 1
+   },
+   {
+    "item": "air_rune",
+    "qty": 1
+   },
+   {
+    "item": "mind_rune",
+    "qty": 1
+   }
+  ],
+  "xp": 8,
+  "range": 8
+ },
+ {
+  "id": "stone_bolt",
+  "name": "Stone Bolt",
+  "type": "Attack",
+  "element": "Earth",
+  "level": 9,
+  "maxHit": 8,
+  "runes": [
+   {
+    "item": "earth_rune",
+    "qty": 2
+   },
+   {
+    "item": "air_rune",
+    "qty": 1
+   },
+   {
+    "item": "mind_rune",
+    "qty": 1
+   }
+  ],
+  "xp": 10,
+  "range": 8
+ },
+ {
+  "id": "ember_bolt",
+  "name": "Ember Bolt",
+  "type": "Attack",
+  "element": "Fire",
+  "level": 14,
+  "maxHit": 10,
+  "runes": [
+   {
+    "item": "fire_rune",
+    "qty": 2
+   },
+   {
+    "item": "air_rune",
+    "qty": 2
+   },
+   {
+    "item": "mind_rune",
+    "qty": 1
+   }
+  ],
+  "xp": 12,
+  "range": 8
+ },
+ {
+  "id": "chaos_lance",
+  "name": "Chaos Lance",
+  "type": "Attack",
+  "element": "Fire",
+  "level": 35,
+  "maxHit": 16,
+  "runes": [
+   {
+    "item": "chaos_rune",
+    "qty": 1
+   },
+   {
+    "item": "fire_rune",
+    "qty": 3
+   },
+   {
+    "item": "air_rune",
+    "qty": 2
+   }
+  ],
+  "xp": 25,
+  "range": 8
+ },
+ {
+  "id": "void_storm",
+  "name": "Void Storm",
+  "type": "Attack",
+  "element": "Void",
+  "level": 50,
+  "maxHit": 22,
+  "runes": [
+   {
+    "item": "void_rune",
+    "qty": 1
+   },
+   {
+    "item": "chaos_rune",
+    "qty": 2
+   },
+   {
+    "item": "air_rune",
+    "qty": 4
+   }
+  ],
+  "xp": 36,
+  "range": 8
+ },
+ {
+  "id": "mend",
+  "name": "Mend",
+  "type": "Heal",
+  "element": "Life",
+  "level": 10,
+  "heal": 8,
+  "runes": [
+   {
+    "item": "life_rune",
+    "qty": 1
+   },
+   {
+    "item": "water_rune",
+    "qty": 2
+   }
+  ],
+  "xp": 15,
+  "range": 6
+ },
+ {
+  "id": "wardskin",
+  "name": "Wardskin",
+  "type": "Buff",
+  "element": "Earth",
+  "level": 20,
+  "buff": "Defense",
+  "amount": 5,
+  "durationTicks": 200,
+  "runes": [
+   {
+    "item": "ward_rune",
+    "qty": 1
+   },
+   {
+    "item": "earth_rune",
+    "qty": 2
+   }
+  ],
+  "xp": 20,
+  "range": 0
+ },
+ {
+  "id": "home_path",
+  "name": "Path to Brookhollow",
+  "type": "Teleport",
+  "element": "Path",
+  "level": 15,
+  "destination": "brookhollow_square",
+  "runes": [
+   {
+    "item": "path_rune",
+    "qty": 1
+   },
+   {
+    "item": "air_rune",
+    "qty": 3
+   }
+  ],
+  "xp": 30,
+  "range": 0
+ },
+ {
+  "id": "capital_path",
+  "name": "Path to Highmarch",
+  "type": "Teleport",
+  "element": "Path",
+  "level": 30,
+  "destination": "highmarch_plaza",
+  "runes": [
+   {
+    "item": "path_rune",
+    "qty": 2
+   },
+   {
+    "item": "air_rune",
+    "qty": 4
+   }
+  ],
+  "xp": 45,
+  "range": 0
+ }
+]

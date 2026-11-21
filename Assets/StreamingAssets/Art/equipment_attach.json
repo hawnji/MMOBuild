@@ -1,0 +1,94 @@
+{
+ "default": {
+  "socket": "RightHandSocket",
+  "up": "forward",
+  "face": "out"
+ },
+ "models": {
+  "w_sword": {
+   "socket": "RightHandSocket",
+   "up": "forward",
+   "face": "out"
+  },
+  "w_dagger": {
+   "socket": "RightHandSocket",
+   "up": "forward",
+   "face": "out"
+  },
+  "w_greatsword": {
+   "socket": "RightHandSocket",
+   "up": "forward",
+   "face": "out"
+  },
+  "w_axe": {
+   "socket": "RightHandSocket",
+   "up": "forward",
+   "face": "out"
+  },
+  "w_mace": {
+   "socket": "RightHandSocket",
+   "up": "forward",
+   "face": "out"
+  },
+  "w_staff": {
+   "socket": "RightHandSocket",
+   "up": "forward",
+   "face": "out"
+  },
+  "w_shortbow": {
+   "socket": "LeftHandSocket",
+   "up": "hand_reverse",
+   "face": "forward"
+  },
+  "w_longbow": {
+   "socket": "LeftHandSocket",
+   "up": "hand_reverse",
+   "face": "forward"
+  },
+  "w_crossbow": {
+   "socket": "RightHandSocket",
+   "up": "forward",
+   "face": "out"
+  },
+  "t_pickaxe": {
+   "socket": "RightHandSocket",
+   "up": "forward",
+   "face": "out"
+  },
+  "t_hatchet": {
+   "socket": "RightHandSocket",
+   "up": "forward",
+   "face": "out"
+  },
+  "t_rod": {
+   "socket": "RightHandSocket",
+   "up": "forward",
+   "face": "out"
+  },
+  "t_net": {
+   "socket": "RightHandSocket",
+   "up": "forward",
+   "face": "out"
+  },
+  "t_harpoon": {
+   "socket": "RightHandSocket",
+   "up": "forward",
+   "face": "out"
+  },
+  "a_shield": {
+   "socket": "LeftHandSocket",
+   "up": "hand_reverse",
+   "face": "out"
+  },
+  "arrow": {
+   "socket": "RightHandSocket",
+   "up": "forward",
+   "face": "out"
+  },
+  "bolt": {
+   "socket": "RightHandSocket",
+   "up": "forward",
+   "face": "out"
+  }
+ }
+}

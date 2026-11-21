@@ -1,0 +1,10 @@
+{
+  "name": "com.embervale.shared",
+  "version": "0.1.0",
+  "displayName": "Embervale Shared Simulation",
+  "description": "Engine-independent game rules, data model, world simulation and network protocol shared by the Unity client and the headless .NET dedicated server.",
+  "unity": "6000.6",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  }
+}

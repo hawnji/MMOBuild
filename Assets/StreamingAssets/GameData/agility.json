@@ -1,0 +1,52 @@
+[
+ {
+  "id": "log_balance",
+  "name": "Balance across",
+  "level": 1,
+  "xp": 8,
+  "ticks": 4,
+  "failChance": 0.1,
+  "failDamage": 2,
+  "model": "obstacle_log"
+ },
+ {
+  "id": "rope_swing",
+  "name": "Swing across",
+  "level": 10,
+  "xp": 14,
+  "ticks": 4,
+  "failChance": 0.15,
+  "failDamage": 3,
+  "model": "obstacle_rope"
+ },
+ {
+  "id": "wall_climb",
+  "name": "Climb",
+  "level": 20,
+  "xp": 22,
+  "ticks": 5,
+  "failChance": 0.15,
+  "failDamage": 4,
+  "model": "obstacle_wall"
+ },
+ {
+  "id": "ledge_walk",
+  "name": "Shimmy along",
+  "level": 35,
+  "xp": 35,
+  "ticks": 5,
+  "failChance": 0.2,
+  "failDamage": 6,
+  "model": "obstacle_ledge"
+ },
+ {
+  "id": "course_lap",
+  "name": "Lap bonus",
+  "level": 1,
+  "xp": 40,
+  "ticks": 0,
+  "failChance": 0,
+  "failDamage": 0,
+  "lapBonus": true
+ }
+]

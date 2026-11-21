@@ -1,0 +1,503 @@
+[
+ {
+  "id": "elder_maren",
+  "nodes": [
+   {
+    "id": "start",
+    "speaker": "Elder Maren",
+    "text": "Welcome to Brookhollow, traveller. These are troubled times. Goblins raid our fields, and something stirs in the old ruins.",
+    "options": [
+     {
+      "text": "Can I help with the goblins?",
+      "next": "goblins",
+      "condition": {
+       "questNotStarted": "goblin_trouble"
+      }
+     },
+     {
+      "text": "I've dealt with the goblins.",
+      "next": "goblins_done",
+      "condition": {
+       "questStage": [
+        "goblin_trouble",
+        "return"
+       ]
+      }
+     },
+     {
+      "text": "Tell me about Embervale.",
+      "next": "lore"
+     },
+     {
+      "text": "Farewell.",
+      "next": null
+     }
+    ]
+   },
+   {
+    "id": "goblins",
+    "speaker": "Elder Maren",
+    "text": "Bless you. Drive off five goblins at the edge of Greenleaf Forest and bring me three of their crude charms as proof.",
+    "options": [
+     {
+      "text": "I'll do it.",
+      "next": null,
+      "action": {
+       "startQuest": "goblin_trouble"
+      }
+     },
+     {
+      "text": "Maybe later.",
+      "next": null
+     }
+    ]
+   },
+   {
+    "id": "goblins_done",
+    "speaker": "Elder Maren",
+    "text": "Three charms! The fields will be safe for a while. Take this for your trouble.",
+    "options": [
+     {
+      "text": "Thank you.",
+      "next": null,
+      "action": {
+       "completeQuestStage": "goblin_trouble"
+      }
+     }
+    ]
+   },
+   {
+    "id": "lore",
+    "speaker": "Elder Maren",
+    "text": "Embervale was once lit by the great Hearthstones. When they dimmed, the old kingdom fell to ruin. Highmarch to the north is all that remains of its glory.",
+    "options": [
+     {
+      "text": "Back.",
+      "next": "start"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hollin_smith",
+  "nodes": [
+   {
+    "id": "start",
+    "speaker": "Hollin the Smith",
+    "text": "Need steel? Or need to learn to make your own?",
+    "options": [
+     {
+      "text": "Show me your wares.",
+      "next": null,
+      "action": {
+       "openShop": "brookhollow_smith"
+      }
+     },
+     {
+      "text": "Teach me to smith.",
+      "next": "teach",
+      "condition": {
+       "questNotStarted": "first_forge"
+      }
+     },
+     {
+      "text": "I've made the dagger.",
+      "next": "done",
+      "condition": {
+       "questStage": [
+        "first_forge",
+        "return"
+       ]
+      }
+     },
+     {
+      "text": "Goodbye.",
+      "next": null
+     }
+    ]
+   },
+   {
+    "id": "teach",
+    "speaker": "Hollin the Smith",
+    "text": "Mine copper and tin in the quarry east of the village, smelt a bronze bar at my furnace, then hammer a dagger on the anvil. Bring it here.",
+    "options": [
+     {
+      "text": "Sounds simple enough.",
+      "next": null,
+      "action": {
+       "startQuest": "first_forge"
+      }
+     }
+    ]
+   },
+   {
+    "id": "done",
+    "speaker": "Hollin the Smith",
+    "text": "Not bad for a first try! Keep it, and take a few bars to practise.",
+    "options": [
+     {
+      "text": "Thanks!",
+      "next": null,
+      "action": {
+       "completeQuestStage": "first_forge"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tilda_merchant",
+  "nodes": [
+   {
+    "id": "start",
+    "speaker": "Tilda",
+    "text": "Supplies for every adventurer! Take a look.",
+    "options": [
+     {
+      "text": "Let's trade.",
+      "next": null,
+      "action": {
+       "openShop": "brookhollow_general"
+      }
+     },
+     {
+      "text": "No thanks.",
+      "next": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "banker",
+  "nodes": [
+   {
+    "id": "start",
+    "speaker": "Banker",
+    "text": "Good day. How may the Hearthvault serve you?",
+    "options": [
+     {
+      "text": "I'd like to access my vault.",
+      "next": null,
+      "action": {
+       "openBank": true
+      }
+     },
+     {
+      "text": "Nothing, thanks.",
+      "next": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "exchange_clerk",
+  "nodes": [
+   {
+    "id": "start",
+    "speaker": "Exchange Clerk",
+    "text": "Welcome to the Embervale Exchange. Post an offer and we'll match it with other adventurers, even while you're away.",
+    "options": [
+     {
+      "text": "I'd like to trade on the Exchange.",
+      "next": null,
+      "action": {
+       "openMarket": true
+      }
+     },
+     {
+      "text": "How does it work?",
+      "next": "help"
+     },
+     {
+      "text": "Nothing, thanks.",
+      "next": null
+     }
+    ]
+   },
+   {
+    "id": "help",
+    "speaker": "Exchange Clerk",
+    "text": "Buy offers hold your coins, sell offers hold your goods. Trades happen at the older offer's price, any overpayment is refunded, and the Exchange keeps one coin in every hundred from sales.",
+    "options": [
+     {
+      "text": "Let me trade.",
+      "next": null,
+      "action": {
+       "openMarket": true
+      }
+     },
+     {
+      "text": "Thanks.",
+      "next": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "guard",
+  "nodes": [
+   {
+    "id": "start",
+    "speaker": "Guard",
+    "text": "Keep out of trouble. The roads past the forest aren't safe after dark.",
+    "options": [
+     {
+      "text": "I'll be careful.",
+      "next": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "villager",
+  "nodes": [
+   {
+    "id": "start",
+    "speaker": "Villager",
+    "text": "Lovely weather today, isn't it?",
+    "options": [
+     {
+      "text": "It is.",
+      "next": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "innkeeper_bram",
+  "nodes": [
+   {
+    "id": "start",
+    "speaker": "Bram the Innkeeper",
+    "text": "Warm stew and a soft bed. Folk say a lost map of the forest is held by the goblins.",
+    "options": [
+     {
+      "text": "A map?",
+      "next": "map",
+      "condition": {
+       "questNotStarted": "lost_map"
+      }
+     },
+     {
+      "text": "I found the map scrap.",
+      "next": "map_done",
+      "condition": {
+       "questStage": [
+        "lost_map",
+        "return"
+       ]
+      }
+     },
+     {
+      "text": "Goodbye.",
+      "next": null
+     }
+    ]
+   },
+   {
+    "id": "map",
+    "speaker": "Bram the Innkeeper",
+    "text": "My grandmother's map shows a hidden grove deep in Greenleaf. Find the scrap and visit the grove for me.",
+    "options": [
+     {
+      "text": "I'll look for it.",
+      "next": null,
+      "action": {
+       "startQuest": "lost_map"
+      }
+     }
+    ]
+   },
+   {
+    "id": "map_done",
+    "speaker": "Bram the Innkeeper",
+    "text": "So the grove is real! Here, take these for your trouble.",
+    "options": [
+     {
+      "text": "Happy to help.",
+      "next": null,
+      "action": {
+       "completeQuestStage": "lost_map"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "warden_seeker",
+  "nodes": [
+   {
+    "id": "start",
+    "speaker": "Seeker Ilsa",
+    "text": "The Hollow Warden guards the deepest vault of the Ancient Ruins. Defeat it and the Hearthstone shard is yours.",
+    "options": [
+     {
+      "text": "I accept the challenge.",
+      "next": null,
+      "action": {
+       "startQuest": "hollow_warden"
+      },
+      "condition": {
+       "questNotStarted": "hollow_warden"
+      }
+     },
+     {
+      "text": "The Warden has fallen.",
+      "next": "done",
+      "condition": {
+       "questStage": [
+        "hollow_warden",
+        "return"
+       ]
+      }
+     },
+     {
+      "text": "Not yet.",
+      "next": null
+     }
+    ]
+   },
+   {
+    "id": "done",
+    "speaker": "Seeker Ilsa",
+    "text": "Incredible. Embervale owes you a debt.",
+    "options": [
+     {
+      "text": "It was nothing.",
+      "next": null,
+      "action": {
+       "completeQuestStage": "hollow_warden"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "fisher_odo",
+  "nodes": [
+   {
+    "id": "start",
+    "speaker": "Odo the Fisher",
+    "text": "Fish are biting by the lake. Catch me five perch and cook them, would you?",
+    "options": [
+     {
+      "text": "Sure.",
+      "next": null,
+      "action": {
+       "startQuest": "fishy_favour"
+      },
+      "condition": {
+       "questNotStarted": "fishy_favour"
+      }
+     },
+     {
+      "text": "Here are your perch.",
+      "next": "done",
+      "condition": {
+       "questStage": [
+        "fishy_favour",
+        "return"
+       ]
+      }
+     },
+     {
+      "text": "Bye.",
+      "next": null
+     }
+    ]
+   },
+   {
+    "id": "done",
+    "speaker": "Odo the Fisher",
+    "text": "Delicious! Here's a harpoon voucher... well, some coins anyway.",
+    "options": [
+     {
+      "text": "Thanks.",
+      "next": null,
+      "action": {
+       "completeQuestStage": "fishy_favour"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "magic_vendor",
+  "nodes": [
+   {
+    "id": "start",
+    "speaker": "Archivist Sel",
+    "text": "Runes, staves and robes. Mind the sparks.",
+    "options": [
+     {
+      "text": "Show me.",
+      "next": null,
+      "action": {
+       "openShop": "highmarch_magic"
+      }
+     },
+     {
+      "text": "Goodbye.",
+      "next": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "arms_vendor",
+  "nodes": [
+   {
+    "id": "start",
+    "speaker": "Quartermaster Dane",
+    "text": "Highmarch steel. The best in the realm.",
+    "options": [
+     {
+      "text": "Show me.",
+      "next": null,
+      "action": {
+       "openShop": "highmarch_arms"
+      }
+     },
+     {
+      "text": "Goodbye.",
+      "next": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "apothecary",
+  "nodes": [
+   {
+    "id": "start",
+    "speaker": "Wenna Mossbottle",
+    "text": "Herbs, seeds and remedies!",
+    "options": [
+     {
+      "text": "Let me browse.",
+      "next": null,
+      "action": {
+       "openShop": "highmarch_apothecary"
+      }
+     },
+     {
+      "text": "Goodbye.",
+      "next": null
+     }
+    ]
+   }
+  ]
+ }
+]

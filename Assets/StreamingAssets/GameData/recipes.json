@@ -1,0 +1,4122 @@
+[
+ {
+  "id": "smelt_silver",
+  "skill": "Smithing",
+  "level": 20,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "silver_ore",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "silver_bar",
+    "qty": 1
+   }
+  ],
+  "xp": 14,
+  "ticks": 4
+ },
+ {
+  "id": "smelt_gold",
+  "skill": "Smithing",
+  "level": 40,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "gold_ore",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "gold_bar",
+    "qty": 1
+   }
+  ],
+  "xp": 22,
+  "ticks": 4
+ },
+ {
+  "id": "smelt_bronze",
+  "skill": "Smithing",
+  "level": 1,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "copper_ore",
+    "qty": 1
+   },
+   {
+    "item": "tin_ore",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "bronze_bar",
+    "qty": 1
+   }
+  ],
+  "xp": 6,
+  "ticks": 4
+ },
+ {
+  "id": "forge_bronze_dagger",
+  "skill": "Smithing",
+  "level": 1,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "bronze_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "bronze_dagger",
+    "qty": 1
+   }
+  ],
+  "xp": 9,
+  "ticks": 5
+ },
+ {
+  "id": "forge_bronze_sword",
+  "skill": "Smithing",
+  "level": 3,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "bronze_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "bronze_sword",
+    "qty": 1
+   }
+  ],
+  "xp": 9,
+  "ticks": 5
+ },
+ {
+  "id": "forge_bronze_axe",
+  "skill": "Smithing",
+  "level": 7,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "bronze_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "bronze_axe",
+    "qty": 1
+   }
+  ],
+  "xp": 29,
+  "ticks": 5
+ },
+ {
+  "id": "forge_bronze_mace",
+  "skill": "Smithing",
+  "level": 5,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "bronze_bar",
+    "qty": 2
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "bronze_mace",
+    "qty": 1
+   }
+  ],
+  "xp": 19,
+  "ticks": 5
+ },
+ {
+  "id": "forge_bronze_greatsword",
+  "skill": "Smithing",
+  "level": 9,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "bronze_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "bronze_greatsword",
+    "qty": 1
+   }
+  ],
+  "xp": 29,
+  "ticks": 5
+ },
+ {
+  "id": "forge_bronze_helm",
+  "skill": "Smithing",
+  "level": 2,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "bronze_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "bronze_helm",
+    "qty": 1
+   }
+  ],
+  "xp": 9,
+  "ticks": 5
+ },
+ {
+  "id": "forge_bronze_chest",
+  "skill": "Smithing",
+  "level": 7,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "bronze_bar",
+    "qty": 4
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "bronze_chest",
+    "qty": 1
+   }
+  ],
+  "xp": 39,
+  "ticks": 5
+ },
+ {
+  "id": "forge_bronze_legs",
+  "skill": "Smithing",
+  "level": 6,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "bronze_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "bronze_legs",
+    "qty": 1
+   }
+  ],
+  "xp": 29,
+  "ticks": 5
+ },
+ {
+  "id": "forge_bronze_boots",
+  "skill": "Smithing",
+  "level": 3,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "bronze_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "bronze_boots",
+    "qty": 1
+   }
+  ],
+  "xp": 9,
+  "ticks": 5
+ },
+ {
+  "id": "forge_bronze_gloves",
+  "skill": "Smithing",
+  "level": 3,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "bronze_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "bronze_gloves",
+    "qty": 1
+   }
+  ],
+  "xp": 9,
+  "ticks": 5
+ },
+ {
+  "id": "forge_bronze_shield",
+  "skill": "Smithing",
+  "level": 5,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "bronze_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "bronze_shield",
+    "qty": 1
+   }
+  ],
+  "xp": 29,
+  "ticks": 5
+ },
+ {
+  "id": "forge_bronze_pickaxe",
+  "skill": "Smithing",
+  "level": 1,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "bronze_bar",
+    "qty": 2
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "bronze_pickaxe",
+    "qty": 1
+   }
+  ],
+  "xp": 19,
+  "ticks": 5
+ },
+ {
+  "id": "forge_bronze_hatchet",
+  "skill": "Smithing",
+  "level": 1,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "bronze_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "bronze_hatchet",
+    "qty": 1
+   }
+  ],
+  "xp": 9,
+  "ticks": 5
+ },
+ {
+  "id": "forge_bronze_arrowheads",
+  "skill": "Smithing",
+  "level": 4,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "bronze_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "bronze_arrowheads",
+    "qty": 15
+   }
+  ],
+  "xp": 6,
+  "ticks": 4
+ },
+ {
+  "id": "fletch_bronze_arrow",
+  "skill": "Fletching",
+  "level": 5,
+  "inputs": [
+   {
+    "item": "headless_arrow",
+    "qty": 15
+   },
+   {
+    "item": "bronze_arrowheads",
+    "qty": 15
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "bronze_arrow",
+    "qty": 15
+   }
+  ],
+  "xp": 7,
+  "ticks": 3
+ },
+ {
+  "id": "smelt_iron",
+  "skill": "Smithing",
+  "level": 15,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "iron_ore",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "iron_bar",
+    "qty": 1
+   }
+  ],
+  "xp": 15,
+  "ticks": 4
+ },
+ {
+  "id": "forge_iron_dagger",
+  "skill": "Smithing",
+  "level": 15,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "iron_dagger",
+    "qty": 1
+   }
+  ],
+  "xp": 22,
+  "ticks": 5
+ },
+ {
+  "id": "forge_iron_sword",
+  "skill": "Smithing",
+  "level": 17,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "iron_sword",
+    "qty": 1
+   }
+  ],
+  "xp": 22,
+  "ticks": 5
+ },
+ {
+  "id": "forge_iron_axe",
+  "skill": "Smithing",
+  "level": 21,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "iron_axe",
+    "qty": 1
+   }
+  ],
+  "xp": 67,
+  "ticks": 5
+ },
+ {
+  "id": "forge_iron_mace",
+  "skill": "Smithing",
+  "level": 19,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "qty": 2
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "iron_mace",
+    "qty": 1
+   }
+  ],
+  "xp": 45,
+  "ticks": 5
+ },
+ {
+  "id": "forge_iron_greatsword",
+  "skill": "Smithing",
+  "level": 23,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "iron_greatsword",
+    "qty": 1
+   }
+  ],
+  "xp": 67,
+  "ticks": 5
+ },
+ {
+  "id": "forge_iron_helm",
+  "skill": "Smithing",
+  "level": 16,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "iron_helm",
+    "qty": 1
+   }
+  ],
+  "xp": 22,
+  "ticks": 5
+ },
+ {
+  "id": "forge_iron_chest",
+  "skill": "Smithing",
+  "level": 21,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "qty": 4
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "iron_chest",
+    "qty": 1
+   }
+  ],
+  "xp": 90,
+  "ticks": 5
+ },
+ {
+  "id": "forge_iron_legs",
+  "skill": "Smithing",
+  "level": 20,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "iron_legs",
+    "qty": 1
+   }
+  ],
+  "xp": 67,
+  "ticks": 5
+ },
+ {
+  "id": "forge_iron_boots",
+  "skill": "Smithing",
+  "level": 17,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "iron_boots",
+    "qty": 1
+   }
+  ],
+  "xp": 22,
+  "ticks": 5
+ },
+ {
+  "id": "forge_iron_gloves",
+  "skill": "Smithing",
+  "level": 17,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "iron_gloves",
+    "qty": 1
+   }
+  ],
+  "xp": 22,
+  "ticks": 5
+ },
+ {
+  "id": "forge_iron_shield",
+  "skill": "Smithing",
+  "level": 19,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "iron_shield",
+    "qty": 1
+   }
+  ],
+  "xp": 67,
+  "ticks": 5
+ },
+ {
+  "id": "forge_iron_pickaxe",
+  "skill": "Smithing",
+  "level": 15,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "qty": 2
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "iron_pickaxe",
+    "qty": 1
+   }
+  ],
+  "xp": 45,
+  "ticks": 5
+ },
+ {
+  "id": "forge_iron_hatchet",
+  "skill": "Smithing",
+  "level": 15,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "iron_hatchet",
+    "qty": 1
+   }
+  ],
+  "xp": 22,
+  "ticks": 5
+ },
+ {
+  "id": "forge_iron_arrowheads",
+  "skill": "Smithing",
+  "level": 18,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "iron_arrowheads",
+    "qty": 15
+   }
+  ],
+  "xp": 15,
+  "ticks": 4
+ },
+ {
+  "id": "fletch_iron_arrow",
+  "skill": "Fletching",
+  "level": 19,
+  "inputs": [
+   {
+    "item": "headless_arrow",
+    "qty": 15
+   },
+   {
+    "item": "iron_arrowheads",
+    "qty": 15
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "iron_arrow",
+    "qty": 15
+   }
+  ],
+  "xp": 33,
+  "ticks": 3
+ },
+ {
+  "id": "smelt_steel",
+  "skill": "Smithing",
+  "level": 30,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "iron_ore",
+    "qty": 1
+   },
+   {
+    "item": "coal_ore",
+    "qty": 2
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "steel_bar",
+    "qty": 1
+   }
+  ],
+  "xp": 24,
+  "ticks": 4
+ },
+ {
+  "id": "forge_steel_dagger",
+  "skill": "Smithing",
+  "level": 30,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "steel_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "steel_dagger",
+    "qty": 1
+   }
+  ],
+  "xp": 36,
+  "ticks": 5
+ },
+ {
+  "id": "forge_steel_sword",
+  "skill": "Smithing",
+  "level": 32,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "steel_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "steel_sword",
+    "qty": 1
+   }
+  ],
+  "xp": 36,
+  "ticks": 5
+ },
+ {
+  "id": "forge_steel_axe",
+  "skill": "Smithing",
+  "level": 36,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "steel_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "steel_axe",
+    "qty": 1
+   }
+  ],
+  "xp": 108,
+  "ticks": 5
+ },
+ {
+  "id": "forge_steel_mace",
+  "skill": "Smithing",
+  "level": 34,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "steel_bar",
+    "qty": 2
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "steel_mace",
+    "qty": 1
+   }
+  ],
+  "xp": 72,
+  "ticks": 5
+ },
+ {
+  "id": "forge_steel_greatsword",
+  "skill": "Smithing",
+  "level": 38,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "steel_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "steel_greatsword",
+    "qty": 1
+   }
+  ],
+  "xp": 108,
+  "ticks": 5
+ },
+ {
+  "id": "forge_steel_helm",
+  "skill": "Smithing",
+  "level": 31,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "steel_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "steel_helm",
+    "qty": 1
+   }
+  ],
+  "xp": 36,
+  "ticks": 5
+ },
+ {
+  "id": "forge_steel_chest",
+  "skill": "Smithing",
+  "level": 36,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "steel_bar",
+    "qty": 4
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "steel_chest",
+    "qty": 1
+   }
+  ],
+  "xp": 144,
+  "ticks": 5
+ },
+ {
+  "id": "forge_steel_legs",
+  "skill": "Smithing",
+  "level": 35,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "steel_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "steel_legs",
+    "qty": 1
+   }
+  ],
+  "xp": 108,
+  "ticks": 5
+ },
+ {
+  "id": "forge_steel_boots",
+  "skill": "Smithing",
+  "level": 32,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "steel_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "steel_boots",
+    "qty": 1
+   }
+  ],
+  "xp": 36,
+  "ticks": 5
+ },
+ {
+  "id": "forge_steel_gloves",
+  "skill": "Smithing",
+  "level": 32,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "steel_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "steel_gloves",
+    "qty": 1
+   }
+  ],
+  "xp": 36,
+  "ticks": 5
+ },
+ {
+  "id": "forge_steel_shield",
+  "skill": "Smithing",
+  "level": 34,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "steel_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "steel_shield",
+    "qty": 1
+   }
+  ],
+  "xp": 108,
+  "ticks": 5
+ },
+ {
+  "id": "forge_steel_pickaxe",
+  "skill": "Smithing",
+  "level": 30,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "steel_bar",
+    "qty": 2
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "steel_pickaxe",
+    "qty": 1
+   }
+  ],
+  "xp": 72,
+  "ticks": 5
+ },
+ {
+  "id": "forge_steel_hatchet",
+  "skill": "Smithing",
+  "level": 30,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "steel_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "steel_hatchet",
+    "qty": 1
+   }
+  ],
+  "xp": 36,
+  "ticks": 5
+ },
+ {
+  "id": "forge_steel_arrowheads",
+  "skill": "Smithing",
+  "level": 33,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "steel_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "steel_arrowheads",
+    "qty": 15
+   }
+  ],
+  "xp": 24,
+  "ticks": 4
+ },
+ {
+  "id": "fletch_steel_arrow",
+  "skill": "Fletching",
+  "level": 34,
+  "inputs": [
+   {
+    "item": "headless_arrow",
+    "qty": 15
+   },
+   {
+    "item": "steel_arrowheads",
+    "qty": 15
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "steel_arrow",
+    "qty": 15
+   }
+  ],
+  "xp": 63,
+  "ticks": 3
+ },
+ {
+  "id": "smelt_mithril",
+  "skill": "Smithing",
+  "level": 50,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "mithril_ore",
+    "qty": 1
+   },
+   {
+    "item": "coal_ore",
+    "qty": 4
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "mithril_bar",
+    "qty": 1
+   }
+  ],
+  "xp": 36,
+  "ticks": 4
+ },
+ {
+  "id": "forge_mithril_dagger",
+  "skill": "Smithing",
+  "level": 50,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "mithril_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "mithril_dagger",
+    "qty": 1
+   }
+  ],
+  "xp": 54,
+  "ticks": 5
+ },
+ {
+  "id": "forge_mithril_sword",
+  "skill": "Smithing",
+  "level": 52,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "mithril_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "mithril_sword",
+    "qty": 1
+   }
+  ],
+  "xp": 54,
+  "ticks": 5
+ },
+ {
+  "id": "forge_mithril_axe",
+  "skill": "Smithing",
+  "level": 56,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "mithril_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "mithril_axe",
+    "qty": 1
+   }
+  ],
+  "xp": 162,
+  "ticks": 5
+ },
+ {
+  "id": "forge_mithril_mace",
+  "skill": "Smithing",
+  "level": 54,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "mithril_bar",
+    "qty": 2
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "mithril_mace",
+    "qty": 1
+   }
+  ],
+  "xp": 108,
+  "ticks": 5
+ },
+ {
+  "id": "forge_mithril_greatsword",
+  "skill": "Smithing",
+  "level": 58,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "mithril_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "mithril_greatsword",
+    "qty": 1
+   }
+  ],
+  "xp": 162,
+  "ticks": 5
+ },
+ {
+  "id": "forge_mithril_helm",
+  "skill": "Smithing",
+  "level": 51,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "mithril_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "mithril_helm",
+    "qty": 1
+   }
+  ],
+  "xp": 54,
+  "ticks": 5
+ },
+ {
+  "id": "forge_mithril_chest",
+  "skill": "Smithing",
+  "level": 56,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "mithril_bar",
+    "qty": 4
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "mithril_chest",
+    "qty": 1
+   }
+  ],
+  "xp": 216,
+  "ticks": 5
+ },
+ {
+  "id": "forge_mithril_legs",
+  "skill": "Smithing",
+  "level": 55,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "mithril_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "mithril_legs",
+    "qty": 1
+   }
+  ],
+  "xp": 162,
+  "ticks": 5
+ },
+ {
+  "id": "forge_mithril_boots",
+  "skill": "Smithing",
+  "level": 52,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "mithril_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "mithril_boots",
+    "qty": 1
+   }
+  ],
+  "xp": 54,
+  "ticks": 5
+ },
+ {
+  "id": "forge_mithril_gloves",
+  "skill": "Smithing",
+  "level": 52,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "mithril_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "mithril_gloves",
+    "qty": 1
+   }
+  ],
+  "xp": 54,
+  "ticks": 5
+ },
+ {
+  "id": "forge_mithril_shield",
+  "skill": "Smithing",
+  "level": 54,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "mithril_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "mithril_shield",
+    "qty": 1
+   }
+  ],
+  "xp": 162,
+  "ticks": 5
+ },
+ {
+  "id": "forge_mithril_pickaxe",
+  "skill": "Smithing",
+  "level": 50,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "mithril_bar",
+    "qty": 2
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "mithril_pickaxe",
+    "qty": 1
+   }
+  ],
+  "xp": 108,
+  "ticks": 5
+ },
+ {
+  "id": "forge_mithril_hatchet",
+  "skill": "Smithing",
+  "level": 50,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "mithril_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "mithril_hatchet",
+    "qty": 1
+   }
+  ],
+  "xp": 54,
+  "ticks": 5
+ },
+ {
+  "id": "forge_mithril_arrowheads",
+  "skill": "Smithing",
+  "level": 53,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "mithril_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "mithril_arrowheads",
+    "qty": 15
+   }
+  ],
+  "xp": 36,
+  "ticks": 4
+ },
+ {
+  "id": "fletch_mithril_arrow",
+  "skill": "Fletching",
+  "level": 54,
+  "inputs": [
+   {
+    "item": "headless_arrow",
+    "qty": 15
+   },
+   {
+    "item": "mithril_arrowheads",
+    "qty": 15
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "mithril_arrow",
+    "qty": 15
+   }
+  ],
+  "xp": 101,
+  "ticks": 3
+ },
+ {
+  "id": "smelt_duskite",
+  "skill": "Smithing",
+  "level": 70,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "duskite_ore",
+    "qty": 1
+   },
+   {
+    "item": "coal_ore",
+    "qty": 6
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "duskite_bar",
+    "qty": 1
+   }
+  ],
+  "xp": 48,
+  "ticks": 4
+ },
+ {
+  "id": "forge_duskite_dagger",
+  "skill": "Smithing",
+  "level": 70,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "duskite_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "duskite_dagger",
+    "qty": 1
+   }
+  ],
+  "xp": 72,
+  "ticks": 5
+ },
+ {
+  "id": "forge_duskite_sword",
+  "skill": "Smithing",
+  "level": 72,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "duskite_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "duskite_sword",
+    "qty": 1
+   }
+  ],
+  "xp": 72,
+  "ticks": 5
+ },
+ {
+  "id": "forge_duskite_axe",
+  "skill": "Smithing",
+  "level": 76,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "duskite_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "duskite_axe",
+    "qty": 1
+   }
+  ],
+  "xp": 216,
+  "ticks": 5
+ },
+ {
+  "id": "forge_duskite_mace",
+  "skill": "Smithing",
+  "level": 74,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "duskite_bar",
+    "qty": 2
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "duskite_mace",
+    "qty": 1
+   }
+  ],
+  "xp": 144,
+  "ticks": 5
+ },
+ {
+  "id": "forge_duskite_greatsword",
+  "skill": "Smithing",
+  "level": 78,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "duskite_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "duskite_greatsword",
+    "qty": 1
+   }
+  ],
+  "xp": 216,
+  "ticks": 5
+ },
+ {
+  "id": "forge_duskite_helm",
+  "skill": "Smithing",
+  "level": 71,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "duskite_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "duskite_helm",
+    "qty": 1
+   }
+  ],
+  "xp": 72,
+  "ticks": 5
+ },
+ {
+  "id": "forge_duskite_chest",
+  "skill": "Smithing",
+  "level": 76,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "duskite_bar",
+    "qty": 4
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "duskite_chest",
+    "qty": 1
+   }
+  ],
+  "xp": 288,
+  "ticks": 5
+ },
+ {
+  "id": "forge_duskite_legs",
+  "skill": "Smithing",
+  "level": 75,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "duskite_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "duskite_legs",
+    "qty": 1
+   }
+  ],
+  "xp": 216,
+  "ticks": 5
+ },
+ {
+  "id": "forge_duskite_boots",
+  "skill": "Smithing",
+  "level": 72,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "duskite_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "duskite_boots",
+    "qty": 1
+   }
+  ],
+  "xp": 72,
+  "ticks": 5
+ },
+ {
+  "id": "forge_duskite_gloves",
+  "skill": "Smithing",
+  "level": 72,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "duskite_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "duskite_gloves",
+    "qty": 1
+   }
+  ],
+  "xp": 72,
+  "ticks": 5
+ },
+ {
+  "id": "forge_duskite_shield",
+  "skill": "Smithing",
+  "level": 74,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "duskite_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "duskite_shield",
+    "qty": 1
+   }
+  ],
+  "xp": 216,
+  "ticks": 5
+ },
+ {
+  "id": "forge_duskite_pickaxe",
+  "skill": "Smithing",
+  "level": 70,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "duskite_bar",
+    "qty": 2
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "duskite_pickaxe",
+    "qty": 1
+   }
+  ],
+  "xp": 144,
+  "ticks": 5
+ },
+ {
+  "id": "forge_duskite_hatchet",
+  "skill": "Smithing",
+  "level": 70,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "duskite_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "duskite_hatchet",
+    "qty": 1
+   }
+  ],
+  "xp": 72,
+  "ticks": 5
+ },
+ {
+  "id": "forge_duskite_arrowheads",
+  "skill": "Smithing",
+  "level": 73,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "duskite_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "duskite_arrowheads",
+    "qty": 15
+   }
+  ],
+  "xp": 48,
+  "ticks": 4
+ },
+ {
+  "id": "fletch_duskite_arrow",
+  "skill": "Fletching",
+  "level": 74,
+  "inputs": [
+   {
+    "item": "headless_arrow",
+    "qty": 15
+   },
+   {
+    "item": "duskite_arrowheads",
+    "qty": 15
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "duskite_arrow",
+    "qty": 15
+   }
+  ],
+  "xp": 138,
+  "ticks": 3
+ },
+ {
+  "id": "smelt_starmetal",
+  "skill": "Smithing",
+  "level": 85,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "starmetal_ore",
+    "qty": 1
+   },
+   {
+    "item": "coal_ore",
+    "qty": 8
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "starmetal_bar",
+    "qty": 1
+   }
+  ],
+  "xp": 57,
+  "ticks": 4
+ },
+ {
+  "id": "forge_starmetal_dagger",
+  "skill": "Smithing",
+  "level": 85,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "starmetal_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "starmetal_dagger",
+    "qty": 1
+   }
+  ],
+  "xp": 85,
+  "ticks": 5
+ },
+ {
+  "id": "forge_starmetal_sword",
+  "skill": "Smithing",
+  "level": 87,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "starmetal_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "starmetal_sword",
+    "qty": 1
+   }
+  ],
+  "xp": 85,
+  "ticks": 5
+ },
+ {
+  "id": "forge_starmetal_axe",
+  "skill": "Smithing",
+  "level": 91,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "starmetal_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "starmetal_axe",
+    "qty": 1
+   }
+  ],
+  "xp": 256,
+  "ticks": 5
+ },
+ {
+  "id": "forge_starmetal_mace",
+  "skill": "Smithing",
+  "level": 89,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "starmetal_bar",
+    "qty": 2
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "starmetal_mace",
+    "qty": 1
+   }
+  ],
+  "xp": 171,
+  "ticks": 5
+ },
+ {
+  "id": "forge_starmetal_greatsword",
+  "skill": "Smithing",
+  "level": 93,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "starmetal_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "starmetal_greatsword",
+    "qty": 1
+   }
+  ],
+  "xp": 256,
+  "ticks": 5
+ },
+ {
+  "id": "forge_starmetal_helm",
+  "skill": "Smithing",
+  "level": 86,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "starmetal_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "starmetal_helm",
+    "qty": 1
+   }
+  ],
+  "xp": 85,
+  "ticks": 5
+ },
+ {
+  "id": "forge_starmetal_chest",
+  "skill": "Smithing",
+  "level": 91,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "starmetal_bar",
+    "qty": 4
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "starmetal_chest",
+    "qty": 1
+   }
+  ],
+  "xp": 342,
+  "ticks": 5
+ },
+ {
+  "id": "forge_starmetal_legs",
+  "skill": "Smithing",
+  "level": 90,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "starmetal_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "starmetal_legs",
+    "qty": 1
+   }
+  ],
+  "xp": 256,
+  "ticks": 5
+ },
+ {
+  "id": "forge_starmetal_boots",
+  "skill": "Smithing",
+  "level": 87,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "starmetal_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "starmetal_boots",
+    "qty": 1
+   }
+  ],
+  "xp": 85,
+  "ticks": 5
+ },
+ {
+  "id": "forge_starmetal_gloves",
+  "skill": "Smithing",
+  "level": 87,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "starmetal_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "starmetal_gloves",
+    "qty": 1
+   }
+  ],
+  "xp": 85,
+  "ticks": 5
+ },
+ {
+  "id": "forge_starmetal_shield",
+  "skill": "Smithing",
+  "level": 89,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "starmetal_bar",
+    "qty": 3
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "starmetal_shield",
+    "qty": 1
+   }
+  ],
+  "xp": 256,
+  "ticks": 5
+ },
+ {
+  "id": "forge_starmetal_pickaxe",
+  "skill": "Smithing",
+  "level": 85,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "starmetal_bar",
+    "qty": 2
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "starmetal_pickaxe",
+    "qty": 1
+   }
+  ],
+  "xp": 171,
+  "ticks": 5
+ },
+ {
+  "id": "forge_starmetal_hatchet",
+  "skill": "Smithing",
+  "level": 85,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "starmetal_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "starmetal_hatchet",
+    "qty": 1
+   }
+  ],
+  "xp": 85,
+  "ticks": 5
+ },
+ {
+  "id": "forge_starmetal_arrowheads",
+  "skill": "Smithing",
+  "level": 88,
+  "station": "Anvil",
+  "inputs": [
+   {
+    "item": "starmetal_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "starmetal_arrowheads",
+    "qty": 15
+   }
+  ],
+  "xp": 57,
+  "ticks": 4
+ },
+ {
+  "id": "fletch_starmetal_arrow",
+  "skill": "Fletching",
+  "level": 89,
+  "inputs": [
+   {
+    "item": "headless_arrow",
+    "qty": 15
+   },
+   {
+    "item": "starmetal_arrowheads",
+    "qty": 15
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "starmetal_arrow",
+    "qty": 15
+   }
+  ],
+  "xp": 165,
+  "ticks": 3
+ },
+ {
+  "id": "burn_oak_logs",
+  "skill": "Firemaking",
+  "level": 1,
+  "inputs": [
+   {
+    "item": "oak_logs",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "tinderbox"
+  ],
+  "outputs": [
+   {
+    "item": "ashes",
+    "qty": 1
+   }
+  ],
+  "xp": 30,
+  "ticks": 3,
+  "spawnsFire": true
+ },
+ {
+  "id": "fletch_oak_shortbow",
+  "skill": "Fletching",
+  "level": 1,
+  "inputs": [
+   {
+    "item": "oak_logs",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "knife"
+  ],
+  "outputs": [
+   {
+    "item": "oak_shortbow",
+    "qty": 1
+   }
+  ],
+  "xp": 15,
+  "ticks": 3
+ },
+ {
+  "id": "fletch_oak_longbow",
+  "skill": "Fletching",
+  "level": 6,
+  "inputs": [
+   {
+    "item": "oak_logs",
+    "qty": 2
+   }
+  ],
+  "tools": [
+   "knife"
+  ],
+  "outputs": [
+   {
+    "item": "oak_longbow",
+    "qty": 1
+   }
+  ],
+  "xp": 25,
+  "ticks": 3
+ },
+ {
+  "id": "burn_pine_logs",
+  "skill": "Firemaking",
+  "level": 15,
+  "inputs": [
+   {
+    "item": "pine_logs",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "tinderbox"
+  ],
+  "outputs": [
+   {
+    "item": "ashes",
+    "qty": 1
+   }
+  ],
+  "xp": 45,
+  "ticks": 3,
+  "spawnsFire": true
+ },
+ {
+  "id": "fletch_pine_shortbow",
+  "skill": "Fletching",
+  "level": 20,
+  "inputs": [
+   {
+    "item": "pine_logs",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "knife"
+  ],
+  "outputs": [
+   {
+    "item": "pine_shortbow",
+    "qty": 1
+   }
+  ],
+  "xp": 20,
+  "ticks": 3
+ },
+ {
+  "id": "fletch_pine_longbow",
+  "skill": "Fletching",
+  "level": 25,
+  "inputs": [
+   {
+    "item": "pine_logs",
+    "qty": 2
+   }
+  ],
+  "tools": [
+   "knife"
+  ],
+  "outputs": [
+   {
+    "item": "pine_longbow",
+    "qty": 1
+   }
+  ],
+  "xp": 35,
+  "ticks": 3
+ },
+ {
+  "id": "burn_willow_logs",
+  "skill": "Firemaking",
+  "level": 30,
+  "inputs": [
+   {
+    "item": "willow_logs",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "tinderbox"
+  ],
+  "outputs": [
+   {
+    "item": "ashes",
+    "qty": 1
+   }
+  ],
+  "xp": 81,
+  "ticks": 3,
+  "spawnsFire": true
+ },
+ {
+  "id": "fletch_willow_shortbow",
+  "skill": "Fletching",
+  "level": 35,
+  "inputs": [
+   {
+    "item": "willow_logs",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "knife"
+  ],
+  "outputs": [
+   {
+    "item": "willow_shortbow",
+    "qty": 1
+   }
+  ],
+  "xp": 32,
+  "ticks": 3
+ },
+ {
+  "id": "fletch_willow_longbow",
+  "skill": "Fletching",
+  "level": 40,
+  "inputs": [
+   {
+    "item": "willow_logs",
+    "qty": 2
+   }
+  ],
+  "tools": [
+   "knife"
+  ],
+  "outputs": [
+   {
+    "item": "willow_longbow",
+    "qty": 1
+   }
+  ],
+  "xp": 59,
+  "ticks": 3
+ },
+ {
+  "id": "burn_maple_logs",
+  "skill": "Firemaking",
+  "level": 45,
+  "inputs": [
+   {
+    "item": "maple_logs",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "tinderbox"
+  ],
+  "outputs": [
+   {
+    "item": "ashes",
+    "qty": 1
+   }
+  ],
+  "xp": 120,
+  "ticks": 3,
+  "spawnsFire": true
+ },
+ {
+  "id": "fletch_maple_shortbow",
+  "skill": "Fletching",
+  "level": 50,
+  "inputs": [
+   {
+    "item": "maple_logs",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "knife"
+  ],
+  "outputs": [
+   {
+    "item": "maple_shortbow",
+    "qty": 1
+   }
+  ],
+  "xp": 45,
+  "ticks": 3
+ },
+ {
+  "id": "fletch_maple_longbow",
+  "skill": "Fletching",
+  "level": 55,
+  "inputs": [
+   {
+    "item": "maple_logs",
+    "qty": 2
+   }
+  ],
+  "tools": [
+   "knife"
+  ],
+  "outputs": [
+   {
+    "item": "maple_longbow",
+    "qty": 1
+   }
+  ],
+  "xp": 85,
+  "ticks": 3
+ },
+ {
+  "id": "burn_yew_logs",
+  "skill": "Firemaking",
+  "level": 60,
+  "inputs": [
+   {
+    "item": "yew_logs",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "tinderbox"
+  ],
+  "outputs": [
+   {
+    "item": "ashes",
+    "qty": 1
+   }
+  ],
+  "xp": 210,
+  "ticks": 3,
+  "spawnsFire": true
+ },
+ {
+  "id": "fletch_yew_shortbow",
+  "skill": "Fletching",
+  "level": 65,
+  "inputs": [
+   {
+    "item": "yew_logs",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "knife"
+  ],
+  "outputs": [
+   {
+    "item": "yew_shortbow",
+    "qty": 1
+   }
+  ],
+  "xp": 75,
+  "ticks": 3
+ },
+ {
+  "id": "fletch_yew_longbow",
+  "skill": "Fletching",
+  "level": 70,
+  "inputs": [
+   {
+    "item": "yew_logs",
+    "qty": 2
+   }
+  ],
+  "tools": [
+   "knife"
+  ],
+  "outputs": [
+   {
+    "item": "yew_longbow",
+    "qty": 1
+   }
+  ],
+  "xp": 145,
+  "ticks": 3
+ },
+ {
+  "id": "burn_ghostwood_logs",
+  "skill": "Firemaking",
+  "level": 75,
+  "inputs": [
+   {
+    "item": "ghostwood_logs",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "tinderbox"
+  ],
+  "outputs": [
+   {
+    "item": "ashes",
+    "qty": 1
+   }
+  ],
+  "xp": 300,
+  "ticks": 3,
+  "spawnsFire": true
+ },
+ {
+  "id": "fletch_ghostwood_shortbow",
+  "skill": "Fletching",
+  "level": 80,
+  "inputs": [
+   {
+    "item": "ghostwood_logs",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "knife"
+  ],
+  "outputs": [
+   {
+    "item": "ghostwood_shortbow",
+    "qty": 1
+   }
+  ],
+  "xp": 105,
+  "ticks": 3
+ },
+ {
+  "id": "fletch_ghostwood_longbow",
+  "skill": "Fletching",
+  "level": 85,
+  "inputs": [
+   {
+    "item": "ghostwood_logs",
+    "qty": 2
+   }
+  ],
+  "tools": [
+   "knife"
+  ],
+  "outputs": [
+   {
+    "item": "ghostwood_longbow",
+    "qty": 1
+   }
+  ],
+  "xp": 205,
+  "ticks": 3
+ },
+ {
+  "id": "fletch_shafts",
+  "skill": "Fletching",
+  "level": 1,
+  "inputs": [
+   {
+    "item": "oak_logs",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "knife"
+  ],
+  "outputs": [
+   {
+    "item": "arrow_shaft",
+    "qty": 15
+   }
+  ],
+  "xp": 5,
+  "ticks": 3
+ },
+ {
+  "id": "fletch_headless",
+  "skill": "Fletching",
+  "level": 1,
+  "inputs": [
+   {
+    "item": "arrow_shaft",
+    "qty": 15
+   },
+   {
+    "item": "feather",
+    "qty": 15
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "headless_arrow",
+    "qty": 15
+   }
+  ],
+  "xp": 15,
+  "ticks": 3
+ },
+ {
+  "id": "fletch_oak_crossbow",
+  "skill": "Fletching",
+  "level": 18,
+  "inputs": [
+   {
+    "item": "oak_logs",
+    "qty": 2
+   },
+   {
+    "item": "iron_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "knife",
+   "hammer"
+  ],
+  "outputs": [
+   {
+    "item": "oak_crossbow",
+    "qty": 1
+   }
+  ],
+  "xp": 40,
+  "ticks": 4
+ },
+ {
+  "id": "fletch_iron_bolts",
+  "skill": "Fletching",
+  "level": 18,
+  "inputs": [
+   {
+    "item": "iron_arrowheads",
+    "qty": 10
+   },
+   {
+    "item": "arrow_shaft",
+    "qty": 10
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "iron_bolt",
+    "qty": 10
+   }
+  ],
+  "xp": 25,
+  "ticks": 3
+ },
+ {
+  "id": "cook_minnow",
+  "skill": "Cooking",
+  "level": 1,
+  "station": "Range",
+  "inputs": [
+   {
+    "item": "raw_minnow",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "minnow",
+    "qty": 1
+   }
+  ],
+  "xp": 30,
+  "ticks": 4,
+  "failOutput": "burnt_minnow",
+  "failChanceAtLevel": 0.45,
+  "noFailLevel": 34,
+  "altStations": [
+   "Fire"
+  ]
+ },
+ {
+  "id": "cook_perch",
+  "skill": "Cooking",
+  "level": 5,
+  "station": "Range",
+  "inputs": [
+   {
+    "item": "raw_perch",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "perch",
+    "qty": 1
+   }
+  ],
+  "xp": 40,
+  "ticks": 4,
+  "failOutput": "burnt_perch",
+  "failChanceAtLevel": 0.45,
+  "noFailLevel": 38,
+  "altStations": [
+   "Fire"
+  ]
+ },
+ {
+  "id": "cook_trout",
+  "skill": "Cooking",
+  "level": 15,
+  "station": "Range",
+  "inputs": [
+   {
+    "item": "raw_trout",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "trout",
+    "qty": 1
+   }
+  ],
+  "xp": 70,
+  "ticks": 4,
+  "failOutput": "burnt_trout",
+  "failChanceAtLevel": 0.45,
+  "noFailLevel": 48,
+  "altStations": [
+   "Fire"
+  ]
+ },
+ {
+  "id": "cook_pike",
+  "skill": "Cooking",
+  "level": 25,
+  "station": "Range",
+  "inputs": [
+   {
+    "item": "raw_pike",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "pike",
+    "qty": 1
+   }
+  ],
+  "xp": 90,
+  "ticks": 4,
+  "failOutput": "burnt_pike",
+  "failChanceAtLevel": 0.45,
+  "noFailLevel": 58,
+  "altStations": [
+   "Fire"
+  ]
+ },
+ {
+  "id": "cook_salmon",
+  "skill": "Cooking",
+  "level": 30,
+  "station": "Range",
+  "inputs": [
+   {
+    "item": "raw_salmon",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "salmon",
+    "qty": 1
+   }
+  ],
+  "xp": 100,
+  "ticks": 4,
+  "failOutput": "burnt_salmon",
+  "failChanceAtLevel": 0.45,
+  "noFailLevel": 63,
+  "altStations": [
+   "Fire"
+  ]
+ },
+ {
+  "id": "cook_eel",
+  "skill": "Cooking",
+  "level": 45,
+  "station": "Range",
+  "inputs": [
+   {
+    "item": "raw_eel",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "eel",
+    "qty": 1
+   }
+  ],
+  "xp": 130,
+  "ticks": 4,
+  "failOutput": "burnt_eel",
+  "failChanceAtLevel": 0.45,
+  "noFailLevel": 78,
+  "altStations": [
+   "Fire"
+  ]
+ },
+ {
+  "id": "cook_swordfish",
+  "skill": "Cooking",
+  "level": 55,
+  "station": "Range",
+  "inputs": [
+   {
+    "item": "raw_swordfish",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "swordfish",
+    "qty": 1
+   }
+  ],
+  "xp": 150,
+  "ticks": 4,
+  "failOutput": "burnt_swordfish",
+  "failChanceAtLevel": 0.45,
+  "noFailLevel": 88,
+  "altStations": [
+   "Fire"
+  ]
+ },
+ {
+  "id": "cook_deepcod",
+  "skill": "Cooking",
+  "level": 72,
+  "station": "Range",
+  "inputs": [
+   {
+    "item": "raw_deepcod",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "deepcod",
+    "qty": 1
+   }
+  ],
+  "xp": 200,
+  "ticks": 4,
+  "failOutput": "burnt_deepcod",
+  "failChanceAtLevel": 0.45,
+  "noFailLevel": 99,
+  "altStations": [
+   "Fire"
+  ]
+ },
+ {
+  "id": "cook_meat",
+  "skill": "Cooking",
+  "level": 1,
+  "station": "Range",
+  "inputs": [
+   {
+    "item": "raw_meat",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "cooked_meat",
+    "qty": 1
+   }
+  ],
+  "xp": 30,
+  "ticks": 4,
+  "failOutput": "burnt_meat",
+  "failChanceAtLevel": 0.4,
+  "noFailLevel": 30,
+  "altStations": [
+   "Fire"
+  ]
+ },
+ {
+  "id": "make_dough",
+  "skill": "Cooking",
+  "level": 1,
+  "inputs": [
+   {
+    "item": "flour",
+    "qty": 1
+   },
+   {
+    "item": "bucket_water",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "bread_dough",
+    "qty": 1
+   },
+   {
+    "item": "bucket",
+    "qty": 1
+   }
+  ],
+  "xp": 5,
+  "ticks": 2
+ },
+ {
+  "id": "bake_bread",
+  "skill": "Cooking",
+  "level": 1,
+  "station": "Range",
+  "inputs": [
+   {
+    "item": "bread_dough",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "bread",
+    "qty": 1
+   }
+  ],
+  "xp": 40,
+  "ticks": 4
+ },
+ {
+  "id": "cook_stew",
+  "skill": "Cooking",
+  "level": 25,
+  "station": "Range",
+  "inputs": [
+   {
+    "item": "raw_meat",
+    "qty": 1
+   },
+   {
+    "item": "potato",
+    "qty": 2
+   },
+   {
+    "item": "bucket_water",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "hearty_stew",
+    "qty": 1
+   },
+   {
+    "item": "bucket",
+    "qty": 1
+   }
+  ],
+  "xp": 115,
+  "ticks": 5
+ },
+ {
+  "id": "mill_flour",
+  "skill": "Cooking",
+  "level": 1,
+  "station": "Mill",
+  "inputs": [
+   {
+    "item": "wheat",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "flour",
+    "qty": 1
+   }
+  ],
+  "xp": 2,
+  "ticks": 2
+ },
+ {
+  "id": "brew_vigor_potion",
+  "skill": "Herblore",
+  "level": 5,
+  "inputs": [
+   {
+    "item": "vial_water",
+    "qty": 1
+   },
+   {
+    "item": "sunroot",
+    "qty": 1
+   },
+   {
+    "item": "wolf_pelt",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "vigor_potion",
+    "qty": 1
+   }
+  ],
+  "xp": 25,
+  "ticks": 3
+ },
+ {
+  "id": "brew_guard_potion",
+  "skill": "Herblore",
+  "level": 12,
+  "inputs": [
+   {
+    "item": "vial_water",
+    "qty": 1
+   },
+   {
+    "item": "sunroot",
+    "qty": 1
+   },
+   {
+    "item": "bones",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "guard_potion",
+    "qty": 1
+   }
+  ],
+  "xp": 38,
+  "ticks": 3
+ },
+ {
+  "id": "brew_healing_potion",
+  "skill": "Herblore",
+  "level": 30,
+  "inputs": [
+   {
+    "item": "vial_water",
+    "qty": 1
+   },
+   {
+    "item": "mirewort",
+    "qty": 1
+   },
+   {
+    "item": "raw_eel",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "healing_potion",
+    "qty": 1
+   }
+  ],
+  "xp": 60,
+  "ticks": 3
+ },
+ {
+  "id": "brew_focus_potion",
+  "skill": "Herblore",
+  "level": 38,
+  "inputs": [
+   {
+    "item": "vial_water",
+    "qty": 1
+   },
+   {
+    "item": "mirewort",
+    "qty": 1
+   },
+   {
+    "item": "spirit_shard",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "focus_potion",
+    "qty": 1
+   }
+  ],
+  "xp": 75,
+  "ticks": 3
+ },
+ {
+  "id": "brew_hunter_potion",
+  "skill": "Herblore",
+  "level": 50,
+  "inputs": [
+   {
+    "item": "vial_water",
+    "qty": 1
+   },
+   {
+    "item": "ashbloom",
+    "qty": 1
+   },
+   {
+    "item": "feather",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "hunter_potion",
+    "qty": 1
+   }
+  ],
+  "xp": 105,
+  "ticks": 3
+ },
+ {
+  "id": "craft_leather_gloves",
+  "skill": "Crafting",
+  "level": 1,
+  "inputs": [
+   {
+    "item": "leather",
+    "qty": 1
+   },
+   {
+    "item": "thread",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "needle"
+  ],
+  "outputs": [
+   {
+    "item": "leather_gloves",
+    "qty": 1
+   }
+  ],
+  "xp": 14,
+  "ticks": 3
+ },
+ {
+  "id": "craft_leather_boots",
+  "skill": "Crafting",
+  "level": 7,
+  "inputs": [
+   {
+    "item": "leather",
+    "qty": 1
+   },
+   {
+    "item": "thread",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "needle"
+  ],
+  "outputs": [
+   {
+    "item": "leather_boots",
+    "qty": 1
+   }
+  ],
+  "xp": 16,
+  "ticks": 3
+ },
+ {
+  "id": "craft_leather_cowl",
+  "skill": "Crafting",
+  "level": 9,
+  "inputs": [
+   {
+    "item": "leather",
+    "qty": 1
+   },
+   {
+    "item": "thread",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "needle"
+  ],
+  "outputs": [
+   {
+    "item": "leather_cowl",
+    "qty": 1
+   }
+  ],
+  "xp": 18,
+  "ticks": 3
+ },
+ {
+  "id": "craft_leather_chaps",
+  "skill": "Crafting",
+  "level": 11,
+  "inputs": [
+   {
+    "item": "leather",
+    "qty": 2
+   },
+   {
+    "item": "thread",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "needle"
+  ],
+  "outputs": [
+   {
+    "item": "leather_chaps",
+    "qty": 1
+   }
+  ],
+  "xp": 22,
+  "ticks": 3
+ },
+ {
+  "id": "craft_leather_body",
+  "skill": "Crafting",
+  "level": 14,
+  "inputs": [
+   {
+    "item": "leather",
+    "qty": 3
+   },
+   {
+    "item": "thread",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "needle"
+  ],
+  "outputs": [
+   {
+    "item": "leather_body",
+    "qty": 1
+   }
+  ],
+  "xp": 25,
+  "ticks": 3
+ },
+ {
+  "id": "craft_wolfhide_cape",
+  "skill": "Crafting",
+  "level": 20,
+  "inputs": [
+   {
+    "item": "wolf_pelt",
+    "qty": 2
+   },
+   {
+    "item": "thread",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "needle"
+  ],
+  "outputs": [
+   {
+    "item": "wolfhide_cape",
+    "qty": 1
+   }
+  ],
+  "xp": 40,
+  "ticks": 3
+ },
+ {
+  "id": "tan_hide",
+  "skill": "Crafting",
+  "level": 1,
+  "station": "Tannery",
+  "inputs": [
+   {
+    "item": "cowhide",
+    "qty": 1
+   },
+   {
+    "item": "coins",
+    "qty": 2
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "leather",
+    "qty": 1
+   }
+  ],
+  "xp": 1,
+  "ticks": 1
+ },
+ {
+  "id": "cut_amber",
+  "skill": "Crafting",
+  "level": 1,
+  "inputs": [
+   {
+    "item": "uncut_amber",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "chisel"
+  ],
+  "outputs": [
+   {
+    "item": "amber",
+    "qty": 1
+   }
+  ],
+  "xp": 21,
+  "ticks": 2
+ },
+ {
+  "id": "craft_amber_ring",
+  "skill": "Crafting",
+  "level": 6,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "gold_bar",
+    "qty": 1
+   },
+   {
+    "item": "amber",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "ring_mould"
+  ],
+  "outputs": [
+   {
+    "item": "amber_ring",
+    "qty": 1
+   }
+  ],
+  "xp": 41,
+  "ticks": 3
+ },
+ {
+  "id": "craft_amber_amulet",
+  "skill": "Crafting",
+  "level": 11,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "gold_bar",
+    "qty": 1
+   },
+   {
+    "item": "amber",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "amulet_mould"
+  ],
+  "outputs": [
+   {
+    "item": "amber_amulet",
+    "qty": 1
+   }
+  ],
+  "xp": 51,
+  "ticks": 3
+ },
+ {
+  "id": "cut_jade",
+  "skill": "Crafting",
+  "level": 20,
+  "inputs": [
+   {
+    "item": "uncut_jade",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "chisel"
+  ],
+  "outputs": [
+   {
+    "item": "jade",
+    "qty": 1
+   }
+  ],
+  "xp": 40,
+  "ticks": 2
+ },
+ {
+  "id": "craft_jade_ring",
+  "skill": "Crafting",
+  "level": 25,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "gold_bar",
+    "qty": 1
+   },
+   {
+    "item": "jade",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "ring_mould"
+  ],
+  "outputs": [
+   {
+    "item": "jade_ring",
+    "qty": 1
+   }
+  ],
+  "xp": 60,
+  "ticks": 3
+ },
+ {
+  "id": "craft_jade_amulet",
+  "skill": "Crafting",
+  "level": 30,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "gold_bar",
+    "qty": 1
+   },
+   {
+    "item": "jade",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "amulet_mould"
+  ],
+  "outputs": [
+   {
+    "item": "jade_amulet",
+    "qty": 1
+   }
+  ],
+  "xp": 70,
+  "ticks": 3
+ },
+ {
+  "id": "cut_garnet",
+  "skill": "Crafting",
+  "level": 35,
+  "inputs": [
+   {
+    "item": "uncut_garnet",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "chisel"
+  ],
+  "outputs": [
+   {
+    "item": "garnet",
+    "qty": 1
+   }
+  ],
+  "xp": 55,
+  "ticks": 2
+ },
+ {
+  "id": "craft_garnet_ring",
+  "skill": "Crafting",
+  "level": 40,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "gold_bar",
+    "qty": 1
+   },
+   {
+    "item": "garnet",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "ring_mould"
+  ],
+  "outputs": [
+   {
+    "item": "garnet_ring",
+    "qty": 1
+   }
+  ],
+  "xp": 75,
+  "ticks": 3
+ },
+ {
+  "id": "craft_garnet_amulet",
+  "skill": "Crafting",
+  "level": 45,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "gold_bar",
+    "qty": 1
+   },
+   {
+    "item": "garnet",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "amulet_mould"
+  ],
+  "outputs": [
+   {
+    "item": "garnet_amulet",
+    "qty": 1
+   }
+  ],
+  "xp": 85,
+  "ticks": 3
+ },
+ {
+  "id": "cut_sapphire",
+  "skill": "Crafting",
+  "level": 50,
+  "inputs": [
+   {
+    "item": "uncut_sapphire",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "chisel"
+  ],
+  "outputs": [
+   {
+    "item": "sapphire",
+    "qty": 1
+   }
+  ],
+  "xp": 70,
+  "ticks": 2
+ },
+ {
+  "id": "craft_sapphire_ring",
+  "skill": "Crafting",
+  "level": 55,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "gold_bar",
+    "qty": 1
+   },
+   {
+    "item": "sapphire",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "ring_mould"
+  ],
+  "outputs": [
+   {
+    "item": "sapphire_ring",
+    "qty": 1
+   }
+  ],
+  "xp": 90,
+  "ticks": 3
+ },
+ {
+  "id": "craft_sapphire_amulet",
+  "skill": "Crafting",
+  "level": 60,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "gold_bar",
+    "qty": 1
+   },
+   {
+    "item": "sapphire",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "amulet_mould"
+  ],
+  "outputs": [
+   {
+    "item": "sapphire_amulet",
+    "qty": 1
+   }
+  ],
+  "xp": 100,
+  "ticks": 3
+ },
+ {
+  "id": "cut_starstone",
+  "skill": "Crafting",
+  "level": 70,
+  "inputs": [
+   {
+    "item": "uncut_starstone",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "chisel"
+  ],
+  "outputs": [
+   {
+    "item": "starstone",
+    "qty": 1
+   }
+  ],
+  "xp": 90,
+  "ticks": 2
+ },
+ {
+  "id": "craft_starstone_ring",
+  "skill": "Crafting",
+  "level": 75,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "gold_bar",
+    "qty": 1
+   },
+   {
+    "item": "starstone",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "ring_mould"
+  ],
+  "outputs": [
+   {
+    "item": "starstone_ring",
+    "qty": 1
+   }
+  ],
+  "xp": 110,
+  "ticks": 3
+ },
+ {
+  "id": "craft_starstone_amulet",
+  "skill": "Crafting",
+  "level": 80,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "gold_bar",
+    "qty": 1
+   },
+   {
+    "item": "starstone",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "amulet_mould"
+  ],
+  "outputs": [
+   {
+    "item": "starstone_amulet",
+    "qty": 1
+   }
+  ],
+  "xp": 120,
+  "ticks": 3
+ },
+ {
+  "id": "craft_silver_ring",
+  "skill": "Crafting",
+  "level": 16,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "silver_bar",
+    "qty": 1
+   }
+  ],
+  "tools": [
+   "ring_mould"
+  ],
+  "outputs": [
+   {
+    "item": "silver_ring",
+    "qty": 1
+   }
+  ],
+  "xp": 30,
+  "ticks": 3
+ },
+ {
+  "id": "craft_vial",
+  "skill": "Crafting",
+  "level": 4,
+  "station": "Furnace",
+  "inputs": [
+   {
+    "item": "sand",
+    "qty": 1
+   },
+   {
+    "item": "soda_ash",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "vial",
+    "qty": 1
+   }
+  ],
+  "xp": 18,
+  "ticks": 3
+ },
+ {
+  "id": "fill_vial",
+  "skill": "Crafting",
+  "level": 1,
+  "station": "Water",
+  "inputs": [
+   {
+    "item": "vial",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "vial_water",
+    "qty": 1
+   }
+  ],
+  "xp": 0,
+  "ticks": 1
+ },
+ {
+  "id": "fill_bucket",
+  "skill": "Crafting",
+  "level": 1,
+  "station": "Water",
+  "inputs": [
+   {
+    "item": "bucket",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "bucket_water",
+    "qty": 1
+   }
+  ],
+  "xp": 0,
+  "ticks": 1
+ },
+ {
+  "id": "bind_air",
+  "skill": "Runecrafting",
+  "level": 1,
+  "station": "Altar_air",
+  "inputs": [
+   {
+    "item": "blank_essence",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "air_rune",
+    "qty": 1
+   }
+  ],
+  "xp": 5,
+  "ticks": 1,
+  "bulk": true
+ },
+ {
+  "id": "bind_water",
+  "skill": "Runecrafting",
+  "level": 5,
+  "station": "Altar_water",
+  "inputs": [
+   {
+    "item": "blank_essence",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "water_rune",
+    "qty": 1
+   }
+  ],
+  "xp": 6,
+  "ticks": 1,
+  "bulk": true
+ },
+ {
+  "id": "bind_earth",
+  "skill": "Runecrafting",
+  "level": 9,
+  "station": "Altar_earth",
+  "inputs": [
+   {
+    "item": "blank_essence",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "earth_rune",
+    "qty": 1
+   }
+  ],
+  "xp": 7,
+  "ticks": 1,
+  "bulk": true
+ },
+ {
+  "id": "bind_fire",
+  "skill": "Runecrafting",
+  "level": 14,
+  "station": "Altar_fire",
+  "inputs": [
+   {
+    "item": "blank_essence",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "fire_rune",
+    "qty": 1
+   }
+  ],
+  "xp": 8,
+  "ticks": 1,
+  "bulk": true
+ },
+ {
+  "id": "bind_mind",
+  "skill": "Runecrafting",
+  "level": 2,
+  "station": "Altar_mind",
+  "inputs": [
+   {
+    "item": "blank_essence",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "mind_rune",
+    "qty": 1
+   }
+  ],
+  "xp": 5.5,
+  "ticks": 1,
+  "bulk": true
+ },
+ {
+  "id": "bind_life",
+  "skill": "Runecrafting",
+  "level": 27,
+  "station": "Altar_life",
+  "inputs": [
+   {
+    "item": "blank_essence",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "life_rune",
+    "qty": 1
+   }
+  ],
+  "xp": 9,
+  "ticks": 1,
+  "bulk": true
+ },
+ {
+  "id": "bind_chaos",
+  "skill": "Runecrafting",
+  "level": 35,
+  "station": "Altar_chaos",
+  "inputs": [
+   {
+    "item": "blank_essence",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "chaos_rune",
+    "qty": 1
+   }
+  ],
+  "xp": 10,
+  "ticks": 1,
+  "bulk": true
+ },
+ {
+  "id": "bind_void",
+  "skill": "Runecrafting",
+  "level": 44,
+  "station": "Altar_void",
+  "inputs": [
+   {
+    "item": "blank_essence",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "void_rune",
+    "qty": 1
+   }
+  ],
+  "xp": 11,
+  "ticks": 1,
+  "bulk": true
+ },
+ {
+  "id": "bind_ward",
+  "skill": "Runecrafting",
+  "level": 20,
+  "station": "Altar_ward",
+  "inputs": [
+   {
+    "item": "blank_essence",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "ward_rune",
+    "qty": 1
+   }
+  ],
+  "xp": 8.5,
+  "ticks": 1,
+  "bulk": true
+ },
+ {
+  "id": "bind_path",
+  "skill": "Runecrafting",
+  "level": 25,
+  "station": "Altar_path",
+  "inputs": [
+   {
+    "item": "blank_essence",
+    "qty": 1
+   }
+  ],
+  "tools": [],
+  "outputs": [
+   {
+    "item": "path_rune",
+    "qty": 1
+   }
+  ],
+  "xp": 9,
+  "ticks": 1,
+  "bulk": true
+ }
+]

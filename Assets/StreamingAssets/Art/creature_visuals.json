@@ -1,0 +1,178 @@
+{
+ "enemy_goblin": {
+  "rig": "humanoid",
+  "weapon": "w_dagger",
+  "weaponTint": "bronze",
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "hover": 0.0
+ },
+ "enemy_orc": {
+  "rig": "humanoid",
+  "weapon": "w_axe",
+  "weaponTint": "iron",
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "hover": 0.0
+ },
+ "enemy_troll": {
+  "rig": "humanoid",
+  "weapon": "w_mace",
+  "weaponTint": "iron",
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "hover": 0.0
+ },
+ "enemy_skeleton": {
+  "rig": "humanoid",
+  "weapon": "w_sword",
+  "weaponTint": "iron",
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "hover": 0.0
+ },
+ "enemy_zombie": {
+  "rig": "humanoid",
+  "weapon": null,
+  "weaponTint": null,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "hover": 0.0
+ },
+ "enemy_bandit": {
+  "rig": "humanoid",
+  "weapon": "w_dagger",
+  "weaponTint": "steel",
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "hover": 0.0
+ },
+ "enemy_forest_spirit": {
+  "rig": "humanoid",
+  "weapon": null,
+  "weaponTint": null,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "hover": 0.35
+ },
+ "boss_warden": {
+  "rig": "humanoid",
+  "weapon": null,
+  "weaponTint": null,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "hover": 0.0
+ },
+ "enemy_rat": {
+  "rig": "quadruped",
+  "weapon": null,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "hover": 0.0
+ },
+ "enemy_wolf": {
+  "rig": "quadruped",
+  "weapon": null,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "hover": 0.0
+ },
+ "boss_mire_queen": {
+  "rig": "quadruped",
+  "weapon": null,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "hover": 0.0
+ },
+ "enemy_spider": {
+  "rig": "arachnid",
+  "weapon": null,
+  "clips": [
+   "Idle",
+   "Walk",
+   "Run",
+   "AttackMelee",
+   "Cast",
+   "Hurt",
+   "Death"
+  ],
+  "hover": 0.0
+ }
+}
