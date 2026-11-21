@@ -79,7 +79,7 @@ namespace Embervale.Tests
             var c = cl.Join("Rowan");
             Assert.Equal("Rowan", c.SelfName);
             Assert.NotNull(c.Self);
-            Assert.True(c.Inventory.Any(s => s.ItemId == "bronze_pickaxe"));
+            Assert.Contains(c.Inventory, s => s.ItemId == "bronze_pickaxe");
             Assert.Equal(20, c.MaxHp);
         }
 
