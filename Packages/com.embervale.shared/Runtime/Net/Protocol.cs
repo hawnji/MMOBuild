@@ -22,6 +22,7 @@ namespace Embervale.Shared.Net
         TradeOffer = 70, TradeRemove, TradeAccept,
         Chat = 80, PartyInvite, PartyAccept, PartyLeave,
         CastSpell = 90, SetAutocast, SetStance, SetAutoRetaliate, TogglePrayer, ToggleRun,
+        MarketPlace = 100, MarketCancel, MarketCollect, MarketQuote,
     }
 
     /// <summary>Server to client opcodes.</summary>
@@ -33,6 +34,7 @@ namespace Embervale.Shared.Net
         GameMessage = 50, Chat, HitSplat, Projectile, Animation, LevelUp, XpDrop, Death, Telegraph, Sound,
         Dialogue = 70, DialogueClose, Shop, ShopClose, BankOpen, BankClose, CraftMenu,
         TradeRequest = 80, Trade, TradeClose, Party,
+        MarketOpen = 90, MarketOrders, MarketQuote, MarketClose,
     }
 
     /// <summary>Networked view of any entity. The same struct is used for spawn and update.</summary>
@@ -216,5 +218,9 @@ namespace Embervale.Shared.Net
         public static byte[] SetAutoRetaliate(bool on) => Build(C2S.SetAutoRetaliate, w => w.Bool(on));
         public static byte[] TogglePrayer(string id) => Build(C2S.TogglePrayer, w => w.Str(id));
         public static byte[] ToggleRun(bool on) => Build(C2S.ToggleRun, w => w.Bool(on));
+        public static byte[] MarketPlace(bool buy, string item, int qty, int price) => Build(C2S.MarketPlace, w => w.Bool(buy).Str(item).I32(qty).I32(price));
+        public static byte[] MarketCancel(long orderId) => Build(C2S.MarketCancel, w => w.I64(orderId));
+        public static byte[] MarketCollect(long orderId) => Build(C2S.MarketCollect, w => w.I64(orderId));
+        public static byte[] MarketQuote(string item) => Build(C2S.MarketQuote, w => w.Str(item));
     }
 }

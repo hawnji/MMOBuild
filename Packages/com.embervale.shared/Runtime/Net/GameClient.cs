@@ -51,6 +51,23 @@ namespace Embervale.Shared.Net
         public List<ShopEntry> Entries = new List<ShopEntry>();
     }
 
+    public sealed class MarketOrderView
+    {
+        public long Id;
+        public bool Buy;
+        public string ItemId;
+        public int Quantity, Filled, Price, CollectItems;
+        public long CollectCoins;
+        public bool Cancelled;
+        public bool Active => !Cancelled && Filled < Quantity;
+    }
+
+    public sealed class MarketQuoteView
+    {
+        public string ItemId;
+        public int BestBuy, BuyQty, BestSell, SellQty, LastPrice;
+    }
+
     /// <summary>
     /// Engine-independent client: decodes server packets into a local mirror of the world and
     /// exposes events for the presentation layer (Unity). Contains no game rules: everything it
@@ -92,6 +109,9 @@ namespace Embervale.Shared.Net
         public ShopView Shop;
         public bool BankOpen;
         public TradeView Trade;
+        public bool MarketOpen;
+        public readonly List<MarketOrderView> MarketOrders = new List<MarketOrderView>();
+        public MarketQuoteView MarketQuote;
         public int LastPingMs;
 
         // events for the presentation layer
@@ -124,6 +144,8 @@ namespace Embervale.Shared.Net
         public event Action<int, string> OnTradeRequest;
         public event Action<TradeView> OnTrade;
         public event Action<string> OnTradeClosed;
+        public event Action OnMarketOpened, OnMarketClosed, OnMarketOrders;
+        public event Action<MarketQuoteView> OnMarketQuote;
 
         public GameClient(GameDatabase db, IClientTransport transport = null)
         {
@@ -325,6 +347,25 @@ namespace Embervale.Shared.Net
                         break;
                     }
                 case S2C.TradeClose: Trade = null; OnTradeClosed?.Invoke(r.Str()); break;
+                case S2C.MarketOpen: r.I32(); MarketOpen = true; OnMarketOpened?.Invoke(); break;
+                case S2C.MarketClose: MarketOpen = false; OnMarketClosed?.Invoke(); break;
+                case S2C.MarketOrders:
+                    {
+                        MarketOrders.Clear();
+                        int n = r.U8();
+                        for (int i = 0; i < n; i++)
+                            MarketOrders.Add(new MarketOrderView
+                            {
+                                Id = r.I64(), Buy = r.Bool(), ItemId = r.Str(), Quantity = r.I32(), Filled = r.I32(), Price = r.I32(),
+                                Cancelled = r.Bool(), CollectItems = r.I32(), CollectCoins = r.I64(),
+                            });
+                        OnMarketOrders?.Invoke();
+                        break;
+                    }
+                case S2C.MarketQuote:
+                    MarketQuote = new MarketQuoteView { ItemId = r.Str(), BestBuy = r.I32(), BuyQty = r.I32(), BestSell = r.I32(), SellQty = r.I32(), LastPrice = r.I32() };
+                    OnMarketQuote?.Invoke(MarketQuote);
+                    break;
                 case S2C.Party:
                     {
                         Party.Clear();

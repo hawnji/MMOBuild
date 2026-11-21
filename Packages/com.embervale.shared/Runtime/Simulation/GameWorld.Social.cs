@@ -71,6 +71,7 @@ namespace Embervale.Shared.Simulation
                 if (act.CompleteQuestStage != null) CompleteTalkStage(p, act.CompleteQuestStage, npc.DefId);
                 if (act.OpenShop != null) { CloseInterfaces(p); OpenShop(p, act.OpenShop, npc); return; }
                 if (act.OpenBank) { CloseInterfaces(p); OpenBank(p, npc); return; }
+                if (act.OpenMarket) { OpenMarket(p, npc); return; }
             }
             ShowDialogueNode(p, dlg, opt.Next);
         }

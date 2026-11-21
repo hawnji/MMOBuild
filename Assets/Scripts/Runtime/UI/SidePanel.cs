@@ -186,6 +186,8 @@ namespace Embervale.Client
             if (_hud.Find<BankWindow>() != null) { C.Send(ClientPackets.BankDeposit(v.Index, 1)); return; }
             if (_hud.Find<TradeWindow>() != null) { C.Send(ClientPackets.TradeOffer(v.Index, 1)); return; }
             if (_hud.Find<ShopWindow>() != null) { ShopValue(v); return; }
+            var market = _hud.Find<MarketWindow>();
+            if (market != null) { market.SelectForSale(v.ItemId); return; }
             var def = Db.Item(v.ItemId);
             if (def != null) DoItemOption(v.Index, ItemOptions(def)[0]);
         }

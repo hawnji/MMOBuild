@@ -61,8 +61,12 @@ namespace Embervale.Client
             c.OnBankOpened += () => { Open<BankWindow>().Refresh(); _side.Show(SidePanel.Tab.Inventory); };
             c.OnBankClosed += () => Close<BankWindow>();
             c.OnBankChanged += () => Find<BankWindow>()?.Refresh();
-            c.OnInventoryChanged += () => { Find<BankWindow>()?.Refresh(); Find<ShopWindow>()?.Refresh(); Find<TradeWindow>()?.Refresh(); };
+            c.OnInventoryChanged += () => { Find<MarketWindow>()?.Refresh(); Find<BankWindow>()?.Refresh(); Find<ShopWindow>()?.Refresh(); Find<TradeWindow>()?.Refresh(); };
             c.OnCraftMenu += (station, type) => Open<CraftWindow>().Show(station, type);
+            c.OnMarketOpened += () => { Open<MarketWindow>().Refresh(); _side.Show(SidePanel.Tab.Inventory); };
+            c.OnMarketClosed += () => Close<MarketWindow>();
+            c.OnMarketOrders += () => Find<MarketWindow>()?.Refresh();
+            c.OnMarketQuote += q => Find<MarketWindow>()?.ShowQuote(q);
             c.OnTradeRequest += (id, name) => _chat.Add("<color=#ff80ff>" + name + " wishes to trade with you. Right-click them and choose Trade to accept.</color>");
             c.OnTrade += t => Open<TradeWindow>().Refresh();
             c.OnTradeClosed += reason => { Close<TradeWindow>(); if (!string.IsNullOrEmpty(reason)) _chat.Add(reason); };

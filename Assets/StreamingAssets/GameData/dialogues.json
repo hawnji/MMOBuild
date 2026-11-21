@@ -194,6 +194,51 @@
   ]
  },
  {
+  "id": "exchange_clerk",
+  "nodes": [
+   {
+    "id": "start",
+    "speaker": "Exchange Clerk",
+    "text": "Welcome to the Embervale Exchange. Post an offer and we'll match it with other adventurers, even while you're away.",
+    "options": [
+     {
+      "text": "I'd like to trade on the Exchange.",
+      "next": null,
+      "action": {
+       "openMarket": true
+      }
+     },
+     {
+      "text": "How does it work?",
+      "next": "help"
+     },
+     {
+      "text": "Nothing, thanks.",
+      "next": null
+     }
+    ]
+   },
+   {
+    "id": "help",
+    "speaker": "Exchange Clerk",
+    "text": "Buy offers hold your coins, sell offers hold your goods. Trades happen at the older offer's price, any overpayment is refunded, and the Exchange keeps one coin in every hundred from sales.",
+    "options": [
+     {
+      "text": "Let me trade.",
+      "next": null,
+      "action": {
+       "openMarket": true
+      }
+     },
+     {
+      "text": "Thanks.",
+      "next": null
+     }
+    ]
+   }
+  ]
+ },
+ {
   "id": "guard",
   "nodes": [
    {

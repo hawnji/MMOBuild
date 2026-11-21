@@ -27,6 +27,10 @@ namespace Embervale.Shared.Simulation
         Teleport,         // EntityId
         Sound,            // EntityId, Text (sound id)
         CraftMenu,        // PlayerId, EntityId (station), Text (station type)
+        MarketOpen,       // PlayerId, EntityId (clerk)
+        MarketUpdate,     // PlayerId - resend the player's orders
+        MarketQuote,      // PlayerId, Text (item id)
+        MarketClose,      // PlayerId
     }
 
     public enum ChatChannel : byte { Local, Party, Private, Trade, System }

@@ -456,7 +456,7 @@ _, ca = building("shop", "stone", 214, 252, 10, 8, "W", "Highmarch Armoury")
 _, cp = building("shop", "wood", 162, 252, 10, 8, "E", "Mossbottle Apothecary")
 _, cf = building("blacksmith", "stone", 168, 212, 12, 10, "N", "Royal Forge", roof="flat")
 _, ct = building("temple", "stone", 187, 266, 16, 14, "S", "Cathedral of the Hearth")
-_, cw = building("warehouse", "stone", 214, 210, 14, 10, "N", "Guild Warehouse")
+_, cw = building("warehouse", "stone", 214, 210, 14, 10, "N", "Embervale Exchange")
 _, ci = building("inn", "wood", 162, 268, 12, 10, "E", "The Gilded Tankard")
 building("house", "stone", 214, 270, 10, 8, "W")
 building("house", "stone", 222, 222, 8, 8, "W")
@@ -714,6 +714,12 @@ world = {
     "river": [{"x": p[0], "z": p[1]} for p in RIVER],
 }
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
+# Exchange clerks are placed last so the ids of everything above stay stable.
+npc("exchange_clerk", cw[0], cw[1], 0)
+npc("exchange_clerk", cw[0] + 3, cw[1], 0)
+npc("exchange_clerk", bank_c[0] + 3, bank_c[1] + 1, 180)
+world["npcs"] = npcs
+
 with open(OUT, "w") as f:
     json.dump(world, f, separators=(",", ":"))
 print("world.json: %d buildings, %d nodes, %d spawns, %d npcs, %d stations, %d props, %d decor, walkable=%.1f%%, reachable=%.1f%%"

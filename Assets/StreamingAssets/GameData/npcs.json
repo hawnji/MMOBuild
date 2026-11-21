@@ -28,6 +28,13 @@
   "dialogue": "banker"
  },
  {
+  "id": "exchange_clerk",
+  "name": "Exchange Clerk",
+  "model": "npc_merchant",
+  "role": "Exchange",
+  "dialogue": "exchange_clerk"
+ },
+ {
   "id": "guard",
   "name": "Guard",
   "model": "npc_guard",

@@ -235,6 +235,7 @@ namespace Embervale.Shared.Simulation
                     if (pi.Option == "Pickpocket") Pickpocket(p, npc);
                     else if (pi.Option == "Trade" && npc.Def.Role == "Merchant") OpenShopFor(p, npc);
                     else if (pi.Option == "Bank" && npc.Def.Role == "Banker") OpenBank(p, npc);
+                    else if (pi.Option == "Exchange" && npc.Def.Role == "Exchange") OpenMarket(p, npc);
                     else StartDialogue(p, npc);
                     break;
                 case Door door: SetDoor(door, !door.Open); break;

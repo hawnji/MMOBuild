@@ -171,6 +171,7 @@ namespace Embervale.Client
                     db.Npcs.TryGetValue(s.DefId, out var nd);
                     if (nd != null && nd.Role == "Merchant") o.Add("Trade");
                     if (nd != null && nd.Role == "Banker") o.Insert(0, "Bank");
+                    if (nd != null && nd.Role == "Exchange") o.Insert(0, "Exchange");
                     if (db.Thieving.Values.Any(t => t.Targets != null && t.Targets.Contains(s.DefId))) o.Add("Pickpocket");
                     break;
                 }

@@ -134,6 +134,7 @@ namespace Embervale.Shared.Simulation
         public string OpenShopId;
         public int OpenShopNpcId;
         public int OpenBankEntityId;
+        public int OpenMarketNpcId;
         public TradeSession Trade;
         public Party Party;
         public int RespawnAtTick;

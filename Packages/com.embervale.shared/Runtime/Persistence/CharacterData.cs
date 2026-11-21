@@ -163,6 +163,10 @@ namespace Embervale.Shared.Persistence
         public Dictionary<string, Dictionary<string, int>> ShopStock = new Dictionary<string, Dictionary<string, int>>();
         public Dictionary<int, int> EmptyStalls = new Dictionary<int, int>();
         public List<int> OpenDoors = new List<int>();
+        public List<MarketOrder> MarketOrders = new List<MarketOrder>();
+        public Dictionary<string, int> MarketLastPrice = new Dictionary<string, int>();
+        public long MarketNextId = 1;
+        public long MarketTax;
 
         public static WorldStateData Capture(GameWorld w)
         {
@@ -172,6 +176,10 @@ namespace Embervale.Shared.Persistence
             foreach (var e in w.AllEntities)
                 if (e is Stall st && st.EmptyUntilTick > 0) d.EmptyStalls[st.Id] = st.EmptyUntilTick - w.Tick;
             foreach (var door in w.Doors) if (door.Open) d.OpenDoors.Add(door.Id);
+            foreach (var o in w.Market.Orders) d.MarketOrders.Add(o.Clone());
+            foreach (var kv in w.Market.LastPrice) d.MarketLastPrice[kv.Key] = kv.Value;
+            d.MarketNextId = w.Market.NextId;
+            d.MarketTax = w.Market.TaxCollected;
             return d;
         }
 
@@ -195,6 +203,28 @@ namespace Embervale.Shared.Persistence
                     shop.Stock[st.Key] = Math.Max(0, st.Value);
                 }
             }
+            w.Market.Orders.Clear();
+            if (MarketOrders != null)
+                foreach (var o in MarketOrders)
+                {
+                    if (o == null || o.Id <= 0) continue;
+                    if (w.Db.Item(o.ItemId) == null)
+                    {
+                        // Item removed from the game: refund coins held for buy orders, drop the rest.
+                        if (!o.Buy) continue;
+                        o.CollectCoins += o.Active ? (long)o.Remaining * o.Price : 0;
+                        o.CollectItems = 0;
+                        o.Cancelled = true;
+                        o.ItemId = GameWorld.CoinsId;
+                    }
+                    w.Market.Orders.Add(o);
+                }
+            w.Market.LastPrice.Clear();
+            if (MarketLastPrice != null) foreach (var kv in MarketLastPrice) w.Market.LastPrice[kv.Key] = kv.Value;
+            long maxId = 0;
+            foreach (var o in w.Market.Orders) maxId = Math.Max(maxId, o.Id);
+            w.Market.NextId = Math.Max(MarketNextId, maxId + 1);
+            w.Market.TaxCollected = MarketTax;
             foreach (var kv in EmptyStalls)
             {
                 var s = w.Get<Stall>(kv.Key);

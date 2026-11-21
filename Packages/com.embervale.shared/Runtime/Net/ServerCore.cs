@@ -103,6 +103,7 @@ namespace Embervale.Shared.Net
             _store = store;
             _transport = transport;
             World.TradeCompleted += OnTradeCompleted;
+            World.MarketChanged += OnMarketChanged;
             var ws = store.LoadWorldState();
             ws?.Apply(world);
         }
@@ -311,6 +312,10 @@ namespace Embervale.Shared.Net
                 case C2S.SetAutoRetaliate: w.RequestSetAutoRetaliate(p, r.Bool()); break;
                 case C2S.TogglePrayer: w.RequestTogglePrayer(p, r.Str(64)); break;
                 case C2S.ToggleRun: w.RequestToggleRun(p, r.Bool()); break;
+                case C2S.MarketPlace: { bool buy = r.Bool(); var item = r.Str(64); int qty = r.I32(); int price = r.I32(); w.RequestMarketPlace(p, buy, item, qty, price); break; }
+                case C2S.MarketCancel: w.RequestMarketCancel(p, r.I64()); break;
+                case C2S.MarketCollect: w.RequestMarketCollect(p, r.I64()); break;
+                case C2S.MarketQuote: w.RequestMarketQuote(p, r.Str(64)); break;
             }
         }
 
@@ -564,6 +569,15 @@ namespace Embervale.Shared.Net
                     break;
                 case WorldEventType.BankClose: Send(s, S2C.BankClose); break;
                 case WorldEventType.CraftMenu: Send(s, S2C.CraftMenu, w => w.I32(e.EntityId).Str(e.Text)); break;
+                case WorldEventType.MarketOpen: Send(s, S2C.MarketOpen, w => w.I32(e.EntityId)); break;
+                case WorldEventType.MarketClose: Send(s, S2C.MarketClose); break;
+                case WorldEventType.MarketUpdate: SendMarketOrders(s); break;
+                case WorldEventType.MarketQuote:
+                    {
+                        var q = World.Market.Quote(e.Text);
+                        Send(s, S2C.MarketQuote, w => w.Str(e.Text).I32(q.bestBuy).I32(q.buyQty).I32(q.bestSell).I32(q.sellQty).I32(q.last));
+                        break;
+                    }
                 case WorldEventType.TradeRequest: Send(s, S2C.TradeRequest, w => w.I32(e.EntityId).Str(e.Text)); break;
                 case WorldEventType.TradeUpdate: if (s.Player.Trade != null) { SendTrade(s); s.LastTradeVersion = s.Player.Trade.Version; } break;
                 case WorldEventType.TradeClose: Send(s, S2C.TradeClose, w => w.Str(e.Text)); break;
@@ -601,6 +615,29 @@ namespace Embervale.Shared.Net
             // persist both sides in one transaction immediately so a crash can't duplicate items
             SaveNow(new[] { t.A, t.B });
             _store.AppendTradeLog(t.A.Name, t.B.Name, "completed");
+        }
+
+        private void OnMarketChanged(Player p, MarketPersist order)
+        {
+            // Persist in the order that can lose value on a crash but never duplicate it.
+            switch (order)
+            {
+                case MarketPersist.CharacterThenWorld: SaveNow(new[] { p }); _store.SaveWorldState(WorldStateData.Capture(World)); break;
+                case MarketPersist.WorldOnly: _store.SaveWorldState(WorldStateData.Capture(World)); break;
+                case MarketPersist.WorldThenCharacter: _store.SaveWorldState(WorldStateData.Capture(World)); SaveNow(new[] { p }); break;
+            }
+        }
+
+        private void SendMarketOrders(ClientSession s)
+        {
+            if (s.Player == null) return;
+            var mine = new List<MarketOrder>(World.Market.For(s.Player.CharacterId));
+            Send(s, S2C.MarketOrders, w =>
+            {
+                w.U8((byte)mine.Count);
+                foreach (var o in mine)
+                    w.I64(o.Id).Bool(o.Buy).Str(o.ItemId).I32(o.Quantity).I32(o.Filled).I32(o.Price).Bool(o.Cancelled).I32(o.CollectItems).I64(o.CollectCoins);
+            });
         }
 
         public void SaveNow(IEnumerable<Player> players)

@@ -294,6 +294,7 @@ namespace Embervale.Shared.Data
         public string CompleteQuestStage;
         public string OpenShop;
         public bool OpenBank;
+        public bool OpenMarket;
     }
 
     public sealed class DialogueOption

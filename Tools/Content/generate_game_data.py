@@ -724,6 +724,14 @@ DIALOGUES = {
         {"id": "start", "speaker": "Banker", "text": "Good day. How may the Hearthvault serve you?",
          "options": [{"text": "I'd like to access my vault.", "next": None, "action": {"openBank": True}},
                      {"text": "Nothing, thanks.", "next": None}]}],
+    "exchange_clerk": [
+        {"id": "start", "speaker": "Exchange Clerk", "text": "Welcome to the Embervale Exchange. Post an offer and we'll match it with other adventurers, even while you're away.",
+         "options": [{"text": "I'd like to trade on the Exchange.", "next": None, "action": {"openMarket": True}},
+                     {"text": "How does it work?", "next": "help"},
+                     {"text": "Nothing, thanks.", "next": None}]},
+        {"id": "help", "speaker": "Exchange Clerk", "text": "Buy offers hold your coins, sell offers hold your goods. Trades happen at the older offer's price, any overpayment is refunded, and the Exchange keeps one coin in every hundred from sales.",
+         "options": [{"text": "Let me trade.", "next": None, "action": {"openMarket": True}},
+                     {"text": "Thanks.", "next": None}]}],
     "guard": [
         {"id": "start", "speaker": "Guard", "text": "Keep out of trouble. The roads past the forest aren't safe after dark.",
          "options": [{"text": "I'll be careful.", "next": None}]}],
@@ -774,6 +782,7 @@ NPCS = [
     {"id": "tilda_merchant", "name": "Tilda", "model": "npc_merchant", "role": "Merchant",
      "dialogue": "tilda_merchant"},
     {"id": "banker", "name": "Banker", "model": "npc_banker", "role": "Banker", "dialogue": "banker"},
+    {"id": "exchange_clerk", "name": "Exchange Clerk", "model": "npc_merchant", "role": "Exchange", "dialogue": "exchange_clerk"},
     {"id": "guard", "name": "Guard", "model": "npc_guard", "role": "Guard", "dialogue": "guard", "wander": 3},
     {"id": "villager_m", "name": "Villager", "model": "npc_villager_m", "role": "Villager", "dialogue": "villager",
      "wander": 6},

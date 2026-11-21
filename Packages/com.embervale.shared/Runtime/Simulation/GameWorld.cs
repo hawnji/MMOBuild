@@ -483,6 +483,11 @@ namespace Embervale.Shared.Simulation
                 p.OpenShopId = null; p.OpenShopNpcId = 0;
                 Emit(new WorldEvent { Type = WorldEventType.ShopClose, PlayerId = p.Id });
             }
+            if (p.OpenMarketNpcId != 0)
+            {
+                p.OpenMarketNpcId = 0;
+                Emit(new WorldEvent { Type = WorldEventType.MarketClose, PlayerId = p.Id });
+            }
             if (p.OpenBankEntityId != 0)
             {
                 p.OpenBankEntityId = 0;
