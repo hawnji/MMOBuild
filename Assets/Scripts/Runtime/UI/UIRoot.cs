@@ -84,8 +84,11 @@ namespace Embervale.Client
             {
                 var es = new GameObject("EventSystem", typeof(EventSystem));
                 es.transform.SetParent(session.transform, false);
-#if EV_INPUT_SYSTEM
-                es.AddComponent<UnityEngine.InputSystem.UI.InputSystemUIInputModule>();
+#if EV_INPUT_SYSTEM && ENABLE_INPUT_SYSTEM
+                // Created at runtime, so it has no actions asset yet: give it the package's default UI actions,
+                // otherwise it receives no pointer input and nothing on the canvas is clickable.
+                var module = es.AddComponent<UnityEngine.InputSystem.UI.InputSystemUIInputModule>();
+                module.AssignDefaultActions();
 #else
                 es.AddComponent<StandaloneInputModule>();
 #endif

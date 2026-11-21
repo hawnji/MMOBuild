@@ -1,5 +1,5 @@
 using UnityEngine;
-#if EV_INPUT_SYSTEM
+#if EV_INPUT_SYSTEM && ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
 #endif
 
@@ -8,7 +8,8 @@ namespace Embervale.Client
     /// <summary>
     /// Thin wrapper so gameplay code works with either the Input System package (preferred, installed by the
     /// project bootstrap) or the legacy Input Manager. EV_INPUT_SYSTEM is defined by the asmdef when the
-    /// com.unity.inputsystem package is present.
+    /// com.unity.inputsystem package is present; ENABLE_INPUT_SYSTEM by Unity when its backend is active
+    /// (Player Settings > Active Input Handling). Otherwise the legacy Input Manager is used.
     /// </summary>
     public static class InputAdapter
     {
@@ -18,7 +19,7 @@ namespace Embervale.Client
         {
             get
             {
-#if EV_INPUT_SYSTEM
+#if EV_INPUT_SYSTEM && ENABLE_INPUT_SYSTEM
                 return Mouse.current != null ? Mouse.current.position.ReadValue() : Vector2.zero;
 #else
                 return Input.mousePosition;
@@ -31,7 +32,7 @@ namespace Embervale.Client
         {
             get
             {
-#if EV_INPUT_SYSTEM
+#if EV_INPUT_SYSTEM && ENABLE_INPUT_SYSTEM
                 if (Mouse.current == null) return 0;
                 var v = Mouse.current.scroll.ReadValue().y;
                 return Mathf.Abs(v) > 20 ? v / 120f : v;
@@ -43,7 +44,7 @@ namespace Embervale.Client
 
         public static bool MouseDown(int button)
         {
-#if EV_INPUT_SYSTEM
+#if EV_INPUT_SYSTEM && ENABLE_INPUT_SYSTEM
             var m = Mouse.current;
             if (m == null) return false;
             return button == 0 ? m.leftButton.wasPressedThisFrame : button == 1 ? m.rightButton.wasPressedThisFrame : m.middleButton.wasPressedThisFrame;
@@ -54,7 +55,7 @@ namespace Embervale.Client
 
         public static bool MouseHeld(int button)
         {
-#if EV_INPUT_SYSTEM
+#if EV_INPUT_SYSTEM && ENABLE_INPUT_SYSTEM
             var m = Mouse.current;
             if (m == null) return false;
             return button == 0 ? m.leftButton.isPressed : button == 1 ? m.rightButton.isPressed : m.middleButton.isPressed;
@@ -65,7 +66,7 @@ namespace Embervale.Client
 
         public static bool MouseUp(int button)
         {
-#if EV_INPUT_SYSTEM
+#if EV_INPUT_SYSTEM && ENABLE_INPUT_SYSTEM
             var m = Mouse.current;
             if (m == null) return false;
             return button == 0 ? m.leftButton.wasReleasedThisFrame : button == 1 ? m.rightButton.wasReleasedThisFrame : m.middleButton.wasReleasedThisFrame;
@@ -76,7 +77,7 @@ namespace Embervale.Client
 
         public static bool Down(Key k)
         {
-#if EV_INPUT_SYSTEM
+#if EV_INPUT_SYSTEM && ENABLE_INPUT_SYSTEM
             var c = ToControl(k);
             return c != null && c.wasPressedThisFrame;
 #else
@@ -86,7 +87,7 @@ namespace Embervale.Client
 
         public static bool Held(Key k)
         {
-#if EV_INPUT_SYSTEM
+#if EV_INPUT_SYSTEM && ENABLE_INPUT_SYSTEM
             var c = ToControl(k);
             return c != null && c.isPressed;
 #else
@@ -96,7 +97,7 @@ namespace Embervale.Client
 #endif
         }
 
-#if EV_INPUT_SYSTEM
+#if EV_INPUT_SYSTEM && ENABLE_INPUT_SYSTEM
         private static UnityEngine.InputSystem.Controls.ButtonControl ToControl(Key k)
         {
             var kb = Keyboard.current;
