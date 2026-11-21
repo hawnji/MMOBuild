@@ -1,0 +1,89 @@
+[
+ {
+  "id": "pickpocket_villager",
+  "name": "Pickpocket",
+  "level": 1,
+  "xp": 8,
+  "stunTicks": 6,
+  "damage": 1,
+  "loot": [
+   {
+    "item": "coins",
+    "min": 3,
+    "max": 3,
+    "weight": 1
+   }
+  ],
+  "targets": [
+   "villager_m",
+   "villager_f"
+  ]
+ },
+ {
+  "id": "pickpocket_merchant",
+  "name": "Pickpocket",
+  "level": 25,
+  "xp": 26,
+  "stunTicks": 8,
+  "damage": 3,
+  "loot": [
+   {
+    "item": "coins",
+    "min": 15,
+    "max": 30,
+    "weight": 4
+   },
+   {
+    "item": "uncut_amber",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   }
+  ],
+  "targets": [
+   "merchant"
+  ]
+ },
+ {
+  "id": "steal_bakery",
+  "name": "Steal from stall",
+  "level": 5,
+  "xp": 16,
+  "stunTicks": 0,
+  "damage": 0,
+  "loot": [
+   {
+    "item": "bread",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   }
+  ],
+  "stall": "bakery_stall",
+  "respawnTicks": 8
+ },
+ {
+  "id": "steal_gem",
+  "name": "Steal from stall",
+  "level": 45,
+  "xp": 60,
+  "stunTicks": 0,
+  "damage": 0,
+  "loot": [
+   {
+    "item": "uncut_jade",
+    "min": 1,
+    "max": 1,
+    "weight": 3
+   },
+   {
+    "item": "uncut_garnet",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   }
+  ],
+  "stall": "gem_stall",
+  "respawnTicks": 30
+ }
+]

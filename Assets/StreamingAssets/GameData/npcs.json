@@ -1,0 +1,104 @@
+[
+ {
+  "id": "elder_maren",
+  "name": "Elder Maren",
+  "model": "npc_elder",
+  "role": "Quest",
+  "dialogue": "elder_maren"
+ },
+ {
+  "id": "hollin_smith",
+  "name": "Hollin the Smith",
+  "model": "npc_blacksmith",
+  "role": "Blacksmith",
+  "dialogue": "hollin_smith"
+ },
+ {
+  "id": "tilda_merchant",
+  "name": "Tilda",
+  "model": "npc_merchant",
+  "role": "Merchant",
+  "dialogue": "tilda_merchant"
+ },
+ {
+  "id": "banker",
+  "name": "Banker",
+  "model": "npc_banker",
+  "role": "Banker",
+  "dialogue": "banker"
+ },
+ {
+  "id": "guard",
+  "name": "Guard",
+  "model": "npc_guard",
+  "role": "Guard",
+  "dialogue": "guard",
+  "wander": 3
+ },
+ {
+  "id": "villager_m",
+  "name": "Villager",
+  "model": "npc_villager_m",
+  "role": "Villager",
+  "dialogue": "villager",
+  "wander": 6
+ },
+ {
+  "id": "villager_f",
+  "name": "Villager",
+  "model": "npc_villager_f",
+  "role": "Villager",
+  "dialogue": "villager",
+  "wander": 6
+ },
+ {
+  "id": "merchant",
+  "name": "Travelling Merchant",
+  "model": "npc_merchant",
+  "role": "Villager",
+  "dialogue": "villager",
+  "wander": 4
+ },
+ {
+  "id": "innkeeper_bram",
+  "name": "Bram the Innkeeper",
+  "model": "npc_innkeeper",
+  "role": "Quest",
+  "dialogue": "innkeeper_bram"
+ },
+ {
+  "id": "warden_seeker",
+  "name": "Seeker Ilsa",
+  "model": "npc_seeker",
+  "role": "Quest",
+  "dialogue": "warden_seeker"
+ },
+ {
+  "id": "fisher_odo",
+  "name": "Odo the Fisher",
+  "model": "npc_fisher",
+  "role": "Quest",
+  "dialogue": "fisher_odo"
+ },
+ {
+  "id": "magic_vendor",
+  "name": "Archivist Sel",
+  "model": "npc_mage",
+  "role": "Merchant",
+  "dialogue": "magic_vendor"
+ },
+ {
+  "id": "arms_vendor",
+  "name": "Quartermaster Dane",
+  "model": "npc_guard",
+  "role": "Merchant",
+  "dialogue": "arms_vendor"
+ },
+ {
+  "id": "apothecary",
+  "name": "Wenna Mossbottle",
+  "model": "npc_villager_f",
+  "role": "Merchant",
+  "dialogue": "apothecary"
+ }
+]

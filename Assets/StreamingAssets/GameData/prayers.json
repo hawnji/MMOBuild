@@ -1,0 +1,56 @@
+[
+ {
+  "id": "stone_heart",
+  "name": "Stone Heart",
+  "level": 1,
+  "drainPerMinute": 5,
+  "effect": {
+   "Defense": 0.05
+  }
+ },
+ {
+  "id": "iron_will",
+  "name": "Iron Will",
+  "level": 4,
+  "drainPerMinute": 5,
+  "effect": {
+   "Strength": 0.05
+  }
+ },
+ {
+  "id": "keen_eye",
+  "name": "Keen Eye",
+  "level": 7,
+  "drainPerMinute": 5,
+  "effect": {
+   "Attack": 0.05
+  }
+ },
+ {
+  "id": "hawk_sight",
+  "name": "Hawk Sight",
+  "level": 12,
+  "drainPerMinute": 6,
+  "effect": {
+   "Ranged": 0.05
+  }
+ },
+ {
+  "id": "inner_flame",
+  "name": "Inner Flame",
+  "level": 15,
+  "drainPerMinute": 6,
+  "effect": {
+   "Magic": 0.05
+  }
+ },
+ {
+  "id": "spirit_ward",
+  "name": "Spirit Ward",
+  "level": 40,
+  "drainPerMinute": 20,
+  "effect": {
+   "DamageReduction": 0.25
+  }
+ }
+]

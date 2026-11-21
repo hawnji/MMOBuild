@@ -1,0 +1,33 @@
+{
+ "items": [
+  {
+   "item": "bronze_dagger",
+   "qty": 1
+  },
+  {
+   "item": "bronze_pickaxe",
+   "qty": 1
+  },
+  {
+   "item": "bronze_hatchet",
+   "qty": 1
+  },
+  {
+   "item": "small_net",
+   "qty": 1
+  },
+  {
+   "item": "tinderbox",
+   "qty": 1
+  },
+  {
+   "item": "bread",
+   "qty": 3
+  },
+  {
+   "item": "coins",
+   "qty": 25
+  }
+ ],
+ "spawnPoint": "brookhollow_square"
+}

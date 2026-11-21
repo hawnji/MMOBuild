@@ -1,0 +1,4721 @@
+[
+ {
+  "id": "acolyte_hat",
+  "name": "Acolyte Hat",
+  "description": "A pointed hat.",
+  "icon": "acolyte_hat",
+  "model": "a_hat",
+  "category": "Armour",
+  "stackable": false,
+  "value": 30,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Head",
+  "tint": "blue",
+  "stats": {
+   "attackMagic": 2,
+   "defenseMagic": 2
+  }
+ },
+ {
+  "id": "acolyte_robe",
+  "name": "Acolyte Robe",
+  "description": "Simple robes favoured by mages.",
+  "icon": "acolyte_robe",
+  "model": "a_robe",
+  "category": "Armour",
+  "stackable": false,
+  "value": 60,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Body",
+  "tint": "blue",
+  "stats": {
+   "attackMagic": 4,
+   "defenseMagic": 4
+  }
+ },
+ {
+  "id": "air_rune",
+  "name": "Gale Rune",
+  "description": "A rune charged with gale energy.",
+  "icon": "air_rune",
+  "model": "rune_stone",
+  "category": "Rune",
+  "stackable": true,
+  "value": 5,
+  "weight": 0.0,
+  "tradeable": true,
+  "tint": "air"
+ },
+ {
+  "id": "amber",
+  "name": "Amber",
+  "description": "A cut and polished gemstone.",
+  "icon": "amber",
+  "model": "gem",
+  "category": "Resource",
+  "stackable": false,
+  "value": 40,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "amber"
+ },
+ {
+  "id": "amber_amulet",
+  "name": "Amber Amulet",
+  "description": "A gold amulet set with amber.",
+  "icon": "amber_amulet",
+  "model": "amulet",
+  "category": "Jewellery",
+  "stackable": false,
+  "value": 340,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Amulet",
+  "tint": "amber",
+  "stats": {
+   "strengthMelee": 1,
+   "strengthRanged": 1,
+   "magicPower": 1,
+   "defenseMelee": 1
+  }
+ },
+ {
+  "id": "amber_ring",
+  "name": "Amber Ring",
+  "description": "A gold ring set with amber.",
+  "icon": "amber_ring",
+  "model": "ring",
+  "category": "Jewellery",
+  "stackable": false,
+  "value": 240,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Ring",
+  "tint": "amber",
+  "stats": {
+   "attackMelee": 1,
+   "attackRanged": 1,
+   "attackMagic": 1,
+   "defenseMagic": 1
+  }
+ },
+ {
+  "id": "amulet_mould",
+  "name": "Amulet Mould",
+  "description": "Shapes molten metal into an amulet.",
+  "icon": "amulet_mould",
+  "category": "Tool",
+  "stackable": false,
+  "value": 5,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "apprentice_staff",
+  "name": "Apprentice Staff",
+  "description": "A plain ash staff.",
+  "icon": "apprentice_staff",
+  "model": "w_staff",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 30,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "oak",
+  "weaponType": "Staff",
+  "twoHanded": true,
+  "requirements": [
+   {
+    "skill": "Magic",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "attackMagic": 5,
+   "attackMelee": 2,
+   "attackSpeed": 5,
+   "attackRange": 8
+  }
+ },
+ {
+  "id": "arrow_shaft",
+  "name": "Arrow Shaft",
+  "description": "A plain wooden shaft.",
+  "icon": "arrow_shaft",
+  "category": "Resource",
+  "stackable": true,
+  "value": 1,
+  "weight": 0.0,
+  "tradeable": true
+ },
+ {
+  "id": "ashbloom",
+  "name": "Ashbloom",
+  "description": "A freshly harvested ashbloom.",
+  "icon": "ashbloom",
+  "model": "crop_ashbloom",
+  "category": "Resource",
+  "stackable": false,
+  "value": 80,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "ashbloom_seed",
+  "name": "Ashbloom Seed",
+  "description": "Plant in a farming patch.",
+  "icon": "ashbloom_seed",
+  "model": "seed_pouch",
+  "category": "Seed",
+  "stackable": true,
+  "value": 40,
+  "weight": 0.0,
+  "tradeable": true
+ },
+ {
+  "id": "ashes",
+  "name": "Ashes",
+  "description": "The remains of a fire.",
+  "icon": "ashes",
+  "category": "Resource",
+  "stackable": false,
+  "value": 2,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "bait_worms",
+  "name": "Bait Worms",
+  "description": "Wriggly. Fish love them.",
+  "icon": "bait_worms",
+  "category": "Resource",
+  "stackable": true,
+  "value": 1,
+  "weight": 0.0,
+  "tradeable": true
+ },
+ {
+  "id": "big_bones",
+  "name": "Heavy Bones",
+  "description": "Thick bones from a large beast.",
+  "icon": "big_bones",
+  "category": "Misc",
+  "stackable": false,
+  "value": 15,
+  "weight": 0.5,
+  "tradeable": true,
+  "buryXp": 15
+ },
+ {
+  "id": "blank_essence",
+  "name": "Raw Essence",
+  "description": "Unshaped magical stone, hums faintly.",
+  "icon": "blank_essence",
+  "category": "Resource",
+  "stackable": true,
+  "value": 4,
+  "weight": 0.1,
+  "tradeable": true
+ },
+ {
+  "id": "bones",
+  "name": "Bones",
+  "description": "The bones of some creature. Burying them honours the old spirits.",
+  "icon": "bones",
+  "category": "Misc",
+  "stackable": false,
+  "value": 2,
+  "weight": 0.5,
+  "tradeable": true,
+  "buryXp": 5
+ },
+ {
+  "id": "bread",
+  "name": "Bread",
+  "description": "Fresh bread. Restores 5 health.",
+  "icon": "bread",
+  "model": "bread",
+  "category": "Food",
+  "stackable": false,
+  "value": 12,
+  "weight": 0.5,
+  "tradeable": true,
+  "heal": 5
+ },
+ {
+  "id": "bread_dough",
+  "name": "Bread Dough",
+  "description": "Unbaked dough.",
+  "icon": "bread_dough",
+  "category": "Resource",
+  "stackable": false,
+  "value": 4,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "bronze_arrow",
+  "name": "Bronze Arrow",
+  "description": "Arrows with bronze heads.",
+  "icon": "bronze_arrow",
+  "model": "arrow",
+  "category": "Ammo",
+  "stackable": true,
+  "value": 3,
+  "weight": 0.0,
+  "tradeable": true,
+  "slot": "Ammo",
+  "ammoType": "Arrow",
+  "tint": "bronze",
+  "stats": {
+   "strengthRanged": 5
+  },
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "bronze_arrowheads",
+  "name": "Bronze Arrowheads",
+  "description": "Unattached arrowheads.",
+  "icon": "bronze_arrowheads",
+  "model": "arrowheads",
+  "category": "Resource",
+  "stackable": true,
+  "value": 2,
+  "weight": 0.0,
+  "tradeable": true,
+  "tint": "bronze"
+ },
+ {
+  "id": "bronze_axe",
+  "name": "Bronze Battleaxe",
+  "description": "A bronze battleaxe.",
+  "icon": "bronze_axe",
+  "model": "w_axe",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 60,
+  "weight": 4.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "bronze",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "attackMelee": 6,
+   "strengthMelee": 10,
+   "attackSpeed": 6
+  },
+  "weaponType": "Axe"
+ },
+ {
+  "id": "bronze_bar",
+  "name": "Bronze Bar",
+  "description": "A bar of bronze.",
+  "icon": "bronze_bar",
+  "model": "metal_bar",
+  "category": "Resource",
+  "stackable": false,
+  "value": 12,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "bronze"
+ },
+ {
+  "id": "bronze_boots",
+  "name": "Bronze Boots",
+  "description": "Bronze boots.",
+  "icon": "bronze_boots",
+  "model": "a_boots",
+  "category": "Armour",
+  "stackable": false,
+  "value": 20,
+  "weight": 2.5,
+  "tradeable": true,
+  "slot": "Feet",
+  "tint": "bronze",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "defenseMelee": 2,
+   "defenseRanged": 2
+  }
+ },
+ {
+  "id": "bronze_chest",
+  "name": "Bronze Chestplate",
+  "description": "Bronze chestplate.",
+  "icon": "bronze_chest",
+  "model": "a_chest",
+  "category": "Armour",
+  "stackable": false,
+  "value": 80,
+  "weight": 7.0,
+  "tradeable": true,
+  "slot": "Body",
+  "tint": "bronze",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "defenseMelee": 10,
+   "defenseRanged": 9,
+   "defenseMagic": -4
+  }
+ },
+ {
+  "id": "bronze_dagger",
+  "name": "Bronze Dagger",
+  "description": "A bronze dagger.",
+  "icon": "bronze_dagger",
+  "model": "w_dagger",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 20,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "bronze",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "attackMelee": 4,
+   "strengthMelee": 3,
+   "attackSpeed": 4
+  },
+  "weaponType": "Dagger"
+ },
+ {
+  "id": "bronze_gloves",
+  "name": "Bronze Gauntlets",
+  "description": "Bronze gauntlets.",
+  "icon": "bronze_gloves",
+  "model": "a_gloves",
+  "category": "Armour",
+  "stackable": false,
+  "value": 20,
+  "weight": 2.5,
+  "tradeable": true,
+  "slot": "Hands",
+  "tint": "bronze",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "defenseMelee": 2,
+   "defenseRanged": 1,
+   "attackMelee": 1
+  }
+ },
+ {
+  "id": "bronze_greatsword",
+  "name": "Bronze Greatsword",
+  "description": "A bronze greatsword.",
+  "icon": "bronze_greatsword",
+  "model": "w_greatsword",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 60,
+  "weight": 4.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "bronze",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "attackMelee": 12,
+   "strengthMelee": 15,
+   "attackSpeed": 7
+  },
+  "weaponType": "TwoHanded",
+  "twoHanded": true
+ },
+ {
+  "id": "bronze_hatchet",
+  "name": "Bronze Hatchet",
+  "description": "A bronze hatchet.",
+  "icon": "bronze_hatchet",
+  "model": "t_hatchet",
+  "category": "Tool",
+  "stackable": false,
+  "value": 15,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "bronze",
+  "toolType": "Hatchet",
+  "toolPower": 1.0,
+  "toolLevel": 1,
+  "requirements": [
+   {
+    "skill": "Woodcutting",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "attackMelee": 3,
+   "strengthMelee": 3,
+   "attackSpeed": 5
+  },
+  "weaponType": "Axe"
+ },
+ {
+  "id": "bronze_helm",
+  "name": "Bronze Helm",
+  "description": "Bronze helm.",
+  "icon": "bronze_helm",
+  "model": "a_helm",
+  "category": "Armour",
+  "stackable": false,
+  "value": 20,
+  "weight": 2.5,
+  "tradeable": true,
+  "slot": "Head",
+  "tint": "bronze",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "defenseMelee": 3,
+   "defenseRanged": 3,
+   "defenseMagic": -1
+  }
+ },
+ {
+  "id": "bronze_legs",
+  "name": "Bronze Platelegs",
+  "description": "Bronze platelegs.",
+  "icon": "bronze_legs",
+  "model": "a_legs",
+  "category": "Armour",
+  "stackable": false,
+  "value": 60,
+  "weight": 5.5,
+  "tradeable": true,
+  "slot": "Legs",
+  "tint": "bronze",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "defenseMelee": 7,
+   "defenseRanged": 6,
+   "defenseMagic": -2
+  }
+ },
+ {
+  "id": "bronze_mace",
+  "name": "Bronze Mace",
+  "description": "A bronze mace.",
+  "icon": "bronze_mace",
+  "model": "w_mace",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 40,
+  "weight": 3.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "bronze",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "attackMelee": 6,
+   "strengthMelee": 8,
+   "defenseMelee": 1,
+   "attackSpeed": 5
+  },
+  "weaponType": "Mace"
+ },
+ {
+  "id": "bronze_pickaxe",
+  "name": "Bronze Pickaxe",
+  "description": "A bronze pickaxe.",
+  "icon": "bronze_pickaxe",
+  "model": "t_pickaxe",
+  "category": "Tool",
+  "stackable": false,
+  "value": 30,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "bronze",
+  "toolType": "Pickaxe",
+  "toolPower": 1.0,
+  "toolLevel": 1,
+  "requirements": [
+   {
+    "skill": "Mining",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "attackMelee": 3,
+   "strengthMelee": 3,
+   "attackSpeed": 5
+  },
+  "weaponType": "Mace"
+ },
+ {
+  "id": "bronze_shield",
+  "name": "Bronze Kite Shield",
+  "description": "Bronze kite shield.",
+  "icon": "bronze_shield",
+  "model": "a_shield",
+  "category": "Armour",
+  "stackable": false,
+  "value": 60,
+  "weight": 5.5,
+  "tradeable": true,
+  "slot": "Shield",
+  "tint": "bronze",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "defenseMelee": 8,
+   "defenseRanged": 9,
+   "defenseMagic": -1
+  }
+ },
+ {
+  "id": "bronze_sword",
+  "name": "Bronze Sword",
+  "description": "A bronze sword.",
+  "icon": "bronze_sword",
+  "model": "w_sword",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 20,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "bronze",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "attackMelee": 7,
+   "strengthMelee": 6,
+   "attackSpeed": 5
+  },
+  "weaponType": "Sword"
+ },
+ {
+  "id": "bucket",
+  "name": "Bucket",
+  "description": "A wooden bucket.",
+  "icon": "bucket",
+  "category": "Misc",
+  "stackable": false,
+  "value": 2,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "bucket_water",
+  "name": "Bucket of Water",
+  "description": "A bucket full of water.",
+  "icon": "bucket_water",
+  "category": "Misc",
+  "stackable": false,
+  "value": 4,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "burnt_deepcod",
+  "name": "Burnt Deepcod",
+  "description": "Oops.",
+  "icon": "burnt_deepcod",
+  "model": "fish_burnt",
+  "category": "Misc",
+  "stackable": false,
+  "value": 1,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "burnt_eel",
+  "name": "Burnt Marsh Eel",
+  "description": "Oops.",
+  "icon": "burnt_eel",
+  "model": "fish_burnt",
+  "category": "Misc",
+  "stackable": false,
+  "value": 1,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "burnt_meat",
+  "name": "Burnt Meat",
+  "description": "Charred beyond recognition.",
+  "icon": "burnt_meat",
+  "model": "meat_burnt",
+  "category": "Misc",
+  "stackable": false,
+  "value": 1,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "burnt_minnow",
+  "name": "Burnt Minnow",
+  "description": "Oops.",
+  "icon": "burnt_minnow",
+  "model": "fish_burnt",
+  "category": "Misc",
+  "stackable": false,
+  "value": 1,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "burnt_perch",
+  "name": "Burnt Perch",
+  "description": "Oops.",
+  "icon": "burnt_perch",
+  "model": "fish_burnt",
+  "category": "Misc",
+  "stackable": false,
+  "value": 1,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "burnt_pike",
+  "name": "Burnt Pike",
+  "description": "Oops.",
+  "icon": "burnt_pike",
+  "model": "fish_burnt",
+  "category": "Misc",
+  "stackable": false,
+  "value": 1,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "burnt_salmon",
+  "name": "Burnt Salmon",
+  "description": "Oops.",
+  "icon": "burnt_salmon",
+  "model": "fish_burnt",
+  "category": "Misc",
+  "stackable": false,
+  "value": 1,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "burnt_swordfish",
+  "name": "Burnt Bladefin",
+  "description": "Oops.",
+  "icon": "burnt_swordfish",
+  "model": "fish_burnt",
+  "category": "Misc",
+  "stackable": false,
+  "value": 1,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "burnt_trout",
+  "name": "Burnt Trout",
+  "description": "Oops.",
+  "icon": "burnt_trout",
+  "model": "fish_burnt",
+  "category": "Misc",
+  "stackable": false,
+  "value": 1,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "cabbage",
+  "name": "Cabbage",
+  "description": "A freshly harvested cabbage.",
+  "icon": "cabbage",
+  "model": "crop_cabbage",
+  "category": "Food",
+  "stackable": false,
+  "value": 4,
+  "weight": 0.5,
+  "tradeable": true,
+  "heal": 2
+ },
+ {
+  "id": "cabbage_seed",
+  "name": "Cabbage Seed",
+  "description": "Plant in a farming patch.",
+  "icon": "cabbage_seed",
+  "model": "seed_pouch",
+  "category": "Seed",
+  "stackable": true,
+  "value": 2,
+  "weight": 0.0,
+  "tradeable": true
+ },
+ {
+  "id": "chaos_rune",
+  "name": "Chaos Rune",
+  "description": "A rune charged with chaos energy.",
+  "icon": "chaos_rune",
+  "model": "rune_stone",
+  "category": "Rune",
+  "stackable": true,
+  "value": 39,
+  "weight": 0.0,
+  "tradeable": true,
+  "tint": "chaos"
+ },
+ {
+  "id": "chisel",
+  "name": "Chisel",
+  "description": "For cutting gems.",
+  "icon": "chisel",
+  "category": "Tool",
+  "stackable": false,
+  "value": 4,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "coal_ore",
+  "name": "Coal",
+  "description": "A lump of coal.",
+  "icon": "coal_ore",
+  "model": "ore_chunk",
+  "category": "Resource",
+  "stackable": false,
+  "value": 30,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "coal"
+ },
+ {
+  "id": "coins",
+  "name": "Embers",
+  "description": "Small stamped copper discs. The common currency of Embervale.",
+  "icon": "coins",
+  "category": "Currency",
+  "stackable": true,
+  "value": 1,
+  "weight": 0.0,
+  "tradeable": true
+ },
+ {
+  "id": "cooked_meat",
+  "name": "Cooked Meat",
+  "description": "Roasted meat. Restores 4 health.",
+  "icon": "cooked_meat",
+  "model": "meat_cooked",
+  "category": "Food",
+  "stackable": false,
+  "value": 5,
+  "weight": 0.5,
+  "tradeable": true,
+  "heal": 4
+ },
+ {
+  "id": "copper_ore",
+  "name": "Copper Ore",
+  "description": "A lump of copper ore.",
+  "icon": "copper_ore",
+  "model": "ore_chunk",
+  "category": "Resource",
+  "stackable": false,
+  "value": 5,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "copper"
+ },
+ {
+  "id": "cowhide",
+  "name": "Hide",
+  "description": "An untanned animal hide.",
+  "icon": "cowhide",
+  "category": "Resource",
+  "stackable": false,
+  "value": 8,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "deepcod",
+  "name": "Deepcod",
+  "description": "A cooked deepcod. Restores 20 health.",
+  "icon": "deepcod",
+  "model": "fish_cooked",
+  "category": "Food",
+  "stackable": false,
+  "value": 350,
+  "weight": 0.5,
+  "tradeable": true,
+  "heal": 20,
+  "tint": "deepcod"
+ },
+ {
+  "id": "duskite_arrow",
+  "name": "Duskite Arrow",
+  "description": "Arrows with duskite heads.",
+  "icon": "duskite_arrow",
+  "model": "arrow",
+  "category": "Ammo",
+  "stackable": true,
+  "value": 63,
+  "weight": 0.0,
+  "tradeable": true,
+  "slot": "Ammo",
+  "ammoType": "Arrow",
+  "tint": "duskite",
+  "stats": {
+   "strengthRanged": 23
+  },
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 40
+   }
+  ]
+ },
+ {
+  "id": "duskite_arrowheads",
+  "name": "Duskite Arrowheads",
+  "description": "Unattached arrowheads.",
+  "icon": "duskite_arrowheads",
+  "model": "arrowheads",
+  "category": "Resource",
+  "stackable": true,
+  "value": 42,
+  "weight": 0.0,
+  "tradeable": true,
+  "tint": "duskite"
+ },
+ {
+  "id": "duskite_axe",
+  "name": "Duskite Battleaxe",
+  "description": "A duskite battleaxe.",
+  "icon": "duskite_axe",
+  "model": "w_axe",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 1269,
+  "weight": 4.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "duskite",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 40
+   }
+  ],
+  "stats": {
+   "attackMelee": 28,
+   "strengthMelee": 46,
+   "attackSpeed": 6
+  },
+  "weaponType": "Axe"
+ },
+ {
+  "id": "duskite_bar",
+  "name": "Duskite Bar",
+  "description": "A bar of duskite.",
+  "icon": "duskite_bar",
+  "model": "metal_bar",
+  "category": "Resource",
+  "stackable": false,
+  "value": 253,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "duskite"
+ },
+ {
+  "id": "duskite_boots",
+  "name": "Duskite Boots",
+  "description": "Duskite boots.",
+  "icon": "duskite_boots",
+  "model": "a_boots",
+  "category": "Armour",
+  "stackable": false,
+  "value": 423,
+  "weight": 2.5,
+  "tradeable": true,
+  "slot": "Feet",
+  "tint": "duskite",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 40
+   }
+  ],
+  "stats": {
+   "defenseMelee": 9,
+   "defenseRanged": 9
+  }
+ },
+ {
+  "id": "duskite_chest",
+  "name": "Duskite Chestplate",
+  "description": "Duskite chestplate.",
+  "icon": "duskite_chest",
+  "model": "a_chest",
+  "category": "Armour",
+  "stackable": false,
+  "value": 1692,
+  "weight": 7.0,
+  "tradeable": true,
+  "slot": "Body",
+  "tint": "duskite",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 40
+   }
+  ],
+  "stats": {
+   "defenseMelee": 46,
+   "defenseRanged": 41,
+   "defenseMagic": -18
+  }
+ },
+ {
+  "id": "duskite_dagger",
+  "name": "Duskite Dagger",
+  "description": "A duskite dagger.",
+  "icon": "duskite_dagger",
+  "model": "w_dagger",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 423,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "duskite",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 40
+   }
+  ],
+  "stats": {
+   "attackMelee": 18,
+   "strengthMelee": 14,
+   "attackSpeed": 4
+  },
+  "weaponType": "Dagger"
+ },
+ {
+  "id": "duskite_gloves",
+  "name": "Duskite Gauntlets",
+  "description": "Duskite gauntlets.",
+  "icon": "duskite_gloves",
+  "model": "a_gloves",
+  "category": "Armour",
+  "stackable": false,
+  "value": 423,
+  "weight": 2.5,
+  "tradeable": true,
+  "slot": "Hands",
+  "tint": "duskite",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 40
+   }
+  ],
+  "stats": {
+   "defenseMelee": 9,
+   "defenseRanged": 5,
+   "attackMelee": 5
+  }
+ },
+ {
+  "id": "duskite_greatsword",
+  "name": "Duskite Greatsword",
+  "description": "A duskite greatsword.",
+  "icon": "duskite_greatsword",
+  "model": "w_greatsword",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 1269,
+  "weight": 4.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "duskite",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 40
+   }
+  ],
+  "stats": {
+   "attackMelee": 55,
+   "strengthMelee": 69,
+   "attackSpeed": 7
+  },
+  "weaponType": "TwoHanded",
+  "twoHanded": true
+ },
+ {
+  "id": "duskite_hatchet",
+  "name": "Duskite Hatchet",
+  "description": "A duskite hatchet.",
+  "icon": "duskite_hatchet",
+  "model": "t_hatchet",
+  "category": "Tool",
+  "stackable": false,
+  "value": 317,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "duskite",
+  "toolType": "Hatchet",
+  "toolPower": 4.6,
+  "toolLevel": 40,
+  "requirements": [
+   {
+    "skill": "Woodcutting",
+    "level": 40
+   }
+  ],
+  "stats": {
+   "attackMelee": 13,
+   "strengthMelee": 13,
+   "attackSpeed": 5
+  },
+  "weaponType": "Axe"
+ },
+ {
+  "id": "duskite_helm",
+  "name": "Duskite Helm",
+  "description": "Duskite helm.",
+  "icon": "duskite_helm",
+  "model": "a_helm",
+  "category": "Armour",
+  "stackable": false,
+  "value": 423,
+  "weight": 2.5,
+  "tradeable": true,
+  "slot": "Head",
+  "tint": "duskite",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 40
+   }
+  ],
+  "stats": {
+   "defenseMelee": 14,
+   "defenseRanged": 14,
+   "defenseMagic": -5
+  }
+ },
+ {
+  "id": "duskite_legs",
+  "name": "Duskite Platelegs",
+  "description": "Duskite platelegs.",
+  "icon": "duskite_legs",
+  "model": "a_legs",
+  "category": "Armour",
+  "stackable": false,
+  "value": 1269,
+  "weight": 5.5,
+  "tradeable": true,
+  "slot": "Legs",
+  "tint": "duskite",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 40
+   }
+  ],
+  "stats": {
+   "defenseMelee": 32,
+   "defenseRanged": 28,
+   "defenseMagic": -9
+  }
+ },
+ {
+  "id": "duskite_mace",
+  "name": "Duskite Mace",
+  "description": "A duskite mace.",
+  "icon": "duskite_mace",
+  "model": "w_mace",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 846,
+  "weight": 3.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "duskite",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 40
+   }
+  ],
+  "stats": {
+   "attackMelee": 28,
+   "strengthMelee": 37,
+   "defenseMelee": 5,
+   "attackSpeed": 5
+  },
+  "weaponType": "Mace"
+ },
+ {
+  "id": "duskite_ore",
+  "name": "Duskite Ore",
+  "description": "A lump of duskite ore.",
+  "icon": "duskite_ore",
+  "model": "ore_chunk",
+  "category": "Resource",
+  "stackable": false,
+  "value": 420,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "duskite"
+ },
+ {
+  "id": "duskite_pickaxe",
+  "name": "Duskite Pickaxe",
+  "description": "A duskite pickaxe.",
+  "icon": "duskite_pickaxe",
+  "model": "t_pickaxe",
+  "category": "Tool",
+  "stackable": false,
+  "value": 634,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "duskite",
+  "toolType": "Pickaxe",
+  "toolPower": 4.6,
+  "toolLevel": 40,
+  "requirements": [
+   {
+    "skill": "Mining",
+    "level": 40
+   }
+  ],
+  "stats": {
+   "attackMelee": 13,
+   "strengthMelee": 13,
+   "attackSpeed": 5
+  },
+  "weaponType": "Mace"
+ },
+ {
+  "id": "duskite_shield",
+  "name": "Duskite Kite Shield",
+  "description": "Duskite kite shield.",
+  "icon": "duskite_shield",
+  "model": "a_shield",
+  "category": "Armour",
+  "stackable": false,
+  "value": 1269,
+  "weight": 5.5,
+  "tradeable": true,
+  "slot": "Shield",
+  "tint": "duskite",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 40
+   }
+  ],
+  "stats": {
+   "defenseMelee": 37,
+   "defenseRanged": 41,
+   "defenseMagic": -5
+  }
+ },
+ {
+  "id": "duskite_sword",
+  "name": "Duskite Sword",
+  "description": "A duskite sword.",
+  "icon": "duskite_sword",
+  "model": "w_sword",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 423,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "duskite",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 40
+   }
+  ],
+  "stats": {
+   "attackMelee": 32,
+   "strengthMelee": 28,
+   "attackSpeed": 5
+  },
+  "weaponType": "Sword"
+ },
+ {
+  "id": "earth_rune",
+  "name": "Stone Rune",
+  "description": "A rune charged with stone energy.",
+  "icon": "earth_rune",
+  "model": "rune_stone",
+  "category": "Rune",
+  "stackable": true,
+  "value": 13,
+  "weight": 0.0,
+  "tradeable": true,
+  "tint": "earth"
+ },
+ {
+  "id": "eel",
+  "name": "Marsh Eel",
+  "description": "A cooked marsh eel. Restores 14 health.",
+  "icon": "eel",
+  "model": "fish_cooked",
+  "category": "Food",
+  "stackable": false,
+  "value": 98,
+  "weight": 0.5,
+  "tradeable": true,
+  "heal": 14,
+  "tint": "eel"
+ },
+ {
+  "id": "emberwood_staff",
+  "name": "Emberwood Staff",
+  "description": "Warm to the touch. Boosts fire spells.",
+  "icon": "emberwood_staff",
+  "model": "w_staff",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 600,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "fire",
+  "weaponType": "Staff",
+  "twoHanded": true,
+  "requirements": [
+   {
+    "skill": "Magic",
+    "level": 30
+   }
+  ],
+  "stats": {
+   "attackMagic": 14,
+   "magicPower": 4,
+   "attackSpeed": 5,
+   "attackRange": 8
+  }
+ },
+ {
+  "id": "feather",
+  "name": "Feather",
+  "description": "Useful for fletching arrows and as fishing bait.",
+  "icon": "feather",
+  "category": "Resource",
+  "stackable": true,
+  "value": 2,
+  "weight": 0.0,
+  "tradeable": true
+ },
+ {
+  "id": "fire_rune",
+  "name": "Ember Rune",
+  "description": "A rune charged with ember energy.",
+  "icon": "fire_rune",
+  "model": "rune_stone",
+  "category": "Rune",
+  "stackable": true,
+  "value": 18,
+  "weight": 0.0,
+  "tradeable": true,
+  "tint": "fire"
+ },
+ {
+  "id": "fishing_rod",
+  "name": "Fishing Rod",
+  "description": "A rod and line. Needs bait.",
+  "icon": "fishing_rod",
+  "model": "t_rod",
+  "category": "Tool",
+  "stackable": false,
+  "value": 5,
+  "weight": 0.5,
+  "tradeable": true,
+  "toolType": "FishingRod",
+  "toolPower": 1.0
+ },
+ {
+  "id": "flour",
+  "name": "Flour",
+  "description": "Finely milled grain.",
+  "icon": "flour",
+  "category": "Resource",
+  "stackable": false,
+  "value": 3,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "focus_potion",
+  "name": "Focus Draught",
+  "description": "A potion. Temporarily boosts Magic.",
+  "icon": "focus_potion",
+  "model": "potion",
+  "category": "Potion",
+  "stackable": false,
+  "value": 134,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "focus_potion",
+  "consumeEffect": {
+   "buff": "Magic",
+   "amount": 4,
+   "durationTicks": 300
+  }
+ },
+ {
+  "id": "garnet",
+  "name": "Garnet",
+  "description": "A cut and polished gemstone.",
+  "icon": "garnet",
+  "model": "gem",
+  "category": "Resource",
+  "stackable": false,
+  "value": 180,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "garnet"
+ },
+ {
+  "id": "garnet_amulet",
+  "name": "Garnet Amulet",
+  "description": "A gold amulet set with garnet.",
+  "icon": "garnet_amulet",
+  "model": "amulet",
+  "category": "Jewellery",
+  "stackable": false,
+  "value": 480,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Amulet",
+  "tint": "garnet",
+  "stats": {
+   "strengthMelee": 3,
+   "strengthRanged": 3,
+   "magicPower": 3,
+   "defenseMelee": 3
+  }
+ },
+ {
+  "id": "garnet_ring",
+  "name": "Garnet Ring",
+  "description": "A gold ring set with garnet.",
+  "icon": "garnet_ring",
+  "model": "ring",
+  "category": "Jewellery",
+  "stackable": false,
+  "value": 380,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Ring",
+  "tint": "garnet",
+  "stats": {
+   "attackMelee": 3,
+   "attackRanged": 3,
+   "attackMagic": 3,
+   "defenseMagic": 3
+  }
+ },
+ {
+  "id": "ghostwood_logs",
+  "name": "Ghostwood Logs",
+  "description": "Freshly cut ghostwood logs.",
+  "icon": "ghostwood_logs",
+  "model": "logs",
+  "category": "Resource",
+  "stackable": false,
+  "value": 200,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "ghostwood"
+ },
+ {
+  "id": "ghostwood_longbow",
+  "name": "Ghostwood Longbow",
+  "description": "A tall bow with long reach.",
+  "icon": "ghostwood_longbow",
+  "model": "w_longbow",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 540,
+  "weight": 1.5,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "ghostwood",
+  "weaponType": "Bow",
+  "twoHanded": true,
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 79
+   }
+  ],
+  "stats": {
+   "attackRanged": 78,
+   "attackSpeed": 6,
+   "attackRange": 9
+  }
+ },
+ {
+  "id": "ghostwood_shortbow",
+  "name": "Ghostwood Shortbow",
+  "description": "A short bow.",
+  "icon": "ghostwood_shortbow",
+  "model": "w_shortbow",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 360,
+  "weight": 1.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "ghostwood",
+  "weaponType": "Bow",
+  "twoHanded": true,
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 79
+   }
+  ],
+  "stats": {
+   "attackRanged": 60,
+   "attackSpeed": 4,
+   "attackRange": 7
+  }
+ },
+ {
+  "id": "goblin_charm",
+  "name": "Goblin Charm",
+  "description": "A crude carved trinket.",
+  "icon": "goblin_charm",
+  "category": "Quest",
+  "stackable": false,
+  "value": 3,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "gold_bar",
+  "name": "Gold Bar",
+  "description": "A heavy bar of gold.",
+  "icon": "gold_bar",
+  "model": "metal_bar",
+  "category": "Resource",
+  "stackable": false,
+  "value": 180,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "gold"
+ },
+ {
+  "id": "gold_ore",
+  "name": "Gold Ore",
+  "description": "A lump of gold ore.",
+  "icon": "gold_ore",
+  "model": "ore_chunk",
+  "category": "Resource",
+  "stackable": false,
+  "value": 120,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "gold"
+ },
+ {
+  "id": "guard_potion",
+  "name": "Guard Draught",
+  "description": "A potion. Temporarily boosts Defense.",
+  "icon": "guard_potion",
+  "model": "potion",
+  "category": "Potion",
+  "stackable": false,
+  "value": 56,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "guard_potion",
+  "consumeEffect": {
+   "buff": "Defense",
+   "amount": 3,
+   "durationTicks": 300
+  }
+ },
+ {
+  "id": "hammer",
+  "name": "Hammer",
+  "description": "A smith's hammer. Required at an anvil.",
+  "icon": "hammer",
+  "category": "Tool",
+  "stackable": false,
+  "value": 5,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "harpoon",
+  "name": "Harpoon",
+  "description": "For spearing large fish.",
+  "icon": "harpoon",
+  "model": "t_harpoon",
+  "category": "Tool",
+  "stackable": false,
+  "value": 45,
+  "weight": 0.5,
+  "tradeable": true,
+  "toolType": "Harpoon",
+  "toolPower": 1.0,
+  "requirements": [
+   {
+    "skill": "Fishing",
+    "level": 50
+   }
+  ]
+ },
+ {
+  "id": "headless_arrow",
+  "name": "Headless Arrow",
+  "description": "A shaft with feathers attached.",
+  "icon": "headless_arrow",
+  "category": "Resource",
+  "stackable": true,
+  "value": 2,
+  "weight": 0.0,
+  "tradeable": true
+ },
+ {
+  "id": "healing_potion",
+  "name": "Healing Draught",
+  "description": "A potion. Restores health.",
+  "icon": "healing_potion",
+  "model": "potion",
+  "category": "Potion",
+  "stackable": false,
+  "value": 110,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "healing_potion",
+  "consumeEffect": {
+   "heal": 20
+  }
+ },
+ {
+  "id": "hearty_stew",
+  "name": "Hearty Stew",
+  "description": "Potato and meat stew. Restores 12 health.",
+  "icon": "hearty_stew",
+  "model": "stew",
+  "category": "Food",
+  "stackable": false,
+  "value": 60,
+  "weight": 0.5,
+  "tradeable": true,
+  "heal": 12
+ },
+ {
+  "id": "hunter_potion",
+  "name": "Hunter's Draught",
+  "description": "A potion. Temporarily boosts Ranged.",
+  "icon": "hunter_potion",
+  "model": "potion",
+  "category": "Potion",
+  "stackable": false,
+  "value": 170,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "hunter_potion",
+  "consumeEffect": {
+   "buff": "Ranged",
+   "amount": 5,
+   "durationTicks": 300
+  }
+ },
+ {
+  "id": "iron_arrow",
+  "name": "Iron Arrow",
+  "description": "Arrows with iron heads.",
+  "icon": "iron_arrow",
+  "model": "arrow",
+  "category": "Ammo",
+  "stackable": true,
+  "value": 7,
+  "weight": 0.0,
+  "tradeable": true,
+  "slot": "Ammo",
+  "ammoType": "Arrow",
+  "tint": "iron",
+  "stats": {
+   "strengthRanged": 8
+  },
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 10
+   }
+  ]
+ },
+ {
+  "id": "iron_arrowheads",
+  "name": "Iron Arrowheads",
+  "description": "Unattached arrowheads.",
+  "icon": "iron_arrowheads",
+  "model": "arrowheads",
+  "category": "Resource",
+  "stackable": true,
+  "value": 5,
+  "weight": 0.0,
+  "tradeable": true,
+  "tint": "iron"
+ },
+ {
+  "id": "iron_axe",
+  "name": "Iron Battleaxe",
+  "description": "A iron battleaxe.",
+  "icon": "iron_axe",
+  "model": "w_axe",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 153,
+  "weight": 4.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "iron",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 10
+   }
+  ],
+  "stats": {
+   "attackMelee": 10,
+   "strengthMelee": 16,
+   "attackSpeed": 6
+  },
+  "weaponType": "Axe"
+ },
+ {
+  "id": "iron_bar",
+  "name": "Iron Bar",
+  "description": "A bar of iron.",
+  "icon": "iron_bar",
+  "model": "metal_bar",
+  "category": "Resource",
+  "stackable": false,
+  "value": 30,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "iron"
+ },
+ {
+  "id": "iron_bolt",
+  "name": "Iron Bolt",
+  "description": "Short iron-tipped bolts.",
+  "icon": "iron_bolt",
+  "model": "bolt",
+  "category": "Ammo",
+  "stackable": true,
+  "value": 4,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Ammo",
+  "ammoType": "Bolt",
+  "tint": "iron",
+  "stats": {
+   "strengthRanged": 10
+  },
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 10
+   }
+  ]
+ },
+ {
+  "id": "iron_boots",
+  "name": "Iron Boots",
+  "description": "Iron boots.",
+  "icon": "iron_boots",
+  "model": "a_boots",
+  "category": "Armour",
+  "stackable": false,
+  "value": 51,
+  "weight": 2.5,
+  "tradeable": true,
+  "slot": "Feet",
+  "tint": "iron",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 10
+   }
+  ],
+  "stats": {
+   "defenseMelee": 3,
+   "defenseRanged": 3
+  }
+ },
+ {
+  "id": "iron_chest",
+  "name": "Iron Chestplate",
+  "description": "Iron chestplate.",
+  "icon": "iron_chest",
+  "model": "a_chest",
+  "category": "Armour",
+  "stackable": false,
+  "value": 204,
+  "weight": 7.0,
+  "tradeable": true,
+  "slot": "Body",
+  "tint": "iron",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 10
+   }
+  ],
+  "stats": {
+   "defenseMelee": 16,
+   "defenseRanged": 14,
+   "defenseMagic": -6
+  }
+ },
+ {
+  "id": "iron_dagger",
+  "name": "Iron Dagger",
+  "description": "A iron dagger.",
+  "icon": "iron_dagger",
+  "model": "w_dagger",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 51,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "iron",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 10
+   }
+  ],
+  "stats": {
+   "attackMelee": 6,
+   "strengthMelee": 5,
+   "attackSpeed": 4
+  },
+  "weaponType": "Dagger"
+ },
+ {
+  "id": "iron_gloves",
+  "name": "Iron Gauntlets",
+  "description": "Iron gauntlets.",
+  "icon": "iron_gloves",
+  "model": "a_gloves",
+  "category": "Armour",
+  "stackable": false,
+  "value": 51,
+  "weight": 2.5,
+  "tradeable": true,
+  "slot": "Hands",
+  "tint": "iron",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 10
+   }
+  ],
+  "stats": {
+   "defenseMelee": 3,
+   "defenseRanged": 2,
+   "attackMelee": 2
+  }
+ },
+ {
+  "id": "iron_greatsword",
+  "name": "Iron Greatsword",
+  "description": "A iron greatsword.",
+  "icon": "iron_greatsword",
+  "model": "w_greatsword",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 153,
+  "weight": 4.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "iron",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 10
+   }
+  ],
+  "stats": {
+   "attackMelee": 19,
+   "strengthMelee": 24,
+   "attackSpeed": 7
+  },
+  "weaponType": "TwoHanded",
+  "twoHanded": true
+ },
+ {
+  "id": "iron_hatchet",
+  "name": "Iron Hatchet",
+  "description": "A iron hatchet.",
+  "icon": "iron_hatchet",
+  "model": "t_hatchet",
+  "category": "Tool",
+  "stackable": false,
+  "value": 38,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "iron",
+  "toolType": "Hatchet",
+  "toolPower": 1.6,
+  "toolLevel": 10,
+  "requirements": [
+   {
+    "skill": "Woodcutting",
+    "level": 10
+   }
+  ],
+  "stats": {
+   "attackMelee": 4,
+   "strengthMelee": 4,
+   "attackSpeed": 5
+  },
+  "weaponType": "Axe"
+ },
+ {
+  "id": "iron_helm",
+  "name": "Iron Helm",
+  "description": "Iron helm.",
+  "icon": "iron_helm",
+  "model": "a_helm",
+  "category": "Armour",
+  "stackable": false,
+  "value": 51,
+  "weight": 2.5,
+  "tradeable": true,
+  "slot": "Head",
+  "tint": "iron",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 10
+   }
+  ],
+  "stats": {
+   "defenseMelee": 5,
+   "defenseRanged": 5,
+   "defenseMagic": -2
+  }
+ },
+ {
+  "id": "iron_legs",
+  "name": "Iron Platelegs",
+  "description": "Iron platelegs.",
+  "icon": "iron_legs",
+  "model": "a_legs",
+  "category": "Armour",
+  "stackable": false,
+  "value": 153,
+  "weight": 5.5,
+  "tradeable": true,
+  "slot": "Legs",
+  "tint": "iron",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 10
+   }
+  ],
+  "stats": {
+   "defenseMelee": 11,
+   "defenseRanged": 10,
+   "defenseMagic": -3
+  }
+ },
+ {
+  "id": "iron_mace",
+  "name": "Iron Mace",
+  "description": "A iron mace.",
+  "icon": "iron_mace",
+  "model": "w_mace",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 102,
+  "weight": 3.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "iron",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 10
+   }
+  ],
+  "stats": {
+   "attackMelee": 10,
+   "strengthMelee": 13,
+   "defenseMelee": 2,
+   "attackSpeed": 5
+  },
+  "weaponType": "Mace"
+ },
+ {
+  "id": "iron_ore",
+  "name": "Iron Ore",
+  "description": "A lump of iron ore.",
+  "icon": "iron_ore",
+  "model": "ore_chunk",
+  "category": "Resource",
+  "stackable": false,
+  "value": 18,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "iron"
+ },
+ {
+  "id": "iron_pickaxe",
+  "name": "Iron Pickaxe",
+  "description": "A iron pickaxe.",
+  "icon": "iron_pickaxe",
+  "model": "t_pickaxe",
+  "category": "Tool",
+  "stackable": false,
+  "value": 76,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "iron",
+  "toolType": "Pickaxe",
+  "toolPower": 1.6,
+  "toolLevel": 10,
+  "requirements": [
+   {
+    "skill": "Mining",
+    "level": 10
+   }
+  ],
+  "stats": {
+   "attackMelee": 4,
+   "strengthMelee": 4,
+   "attackSpeed": 5
+  },
+  "weaponType": "Mace"
+ },
+ {
+  "id": "iron_shield",
+  "name": "Iron Kite Shield",
+  "description": "Iron kite shield.",
+  "icon": "iron_shield",
+  "model": "a_shield",
+  "category": "Armour",
+  "stackable": false,
+  "value": 153,
+  "weight": 5.5,
+  "tradeable": true,
+  "slot": "Shield",
+  "tint": "iron",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 10
+   }
+  ],
+  "stats": {
+   "defenseMelee": 13,
+   "defenseRanged": 14,
+   "defenseMagic": -2
+  }
+ },
+ {
+  "id": "iron_sword",
+  "name": "Iron Sword",
+  "description": "A iron sword.",
+  "icon": "iron_sword",
+  "model": "w_sword",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 51,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "iron",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 10
+   }
+  ],
+  "stats": {
+   "attackMelee": 11,
+   "strengthMelee": 10,
+   "attackSpeed": 5
+  },
+  "weaponType": "Sword"
+ },
+ {
+  "id": "jade",
+  "name": "Jade",
+  "description": "A cut and polished gemstone.",
+  "icon": "jade",
+  "model": "gem",
+  "category": "Resource",
+  "stackable": false,
+  "value": 90,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "jade"
+ },
+ {
+  "id": "jade_amulet",
+  "name": "Jade Amulet",
+  "description": "A gold amulet set with jade.",
+  "icon": "jade_amulet",
+  "model": "amulet",
+  "category": "Jewellery",
+  "stackable": false,
+  "value": 390,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Amulet",
+  "tint": "jade",
+  "stats": {
+   "strengthMelee": 2,
+   "strengthRanged": 2,
+   "magicPower": 2,
+   "defenseMelee": 2
+  }
+ },
+ {
+  "id": "jade_ring",
+  "name": "Jade Ring",
+  "description": "A gold ring set with jade.",
+  "icon": "jade_ring",
+  "model": "ring",
+  "category": "Jewellery",
+  "stackable": false,
+  "value": 290,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Ring",
+  "tint": "jade",
+  "stats": {
+   "attackMelee": 2,
+   "attackRanged": 2,
+   "attackMagic": 2,
+   "defenseMagic": 2
+  }
+ },
+ {
+  "id": "knife",
+  "name": "Knife",
+  "description": "A small knife for carving wood.",
+  "icon": "knife",
+  "category": "Tool",
+  "stackable": false,
+  "value": 5,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "leather",
+  "name": "Leather",
+  "description": "Tanned leather, ready for crafting.",
+  "icon": "leather",
+  "category": "Resource",
+  "stackable": false,
+  "value": 18,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "leather_body",
+  "name": "Leather Body",
+  "description": "Made from tanned leather.",
+  "icon": "leather_body",
+  "model": "a_leather_body",
+  "category": "Armour",
+  "stackable": false,
+  "value": 71,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Body",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "defenseMelee": 5,
+   "defenseRanged": 8,
+   "attackRanged": 3
+  }
+ },
+ {
+  "id": "leather_boots",
+  "name": "Leather Boots",
+  "description": "Made from tanned leather.",
+  "icon": "leather_boots",
+  "model": "a_leather_boots",
+  "category": "Armour",
+  "stackable": false,
+  "value": 43,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Feet",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "defenseMelee": 1,
+   "defenseRanged": 2
+  }
+ },
+ {
+  "id": "leather_chaps",
+  "name": "Leather Chaps",
+  "description": "Made from tanned leather.",
+  "icon": "leather_chaps",
+  "model": "a_leather_chaps",
+  "category": "Armour",
+  "stackable": false,
+  "value": 59,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Legs",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "defenseMelee": 3,
+   "defenseRanged": 5,
+   "attackRanged": 2
+  }
+ },
+ {
+  "id": "leather_cowl",
+  "name": "Leather Cowl",
+  "description": "Made from tanned leather.",
+  "icon": "leather_cowl",
+  "model": "a_leather_cowl",
+  "category": "Armour",
+  "stackable": false,
+  "value": 51,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Head",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "defenseMelee": 2,
+   "defenseRanged": 3
+  }
+ },
+ {
+  "id": "leather_gloves",
+  "name": "Leather Gloves",
+  "description": "Made from tanned leather.",
+  "icon": "leather_gloves",
+  "model": "a_leather_gloves",
+  "category": "Armour",
+  "stackable": false,
+  "value": 19,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Hands",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "defenseMelee": 1,
+   "defenseRanged": 2
+  }
+ },
+ {
+  "id": "life_rune",
+  "name": "Life Rune",
+  "description": "A rune charged with life energy.",
+  "icon": "life_rune",
+  "model": "rune_stone",
+  "category": "Rune",
+  "stackable": true,
+  "value": 31,
+  "weight": 0.0,
+  "tradeable": true,
+  "tint": "life"
+ },
+ {
+  "id": "lockpick",
+  "name": "Lockpick",
+  "description": "A thin bent wire.",
+  "icon": "lockpick",
+  "category": "Tool",
+  "stackable": false,
+  "value": 15,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "maple_logs",
+  "name": "Maple Logs",
+  "description": "Freshly cut maple logs.",
+  "icon": "maple_logs",
+  "model": "logs",
+  "category": "Resource",
+  "stackable": false,
+  "value": 40,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "maple"
+ },
+ {
+  "id": "maple_longbow",
+  "name": "Maple Longbow",
+  "description": "A tall bow with long reach.",
+  "icon": "maple_longbow",
+  "model": "w_longbow",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 315,
+  "weight": 1.5,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "maple",
+  "weaponType": "Bow",
+  "twoHanded": true,
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 49
+   }
+  ],
+  "stats": {
+   "attackRanged": 45,
+   "attackSpeed": 6,
+   "attackRange": 9
+  }
+ },
+ {
+  "id": "maple_shortbow",
+  "name": "Maple Shortbow",
+  "description": "A short bow.",
+  "icon": "maple_shortbow",
+  "model": "w_shortbow",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 210,
+  "weight": 1.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "maple",
+  "weaponType": "Bow",
+  "twoHanded": true,
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 49
+   }
+  ],
+  "stats": {
+   "attackRanged": 35,
+   "attackSpeed": 4,
+   "attackRange": 7
+  }
+ },
+ {
+  "id": "mind_rune",
+  "name": "Mind Rune",
+  "description": "A rune charged with mind energy.",
+  "icon": "mind_rune",
+  "model": "rune_stone",
+  "category": "Rune",
+  "stackable": true,
+  "value": 6,
+  "weight": 0.0,
+  "tradeable": true,
+  "tint": "mind"
+ },
+ {
+  "id": "minnow",
+  "name": "Minnow",
+  "description": "A cooked minnow. Restores 3 health.",
+  "icon": "minnow",
+  "model": "fish_cooked",
+  "category": "Food",
+  "stackable": false,
+  "value": 4,
+  "weight": 0.5,
+  "tradeable": true,
+  "heal": 3,
+  "tint": "minnow"
+ },
+ {
+  "id": "mirewort",
+  "name": "Mirewort",
+  "description": "A freshly harvested mirewort.",
+  "icon": "mirewort",
+  "model": "crop_mirewort",
+  "category": "Resource",
+  "stackable": false,
+  "value": 45,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "mirewort_seed",
+  "name": "Mirewort Seed",
+  "description": "Plant in a farming patch.",
+  "icon": "mirewort_seed",
+  "model": "seed_pouch",
+  "category": "Seed",
+  "stackable": true,
+  "value": 22,
+  "weight": 0.0,
+  "tradeable": true
+ },
+ {
+  "id": "mithril_arrow",
+  "name": "Mithril Arrow",
+  "description": "Arrows with mithril heads.",
+  "icon": "mithril_arrow",
+  "model": "arrow",
+  "category": "Ammo",
+  "stackable": true,
+  "value": 34,
+  "weight": 0.0,
+  "tradeable": true,
+  "slot": "Ammo",
+  "ammoType": "Arrow",
+  "tint": "mithril",
+  "stats": {
+   "strengthRanged": 17
+  },
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 30
+   }
+  ]
+ },
+ {
+  "id": "mithril_arrowheads",
+  "name": "Mithril Arrowheads",
+  "description": "Unattached arrowheads.",
+  "icon": "mithril_arrowheads",
+  "model": "arrowheads",
+  "category": "Resource",
+  "stackable": true,
+  "value": 23,
+  "weight": 0.0,
+  "tradeable": true,
+  "tint": "mithril"
+ },
+ {
+  "id": "mithril_axe",
+  "name": "Mithril Battleaxe",
+  "description": "A mithril battleaxe.",
+  "icon": "mithril_axe",
+  "model": "w_axe",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 693,
+  "weight": 4.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "mithril",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 30
+   }
+  ],
+  "stats": {
+   "attackMelee": 20,
+   "strengthMelee": 34,
+   "attackSpeed": 6
+  },
+  "weaponType": "Axe"
+ },
+ {
+  "id": "mithril_bar",
+  "name": "Mithril Bar",
+  "description": "A bar of mithril.",
+  "icon": "mithril_bar",
+  "model": "metal_bar",
+  "category": "Resource",
+  "stackable": false,
+  "value": 138,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "mithril"
+ },
+ {
+  "id": "mithril_boots",
+  "name": "Mithril Boots",
+  "description": "Mithril boots.",
+  "icon": "mithril_boots",
+  "model": "a_boots",
+  "category": "Armour",
+  "stackable": false,
+  "value": 231,
+  "weight": 2.5,
+  "tradeable": true,
+  "slot": "Feet",
+  "tint": "mithril",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 30
+   }
+  ],
+  "stats": {
+   "defenseMelee": 7,
+   "defenseRanged": 7
+  }
+ },
+ {
+  "id": "mithril_chest",
+  "name": "Mithril Chestplate",
+  "description": "Mithril chestplate.",
+  "icon": "mithril_chest",
+  "model": "a_chest",
+  "category": "Armour",
+  "stackable": false,
+  "value": 924,
+  "weight": 7.0,
+  "tradeable": true,
+  "slot": "Body",
+  "tint": "mithril",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 30
+   }
+  ],
+  "stats": {
+   "defenseMelee": 34,
+   "defenseRanged": 31,
+   "defenseMagic": -14
+  }
+ },
+ {
+  "id": "mithril_dagger",
+  "name": "Mithril Dagger",
+  "description": "A mithril dagger.",
+  "icon": "mithril_dagger",
+  "model": "w_dagger",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 231,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "mithril",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 30
+   }
+  ],
+  "stats": {
+   "attackMelee": 14,
+   "strengthMelee": 10,
+   "attackSpeed": 4
+  },
+  "weaponType": "Dagger"
+ },
+ {
+  "id": "mithril_gloves",
+  "name": "Mithril Gauntlets",
+  "description": "Mithril gauntlets.",
+  "icon": "mithril_gloves",
+  "model": "a_gloves",
+  "category": "Armour",
+  "stackable": false,
+  "value": 231,
+  "weight": 2.5,
+  "tradeable": true,
+  "slot": "Hands",
+  "tint": "mithril",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 30
+   }
+  ],
+  "stats": {
+   "defenseMelee": 7,
+   "defenseRanged": 3,
+   "attackMelee": 3
+  }
+ },
+ {
+  "id": "mithril_greatsword",
+  "name": "Mithril Greatsword",
+  "description": "A mithril greatsword.",
+  "icon": "mithril_greatsword",
+  "model": "w_greatsword",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 693,
+  "weight": 4.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "mithril",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 30
+   }
+  ],
+  "stats": {
+   "attackMelee": 41,
+   "strengthMelee": 51,
+   "attackSpeed": 7
+  },
+  "weaponType": "TwoHanded",
+  "twoHanded": true
+ },
+ {
+  "id": "mithril_hatchet",
+  "name": "Mithril Hatchet",
+  "description": "A mithril hatchet.",
+  "icon": "mithril_hatchet",
+  "model": "t_hatchet",
+  "category": "Tool",
+  "stackable": false,
+  "value": 173,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "mithril",
+  "toolType": "Hatchet",
+  "toolPower": 3.4,
+  "toolLevel": 30,
+  "requirements": [
+   {
+    "skill": "Woodcutting",
+    "level": 30
+   }
+  ],
+  "stats": {
+   "attackMelee": 10,
+   "strengthMelee": 10,
+   "attackSpeed": 5
+  },
+  "weaponType": "Axe"
+ },
+ {
+  "id": "mithril_helm",
+  "name": "Mithril Helm",
+  "description": "Mithril helm.",
+  "icon": "mithril_helm",
+  "model": "a_helm",
+  "category": "Armour",
+  "stackable": false,
+  "value": 231,
+  "weight": 2.5,
+  "tradeable": true,
+  "slot": "Head",
+  "tint": "mithril",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 30
+   }
+  ],
+  "stats": {
+   "defenseMelee": 10,
+   "defenseRanged": 10,
+   "defenseMagic": -3
+  }
+ },
+ {
+  "id": "mithril_legs",
+  "name": "Mithril Platelegs",
+  "description": "Mithril platelegs.",
+  "icon": "mithril_legs",
+  "model": "a_legs",
+  "category": "Armour",
+  "stackable": false,
+  "value": 693,
+  "weight": 5.5,
+  "tradeable": true,
+  "slot": "Legs",
+  "tint": "mithril",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 30
+   }
+  ],
+  "stats": {
+   "defenseMelee": 24,
+   "defenseRanged": 20,
+   "defenseMagic": -7
+  }
+ },
+ {
+  "id": "mithril_mace",
+  "name": "Mithril Mace",
+  "description": "A mithril mace.",
+  "icon": "mithril_mace",
+  "model": "w_mace",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 462,
+  "weight": 3.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "mithril",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 30
+   }
+  ],
+  "stats": {
+   "attackMelee": 20,
+   "strengthMelee": 27,
+   "defenseMelee": 3,
+   "attackSpeed": 5
+  },
+  "weaponType": "Mace"
+ },
+ {
+  "id": "mithril_ore",
+  "name": "Mithril Ore",
+  "description": "A lump of mithril ore.",
+  "icon": "mithril_ore",
+  "model": "ore_chunk",
+  "category": "Resource",
+  "stackable": false,
+  "value": 200,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "mithril"
+ },
+ {
+  "id": "mithril_pickaxe",
+  "name": "Mithril Pickaxe",
+  "description": "A mithril pickaxe.",
+  "icon": "mithril_pickaxe",
+  "model": "t_pickaxe",
+  "category": "Tool",
+  "stackable": false,
+  "value": 346,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "mithril",
+  "toolType": "Pickaxe",
+  "toolPower": 3.4,
+  "toolLevel": 30,
+  "requirements": [
+   {
+    "skill": "Mining",
+    "level": 30
+   }
+  ],
+  "stats": {
+   "attackMelee": 10,
+   "strengthMelee": 10,
+   "attackSpeed": 5
+  },
+  "weaponType": "Mace"
+ },
+ {
+  "id": "mithril_shield",
+  "name": "Mithril Kite Shield",
+  "description": "Mithril kite shield.",
+  "icon": "mithril_shield",
+  "model": "a_shield",
+  "category": "Armour",
+  "stackable": false,
+  "value": 693,
+  "weight": 5.5,
+  "tradeable": true,
+  "slot": "Shield",
+  "tint": "mithril",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 30
+   }
+  ],
+  "stats": {
+   "defenseMelee": 27,
+   "defenseRanged": 31,
+   "defenseMagic": -3
+  }
+ },
+ {
+  "id": "mithril_sword",
+  "name": "Mithril Sword",
+  "description": "A mithril sword.",
+  "icon": "mithril_sword",
+  "model": "w_sword",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 231,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "mithril",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 30
+   }
+  ],
+  "stats": {
+   "attackMelee": 24,
+   "strengthMelee": 20,
+   "attackSpeed": 5
+  },
+  "weaponType": "Sword"
+ },
+ {
+  "id": "needle",
+  "name": "Needle",
+  "description": "Used with thread to stitch leather.",
+  "icon": "needle",
+  "category": "Tool",
+  "stackable": false,
+  "value": 3,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "oak_crossbow",
+  "name": "Oak Crossbow",
+  "description": "A sturdy crossbow.",
+  "icon": "oak_crossbow",
+  "model": "w_crossbow",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 80,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "oak",
+  "weaponType": "Crossbow",
+  "twoHanded": true,
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 10
+   }
+  ],
+  "stats": {
+   "attackRanged": 14,
+   "attackSpeed": 6,
+   "attackRange": 7
+  }
+ },
+ {
+  "id": "oak_logs",
+  "name": "Oak Logs",
+  "description": "Freshly cut oak logs.",
+  "icon": "oak_logs",
+  "model": "logs",
+  "category": "Resource",
+  "stackable": false,
+  "value": 4,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "oak"
+ },
+ {
+  "id": "oak_longbow",
+  "name": "Oak Longbow",
+  "description": "A tall bow with long reach.",
+  "icon": "oak_longbow",
+  "model": "w_longbow",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 45,
+  "weight": 1.5,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "oak",
+  "weaponType": "Bow",
+  "twoHanded": true,
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "attackRanged": 6,
+   "attackSpeed": 6,
+   "attackRange": 9
+  }
+ },
+ {
+  "id": "oak_shortbow",
+  "name": "Oak Shortbow",
+  "description": "A short bow.",
+  "icon": "oak_shortbow",
+  "model": "w_shortbow",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 30,
+  "weight": 1.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "oak",
+  "weaponType": "Bow",
+  "twoHanded": true,
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "attackRanged": 5,
+   "attackSpeed": 4,
+   "attackRange": 7
+  }
+ },
+ {
+  "id": "old_map_scrap",
+  "name": "Old Map Scrap",
+  "description": "A torn piece of a map showing the Greenleaf Forest.",
+  "icon": "old_map_scrap",
+  "category": "Quest",
+  "stackable": false,
+  "value": 0,
+  "weight": 0.5,
+  "tradeable": false
+ },
+ {
+  "id": "onion",
+  "name": "Onion",
+  "description": "A freshly harvested onion.",
+  "icon": "onion",
+  "model": "crop_onion",
+  "category": "Resource",
+  "stackable": false,
+  "value": 3,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "onion_seed",
+  "name": "Onion Seed",
+  "description": "Plant in a farming patch.",
+  "icon": "onion_seed",
+  "model": "seed_pouch",
+  "category": "Seed",
+  "stackable": true,
+  "value": 1,
+  "weight": 0.0,
+  "tradeable": true
+ },
+ {
+  "id": "path_rune",
+  "name": "Path Rune",
+  "description": "A rune charged with path energy.",
+  "icon": "path_rune",
+  "model": "rune_stone",
+  "category": "Rune",
+  "stackable": true,
+  "value": 29,
+  "weight": 0.0,
+  "tradeable": true,
+  "tint": "path"
+ },
+ {
+  "id": "perch",
+  "name": "Perch",
+  "description": "A cooked perch. Restores 5 health.",
+  "icon": "perch",
+  "model": "fish_cooked",
+  "category": "Food",
+  "stackable": false,
+  "value": 8,
+  "weight": 0.5,
+  "tradeable": true,
+  "heal": 5,
+  "tint": "perch"
+ },
+ {
+  "id": "pike",
+  "name": "Pike",
+  "description": "A cooked pike. Restores 9 health.",
+  "icon": "pike",
+  "model": "fish_cooked",
+  "category": "Food",
+  "stackable": false,
+  "value": 35,
+  "weight": 0.5,
+  "tradeable": true,
+  "heal": 9,
+  "tint": "pike"
+ },
+ {
+  "id": "pine_logs",
+  "name": "Pine Logs",
+  "description": "Freshly cut pine logs.",
+  "icon": "pine_logs",
+  "model": "logs",
+  "category": "Resource",
+  "stackable": false,
+  "value": 10,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "pine"
+ },
+ {
+  "id": "pine_longbow",
+  "name": "Pine Longbow",
+  "description": "A tall bow with long reach.",
+  "icon": "pine_longbow",
+  "model": "w_longbow",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 135,
+  "weight": 1.5,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "pine",
+  "weaponType": "Bow",
+  "twoHanded": true,
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 19
+   }
+  ],
+  "stats": {
+   "attackRanged": 19,
+   "attackSpeed": 6,
+   "attackRange": 9
+  }
+ },
+ {
+  "id": "pine_shortbow",
+  "name": "Pine Shortbow",
+  "description": "A short bow.",
+  "icon": "pine_shortbow",
+  "model": "w_shortbow",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 90,
+  "weight": 1.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "pine",
+  "weaponType": "Bow",
+  "twoHanded": true,
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 19
+   }
+  ],
+  "stats": {
+   "attackRanged": 15,
+   "attackSpeed": 4,
+   "attackRange": 7
+  }
+ },
+ {
+  "id": "potato",
+  "name": "Potato",
+  "description": "A freshly harvested potato.",
+  "icon": "potato",
+  "model": "crop_potato",
+  "category": "Food",
+  "stackable": false,
+  "value": 3,
+  "weight": 0.5,
+  "tradeable": true,
+  "heal": 2
+ },
+ {
+  "id": "potato_seed",
+  "name": "Potato Seed",
+  "description": "Plant in a farming patch.",
+  "icon": "potato_seed",
+  "model": "seed_pouch",
+  "category": "Seed",
+  "stackable": true,
+  "value": 1,
+  "weight": 0.0,
+  "tradeable": true
+ },
+ {
+  "id": "rake",
+  "name": "Rake",
+  "description": "Clears weeds from farming patches.",
+  "icon": "rake",
+  "category": "Tool",
+  "stackable": false,
+  "value": 6,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "raw_deepcod",
+  "name": "Raw Deepcod",
+  "description": "A raw deepcod. Needs cooking.",
+  "icon": "raw_deepcod",
+  "model": "fish",
+  "category": "Resource",
+  "stackable": false,
+  "value": 250,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "deepcod"
+ },
+ {
+  "id": "raw_eel",
+  "name": "Raw Marsh Eel",
+  "description": "A raw marsh eel. Needs cooking.",
+  "icon": "raw_eel",
+  "model": "fish",
+  "category": "Resource",
+  "stackable": false,
+  "value": 70,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "eel"
+ },
+ {
+  "id": "raw_meat",
+  "name": "Raw Meat",
+  "description": "A cut of raw meat.",
+  "icon": "raw_meat",
+  "model": "meat",
+  "category": "Resource",
+  "stackable": false,
+  "value": 3,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "raw_minnow",
+  "name": "Raw Minnow",
+  "description": "A raw minnow. Needs cooking.",
+  "icon": "raw_minnow",
+  "model": "fish",
+  "category": "Resource",
+  "stackable": false,
+  "value": 3,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "minnow"
+ },
+ {
+  "id": "raw_perch",
+  "name": "Raw Perch",
+  "description": "A raw perch. Needs cooking.",
+  "icon": "raw_perch",
+  "model": "fish",
+  "category": "Resource",
+  "stackable": false,
+  "value": 6,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "perch"
+ },
+ {
+  "id": "raw_pike",
+  "name": "Raw Pike",
+  "description": "A raw pike. Needs cooking.",
+  "icon": "raw_pike",
+  "model": "fish",
+  "category": "Resource",
+  "stackable": false,
+  "value": 25,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "pike"
+ },
+ {
+  "id": "raw_salmon",
+  "name": "Raw Salmon",
+  "description": "A raw salmon. Needs cooking.",
+  "icon": "raw_salmon",
+  "model": "fish",
+  "category": "Resource",
+  "stackable": false,
+  "value": 35,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "salmon"
+ },
+ {
+  "id": "raw_swordfish",
+  "name": "Raw Bladefin",
+  "description": "A raw bladefin. Needs cooking.",
+  "icon": "raw_swordfish",
+  "model": "fish",
+  "category": "Resource",
+  "stackable": false,
+  "value": 120,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "swordfish"
+ },
+ {
+  "id": "raw_trout",
+  "name": "Raw Trout",
+  "description": "A raw trout. Needs cooking.",
+  "icon": "raw_trout",
+  "model": "fish",
+  "category": "Resource",
+  "stackable": false,
+  "value": 15,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "trout"
+ },
+ {
+  "id": "ring_mould",
+  "name": "Ring Mould",
+  "description": "Shapes molten metal into a ring.",
+  "icon": "ring_mould",
+  "category": "Tool",
+  "stackable": false,
+  "value": 5,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "ruin_relic",
+  "name": "Ancient Relic",
+  "description": "An artefact from the Ancient Ruins.",
+  "icon": "ruin_relic",
+  "category": "Misc",
+  "stackable": false,
+  "value": 500,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "salmon",
+  "name": "Salmon",
+  "description": "A cooked salmon. Restores 10 health.",
+  "icon": "salmon",
+  "model": "fish_cooked",
+  "category": "Food",
+  "stackable": false,
+  "value": 49,
+  "weight": 0.5,
+  "tradeable": true,
+  "heal": 10,
+  "tint": "salmon"
+ },
+ {
+  "id": "sand",
+  "name": "Bucket of Sand",
+  "description": "Fine sand.",
+  "icon": "sand",
+  "category": "Resource",
+  "stackable": false,
+  "value": 2,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "sapphire",
+  "name": "Sapphire",
+  "description": "A cut and polished gemstone.",
+  "icon": "sapphire",
+  "model": "gem",
+  "category": "Resource",
+  "stackable": false,
+  "value": 350,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "sapphire"
+ },
+ {
+  "id": "sapphire_amulet",
+  "name": "Sapphire Amulet",
+  "description": "A gold amulet set with sapphire.",
+  "icon": "sapphire_amulet",
+  "model": "amulet",
+  "category": "Jewellery",
+  "stackable": false,
+  "value": 650,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Amulet",
+  "tint": "sapphire",
+  "stats": {
+   "strengthMelee": 5,
+   "strengthRanged": 5,
+   "magicPower": 5,
+   "defenseMelee": 5
+  }
+ },
+ {
+  "id": "sapphire_ring",
+  "name": "Sapphire Ring",
+  "description": "A gold ring set with sapphire.",
+  "icon": "sapphire_ring",
+  "model": "ring",
+  "category": "Jewellery",
+  "stackable": false,
+  "value": 550,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Ring",
+  "tint": "sapphire",
+  "stats": {
+   "attackMelee": 5,
+   "attackRanged": 5,
+   "attackMagic": 5,
+   "defenseMagic": 5
+  }
+ },
+ {
+  "id": "silver_bar",
+  "name": "Silver Bar",
+  "description": "A bar of polished silver.",
+  "icon": "silver_bar",
+  "model": "metal_bar",
+  "category": "Resource",
+  "stackable": false,
+  "value": 90,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "silver"
+ },
+ {
+  "id": "silver_ore",
+  "name": "Silver Ore",
+  "description": "A lump of silver ore.",
+  "icon": "silver_ore",
+  "model": "ore_chunk",
+  "category": "Resource",
+  "stackable": false,
+  "value": 60,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "silver"
+ },
+ {
+  "id": "silver_ring",
+  "name": "Silver Ring",
+  "description": "A plain silver band.",
+  "icon": "silver_ring",
+  "model": "ring",
+  "category": "Jewellery",
+  "stackable": false,
+  "value": 120,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Ring",
+  "tint": "silver",
+  "stats": {
+   "defenseMagic": 1
+  }
+ },
+ {
+  "id": "small_net",
+  "name": "Small Fishing Net",
+  "description": "For catching small fish in shallow water.",
+  "icon": "small_net",
+  "model": "t_net",
+  "category": "Tool",
+  "stackable": false,
+  "value": 5,
+  "weight": 0.5,
+  "tradeable": true,
+  "toolType": "FishingNet",
+  "toolPower": 1.0
+ },
+ {
+  "id": "soda_ash",
+  "name": "Soda Ash",
+  "description": "Burnt seaweed, used in glassmaking.",
+  "icon": "soda_ash",
+  "category": "Resource",
+  "stackable": false,
+  "value": 3,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "spade",
+  "name": "Spade",
+  "description": "For digging and harvesting crops.",
+  "icon": "spade",
+  "category": "Tool",
+  "stackable": false,
+  "value": 6,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "spirit_shard",
+  "name": "Spirit Shard",
+  "description": "A glowing fragment of a forest spirit.",
+  "icon": "spirit_shard",
+  "category": "Resource",
+  "stackable": true,
+  "value": 120,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "starmetal_arrow",
+  "name": "Starmetal Arrow",
+  "description": "Arrows with starmetal heads.",
+  "icon": "starmetal_arrow",
+  "model": "arrow",
+  "category": "Ammo",
+  "stackable": true,
+  "value": 108,
+  "weight": 0.0,
+  "tradeable": true,
+  "slot": "Ammo",
+  "ammoType": "Arrow",
+  "tint": "starmetal",
+  "stats": {
+   "strengthRanged": 30
+  },
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 50
+   }
+  ]
+ },
+ {
+  "id": "starmetal_arrowheads",
+  "name": "Starmetal Arrowheads",
+  "description": "Unattached arrowheads.",
+  "icon": "starmetal_arrowheads",
+  "model": "arrowheads",
+  "category": "Resource",
+  "stackable": true,
+  "value": 72,
+  "weight": 0.0,
+  "tradeable": true,
+  "tint": "starmetal"
+ },
+ {
+  "id": "starmetal_axe",
+  "name": "Starmetal Battleaxe",
+  "description": "A starmetal battleaxe.",
+  "icon": "starmetal_axe",
+  "model": "w_axe",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 2160,
+  "weight": 4.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "starmetal",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 50
+   }
+  ],
+  "stats": {
+   "attackMelee": 36,
+   "strengthMelee": 60,
+   "attackSpeed": 6
+  },
+  "weaponType": "Axe"
+ },
+ {
+  "id": "starmetal_bar",
+  "name": "Starmetal Bar",
+  "description": "A bar of starmetal.",
+  "icon": "starmetal_bar",
+  "model": "metal_bar",
+  "category": "Resource",
+  "stackable": false,
+  "value": 432,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "starmetal"
+ },
+ {
+  "id": "starmetal_boots",
+  "name": "Starmetal Boots",
+  "description": "Starmetal boots.",
+  "icon": "starmetal_boots",
+  "model": "a_boots",
+  "category": "Armour",
+  "stackable": false,
+  "value": 720,
+  "weight": 2.5,
+  "tradeable": true,
+  "slot": "Feet",
+  "tint": "starmetal",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 50
+   }
+  ],
+  "stats": {
+   "defenseMelee": 12,
+   "defenseRanged": 12
+  }
+ },
+ {
+  "id": "starmetal_chest",
+  "name": "Starmetal Chestplate",
+  "description": "Starmetal chestplate.",
+  "icon": "starmetal_chest",
+  "model": "a_chest",
+  "category": "Armour",
+  "stackable": false,
+  "value": 2880,
+  "weight": 7.0,
+  "tradeable": true,
+  "slot": "Body",
+  "tint": "starmetal",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 50
+   }
+  ],
+  "stats": {
+   "defenseMelee": 60,
+   "defenseRanged": 54,
+   "defenseMagic": -24
+  }
+ },
+ {
+  "id": "starmetal_dagger",
+  "name": "Starmetal Dagger",
+  "description": "A starmetal dagger.",
+  "icon": "starmetal_dagger",
+  "model": "w_dagger",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 720,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "starmetal",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 50
+   }
+  ],
+  "stats": {
+   "attackMelee": 24,
+   "strengthMelee": 18,
+   "attackSpeed": 4
+  },
+  "weaponType": "Dagger"
+ },
+ {
+  "id": "starmetal_gloves",
+  "name": "Starmetal Gauntlets",
+  "description": "Starmetal gauntlets.",
+  "icon": "starmetal_gloves",
+  "model": "a_gloves",
+  "category": "Armour",
+  "stackable": false,
+  "value": 720,
+  "weight": 2.5,
+  "tradeable": true,
+  "slot": "Hands",
+  "tint": "starmetal",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 50
+   }
+  ],
+  "stats": {
+   "defenseMelee": 12,
+   "defenseRanged": 6,
+   "attackMelee": 6
+  }
+ },
+ {
+  "id": "starmetal_greatsword",
+  "name": "Starmetal Greatsword",
+  "description": "A starmetal greatsword.",
+  "icon": "starmetal_greatsword",
+  "model": "w_greatsword",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 2160,
+  "weight": 4.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "starmetal",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 50
+   }
+  ],
+  "stats": {
+   "attackMelee": 72,
+   "strengthMelee": 90,
+   "attackSpeed": 7
+  },
+  "weaponType": "TwoHanded",
+  "twoHanded": true
+ },
+ {
+  "id": "starmetal_hatchet",
+  "name": "Starmetal Hatchet",
+  "description": "A starmetal hatchet.",
+  "icon": "starmetal_hatchet",
+  "model": "t_hatchet",
+  "category": "Tool",
+  "stackable": false,
+  "value": 540,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "starmetal",
+  "toolType": "Hatchet",
+  "toolPower": 6.0,
+  "toolLevel": 50,
+  "requirements": [
+   {
+    "skill": "Woodcutting",
+    "level": 50
+   }
+  ],
+  "stats": {
+   "attackMelee": 18,
+   "strengthMelee": 18,
+   "attackSpeed": 5
+  },
+  "weaponType": "Axe"
+ },
+ {
+  "id": "starmetal_helm",
+  "name": "Starmetal Helm",
+  "description": "Starmetal helm.",
+  "icon": "starmetal_helm",
+  "model": "a_helm",
+  "category": "Armour",
+  "stackable": false,
+  "value": 720,
+  "weight": 2.5,
+  "tradeable": true,
+  "slot": "Head",
+  "tint": "starmetal",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 50
+   }
+  ],
+  "stats": {
+   "defenseMelee": 18,
+   "defenseRanged": 18,
+   "defenseMagic": -6
+  }
+ },
+ {
+  "id": "starmetal_legs",
+  "name": "Starmetal Platelegs",
+  "description": "Starmetal platelegs.",
+  "icon": "starmetal_legs",
+  "model": "a_legs",
+  "category": "Armour",
+  "stackable": false,
+  "value": 2160,
+  "weight": 5.5,
+  "tradeable": true,
+  "slot": "Legs",
+  "tint": "starmetal",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 50
+   }
+  ],
+  "stats": {
+   "defenseMelee": 42,
+   "defenseRanged": 36,
+   "defenseMagic": -12
+  }
+ },
+ {
+  "id": "starmetal_mace",
+  "name": "Starmetal Mace",
+  "description": "A starmetal mace.",
+  "icon": "starmetal_mace",
+  "model": "w_mace",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 1440,
+  "weight": 3.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "starmetal",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 50
+   }
+  ],
+  "stats": {
+   "attackMelee": 36,
+   "strengthMelee": 48,
+   "defenseMelee": 6,
+   "attackSpeed": 5
+  },
+  "weaponType": "Mace"
+ },
+ {
+  "id": "starmetal_ore",
+  "name": "Starmetal Ore",
+  "description": "A lump of starmetal ore.",
+  "icon": "starmetal_ore",
+  "model": "ore_chunk",
+  "category": "Resource",
+  "stackable": false,
+  "value": 900,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "starmetal"
+ },
+ {
+  "id": "starmetal_pickaxe",
+  "name": "Starmetal Pickaxe",
+  "description": "A starmetal pickaxe.",
+  "icon": "starmetal_pickaxe",
+  "model": "t_pickaxe",
+  "category": "Tool",
+  "stackable": false,
+  "value": 1080,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "starmetal",
+  "toolType": "Pickaxe",
+  "toolPower": 6.0,
+  "toolLevel": 50,
+  "requirements": [
+   {
+    "skill": "Mining",
+    "level": 50
+   }
+  ],
+  "stats": {
+   "attackMelee": 18,
+   "strengthMelee": 18,
+   "attackSpeed": 5
+  },
+  "weaponType": "Mace"
+ },
+ {
+  "id": "starmetal_shield",
+  "name": "Starmetal Kite Shield",
+  "description": "Starmetal kite shield.",
+  "icon": "starmetal_shield",
+  "model": "a_shield",
+  "category": "Armour",
+  "stackable": false,
+  "value": 2160,
+  "weight": 5.5,
+  "tradeable": true,
+  "slot": "Shield",
+  "tint": "starmetal",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 50
+   }
+  ],
+  "stats": {
+   "defenseMelee": 48,
+   "defenseRanged": 54,
+   "defenseMagic": -6
+  }
+ },
+ {
+  "id": "starmetal_sword",
+  "name": "Starmetal Sword",
+  "description": "A starmetal sword.",
+  "icon": "starmetal_sword",
+  "model": "w_sword",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 720,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "starmetal",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 50
+   }
+  ],
+  "stats": {
+   "attackMelee": 42,
+   "strengthMelee": 36,
+   "attackSpeed": 5
+  },
+  "weaponType": "Sword"
+ },
+ {
+  "id": "starstone",
+  "name": "Starstone",
+  "description": "A cut and polished gemstone.",
+  "icon": "starstone",
+  "model": "gem",
+  "category": "Resource",
+  "stackable": false,
+  "value": 800,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "starstone"
+ },
+ {
+  "id": "starstone_amulet",
+  "name": "Starstone Amulet",
+  "description": "A gold amulet set with starstone.",
+  "icon": "starstone_amulet",
+  "model": "amulet",
+  "category": "Jewellery",
+  "stackable": false,
+  "value": 1100,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Amulet",
+  "tint": "starstone",
+  "stats": {
+   "strengthMelee": 6,
+   "strengthRanged": 6,
+   "magicPower": 6,
+   "defenseMelee": 6
+  }
+ },
+ {
+  "id": "starstone_ring",
+  "name": "Starstone Ring",
+  "description": "A gold ring set with starstone.",
+  "icon": "starstone_ring",
+  "model": "ring",
+  "category": "Jewellery",
+  "stackable": false,
+  "value": 1000,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Ring",
+  "tint": "starstone",
+  "stats": {
+   "attackMelee": 6,
+   "attackRanged": 6,
+   "attackMagic": 6,
+   "defenseMagic": 6
+  }
+ },
+ {
+  "id": "steel_arrow",
+  "name": "Steel Arrow",
+  "description": "Arrows with steel heads.",
+  "icon": "steel_arrow",
+  "model": "arrow",
+  "category": "Ammo",
+  "stackable": true,
+  "value": 17,
+  "weight": 0.0,
+  "tradeable": true,
+  "slot": "Ammo",
+  "ammoType": "Arrow",
+  "tint": "steel",
+  "stats": {
+   "strengthRanged": 12
+  },
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 20
+   }
+  ]
+ },
+ {
+  "id": "steel_arrowheads",
+  "name": "Steel Arrowheads",
+  "description": "Unattached arrowheads.",
+  "icon": "steel_arrowheads",
+  "model": "arrowheads",
+  "category": "Resource",
+  "stackable": true,
+  "value": 11,
+  "weight": 0.0,
+  "tradeable": true,
+  "tint": "steel"
+ },
+ {
+  "id": "steel_axe",
+  "name": "Steel Battleaxe",
+  "description": "A steel battleaxe.",
+  "icon": "steel_axe",
+  "model": "w_axe",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 345,
+  "weight": 4.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "steel",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 20
+   }
+  ],
+  "stats": {
+   "attackMelee": 14,
+   "strengthMelee": 24,
+   "attackSpeed": 6
+  },
+  "weaponType": "Axe"
+ },
+ {
+  "id": "steel_bar",
+  "name": "Steel Bar",
+  "description": "A bar of steel.",
+  "icon": "steel_bar",
+  "model": "metal_bar",
+  "category": "Resource",
+  "stackable": false,
+  "value": 69,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "steel"
+ },
+ {
+  "id": "steel_boots",
+  "name": "Steel Boots",
+  "description": "Steel boots.",
+  "icon": "steel_boots",
+  "model": "a_boots",
+  "category": "Armour",
+  "stackable": false,
+  "value": 115,
+  "weight": 2.5,
+  "tradeable": true,
+  "slot": "Feet",
+  "tint": "steel",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 20
+   }
+  ],
+  "stats": {
+   "defenseMelee": 5,
+   "defenseRanged": 5
+  }
+ },
+ {
+  "id": "steel_chest",
+  "name": "Steel Chestplate",
+  "description": "Steel chestplate.",
+  "icon": "steel_chest",
+  "model": "a_chest",
+  "category": "Armour",
+  "stackable": false,
+  "value": 460,
+  "weight": 7.0,
+  "tradeable": true,
+  "slot": "Body",
+  "tint": "steel",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 20
+   }
+  ],
+  "stats": {
+   "defenseMelee": 24,
+   "defenseRanged": 22,
+   "defenseMagic": -10
+  }
+ },
+ {
+  "id": "steel_dagger",
+  "name": "Steel Dagger",
+  "description": "A steel dagger.",
+  "icon": "steel_dagger",
+  "model": "w_dagger",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 115,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "steel",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 20
+   }
+  ],
+  "stats": {
+   "attackMelee": 10,
+   "strengthMelee": 7,
+   "attackSpeed": 4
+  },
+  "weaponType": "Dagger"
+ },
+ {
+  "id": "steel_gloves",
+  "name": "Steel Gauntlets",
+  "description": "Steel gauntlets.",
+  "icon": "steel_gloves",
+  "model": "a_gloves",
+  "category": "Armour",
+  "stackable": false,
+  "value": 115,
+  "weight": 2.5,
+  "tradeable": true,
+  "slot": "Hands",
+  "tint": "steel",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 20
+   }
+  ],
+  "stats": {
+   "defenseMelee": 5,
+   "defenseRanged": 2,
+   "attackMelee": 2
+  }
+ },
+ {
+  "id": "steel_greatsword",
+  "name": "Steel Greatsword",
+  "description": "A steel greatsword.",
+  "icon": "steel_greatsword",
+  "model": "w_greatsword",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 345,
+  "weight": 4.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "steel",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 20
+   }
+  ],
+  "stats": {
+   "attackMelee": 29,
+   "strengthMelee": 36,
+   "attackSpeed": 7
+  },
+  "weaponType": "TwoHanded",
+  "twoHanded": true
+ },
+ {
+  "id": "steel_hatchet",
+  "name": "Steel Hatchet",
+  "description": "A steel hatchet.",
+  "icon": "steel_hatchet",
+  "model": "t_hatchet",
+  "category": "Tool",
+  "stackable": false,
+  "value": 86,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "steel",
+  "toolType": "Hatchet",
+  "toolPower": 2.4,
+  "toolLevel": 20,
+  "requirements": [
+   {
+    "skill": "Woodcutting",
+    "level": 20
+   }
+  ],
+  "stats": {
+   "attackMelee": 7,
+   "strengthMelee": 7,
+   "attackSpeed": 5
+  },
+  "weaponType": "Axe"
+ },
+ {
+  "id": "steel_helm",
+  "name": "Steel Helm",
+  "description": "Steel helm.",
+  "icon": "steel_helm",
+  "model": "a_helm",
+  "category": "Armour",
+  "stackable": false,
+  "value": 115,
+  "weight": 2.5,
+  "tradeable": true,
+  "slot": "Head",
+  "tint": "steel",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 20
+   }
+  ],
+  "stats": {
+   "defenseMelee": 7,
+   "defenseRanged": 7,
+   "defenseMagic": -2
+  }
+ },
+ {
+  "id": "steel_legs",
+  "name": "Steel Platelegs",
+  "description": "Steel platelegs.",
+  "icon": "steel_legs",
+  "model": "a_legs",
+  "category": "Armour",
+  "stackable": false,
+  "value": 345,
+  "weight": 5.5,
+  "tradeable": true,
+  "slot": "Legs",
+  "tint": "steel",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 20
+   }
+  ],
+  "stats": {
+   "defenseMelee": 17,
+   "defenseRanged": 14,
+   "defenseMagic": -5
+  }
+ },
+ {
+  "id": "steel_mace",
+  "name": "Steel Mace",
+  "description": "A steel mace.",
+  "icon": "steel_mace",
+  "model": "w_mace",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 230,
+  "weight": 3.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "steel",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 20
+   }
+  ],
+  "stats": {
+   "attackMelee": 14,
+   "strengthMelee": 19,
+   "defenseMelee": 2,
+   "attackSpeed": 5
+  },
+  "weaponType": "Mace"
+ },
+ {
+  "id": "steel_pickaxe",
+  "name": "Steel Pickaxe",
+  "description": "A steel pickaxe.",
+  "icon": "steel_pickaxe",
+  "model": "t_pickaxe",
+  "category": "Tool",
+  "stackable": false,
+  "value": 172,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "steel",
+  "toolType": "Pickaxe",
+  "toolPower": 2.4,
+  "toolLevel": 20,
+  "requirements": [
+   {
+    "skill": "Mining",
+    "level": 20
+   }
+  ],
+  "stats": {
+   "attackMelee": 7,
+   "strengthMelee": 7,
+   "attackSpeed": 5
+  },
+  "weaponType": "Mace"
+ },
+ {
+  "id": "steel_shield",
+  "name": "Steel Kite Shield",
+  "description": "Steel kite shield.",
+  "icon": "steel_shield",
+  "model": "a_shield",
+  "category": "Armour",
+  "stackable": false,
+  "value": 345,
+  "weight": 5.5,
+  "tradeable": true,
+  "slot": "Shield",
+  "tint": "steel",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 20
+   }
+  ],
+  "stats": {
+   "defenseMelee": 19,
+   "defenseRanged": 22,
+   "defenseMagic": -2
+  }
+ },
+ {
+  "id": "steel_sword",
+  "name": "Steel Sword",
+  "description": "A steel sword.",
+  "icon": "steel_sword",
+  "model": "w_sword",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 115,
+  "weight": 2.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "steel",
+  "requirements": [
+   {
+    "skill": "Attack",
+    "level": 20
+   }
+  ],
+  "stats": {
+   "attackMelee": 17,
+   "strengthMelee": 14,
+   "attackSpeed": 5
+  },
+  "weaponType": "Sword"
+ },
+ {
+  "id": "sunroot",
+  "name": "Sunroot",
+  "description": "A freshly harvested sunroot.",
+  "icon": "sunroot",
+  "model": "crop_sunroot",
+  "category": "Resource",
+  "stackable": false,
+  "value": 25,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "sunroot_seed",
+  "name": "Sunroot Seed",
+  "description": "Plant in a farming patch.",
+  "icon": "sunroot_seed",
+  "model": "seed_pouch",
+  "category": "Seed",
+  "stackable": true,
+  "value": 12,
+  "weight": 0.0,
+  "tradeable": true
+ },
+ {
+  "id": "swordfish",
+  "name": "Bladefin",
+  "description": "A cooked bladefin. Restores 16 health.",
+  "icon": "swordfish",
+  "model": "fish_cooked",
+  "category": "Food",
+  "stackable": false,
+  "value": 168,
+  "weight": 0.5,
+  "tradeable": true,
+  "heal": 16,
+  "tint": "swordfish"
+ },
+ {
+  "id": "thread",
+  "name": "Thread",
+  "description": "Strong waxed thread.",
+  "icon": "thread",
+  "category": "Resource",
+  "stackable": true,
+  "value": 1,
+  "weight": 0.0,
+  "tradeable": true
+ },
+ {
+  "id": "tin_ore",
+  "name": "Tin Ore",
+  "description": "A lump of tin ore.",
+  "icon": "tin_ore",
+  "model": "ore_chunk",
+  "category": "Resource",
+  "stackable": false,
+  "value": 5,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "tin"
+ },
+ {
+  "id": "tinderbox",
+  "name": "Tinderbox",
+  "description": "Strikes sparks to light fires.",
+  "icon": "tinderbox",
+  "category": "Tool",
+  "stackable": false,
+  "value": 4,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "trout",
+  "name": "Trout",
+  "description": "A cooked trout. Restores 7 health.",
+  "icon": "trout",
+  "model": "fish_cooked",
+  "category": "Food",
+  "stackable": false,
+  "value": 21,
+  "weight": 0.5,
+  "tradeable": true,
+  "heal": 7,
+  "tint": "trout"
+ },
+ {
+  "id": "uncut_amber",
+  "name": "Uncut Amber",
+  "description": "A rough gemstone.",
+  "icon": "uncut_amber",
+  "model": "gem_uncut",
+  "category": "Resource",
+  "stackable": false,
+  "value": 20,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "amber"
+ },
+ {
+  "id": "uncut_garnet",
+  "name": "Uncut Garnet",
+  "description": "A rough gemstone.",
+  "icon": "uncut_garnet",
+  "model": "gem_uncut",
+  "category": "Resource",
+  "stackable": false,
+  "value": 90,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "garnet"
+ },
+ {
+  "id": "uncut_jade",
+  "name": "Uncut Jade",
+  "description": "A rough gemstone.",
+  "icon": "uncut_jade",
+  "model": "gem_uncut",
+  "category": "Resource",
+  "stackable": false,
+  "value": 45,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "jade"
+ },
+ {
+  "id": "uncut_sapphire",
+  "name": "Uncut Sapphire",
+  "description": "A rough gemstone.",
+  "icon": "uncut_sapphire",
+  "model": "gem_uncut",
+  "category": "Resource",
+  "stackable": false,
+  "value": 175,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "sapphire"
+ },
+ {
+  "id": "uncut_starstone",
+  "name": "Uncut Starstone",
+  "description": "A rough gemstone.",
+  "icon": "uncut_starstone",
+  "model": "gem_uncut",
+  "category": "Resource",
+  "stackable": false,
+  "value": 400,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "starstone"
+ },
+ {
+  "id": "vial",
+  "name": "Empty Vial",
+  "description": "A small glass vial.",
+  "icon": "vial",
+  "category": "Resource",
+  "stackable": false,
+  "value": 2,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "vial_water",
+  "name": "Vial of Water",
+  "description": "A vial filled with clean water.",
+  "icon": "vial_water",
+  "category": "Resource",
+  "stackable": false,
+  "value": 4,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "vigor_potion",
+  "name": "Vigor Draught",
+  "description": "A potion. Temporarily boosts Strength.",
+  "icon": "vigor_potion",
+  "model": "potion",
+  "category": "Potion",
+  "stackable": false,
+  "value": 35,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "vigor_potion",
+  "consumeEffect": {
+   "buff": "Strength",
+   "amount": 3,
+   "durationTicks": 300
+  }
+ },
+ {
+  "id": "void_rune",
+  "name": "Void Rune",
+  "description": "A rune charged with void energy.",
+  "icon": "void_rune",
+  "model": "rune_stone",
+  "category": "Rune",
+  "stackable": true,
+  "value": 48,
+  "weight": 0.0,
+  "tradeable": true,
+  "tint": "void"
+ },
+ {
+  "id": "ward_rune",
+  "name": "Ward Rune",
+  "description": "A rune charged with ward energy.",
+  "icon": "ward_rune",
+  "model": "rune_stone",
+  "category": "Rune",
+  "stackable": true,
+  "value": 24,
+  "weight": 0.0,
+  "tradeable": true,
+  "tint": "ward"
+ },
+ {
+  "id": "water_rune",
+  "name": "Tide Rune",
+  "description": "A rune charged with tide energy.",
+  "icon": "water_rune",
+  "model": "rune_stone",
+  "category": "Rune",
+  "stackable": true,
+  "value": 9,
+  "weight": 0.0,
+  "tradeable": true,
+  "tint": "water"
+ },
+ {
+  "id": "watering_can",
+  "name": "Watering Can",
+  "description": "Keeps crops healthy.",
+  "icon": "watering_can",
+  "category": "Tool",
+  "stackable": false,
+  "value": 8,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "wheat",
+  "name": "Wheat",
+  "description": "A freshly harvested wheat.",
+  "icon": "wheat",
+  "model": "crop_wheat",
+  "category": "Resource",
+  "stackable": false,
+  "value": 3,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "wheat_seed",
+  "name": "Wheat Seed",
+  "description": "Plant in a farming patch.",
+  "icon": "wheat_seed",
+  "model": "seed_pouch",
+  "category": "Seed",
+  "stackable": true,
+  "value": 1,
+  "weight": 0.0,
+  "tradeable": true
+ },
+ {
+  "id": "willow_logs",
+  "name": "Willow Logs",
+  "description": "Freshly cut willow logs.",
+  "icon": "willow_logs",
+  "model": "logs",
+  "category": "Resource",
+  "stackable": false,
+  "value": 20,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "willow"
+ },
+ {
+  "id": "willow_longbow",
+  "name": "Willow Longbow",
+  "description": "A tall bow with long reach.",
+  "icon": "willow_longbow",
+  "model": "w_longbow",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 225,
+  "weight": 1.5,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "willow",
+  "weaponType": "Bow",
+  "twoHanded": true,
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 34
+   }
+  ],
+  "stats": {
+   "attackRanged": 32,
+   "attackSpeed": 6,
+   "attackRange": 9
+  }
+ },
+ {
+  "id": "willow_shortbow",
+  "name": "Willow Shortbow",
+  "description": "A short bow.",
+  "icon": "willow_shortbow",
+  "model": "w_shortbow",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 150,
+  "weight": 1.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "willow",
+  "weaponType": "Bow",
+  "twoHanded": true,
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 34
+   }
+  ],
+  "stats": {
+   "attackRanged": 25,
+   "attackSpeed": 4,
+   "attackRange": 7
+  }
+ },
+ {
+  "id": "wolf_pelt",
+  "name": "Wolf Pelt",
+  "description": "A thick grey pelt.",
+  "icon": "wolf_pelt",
+  "category": "Resource",
+  "stackable": false,
+  "value": 20,
+  "weight": 0.5,
+  "tradeable": true
+ },
+ {
+  "id": "wolfhide_cape",
+  "name": "Wolfhide Cape",
+  "description": "Made from tanned leather.",
+  "icon": "wolfhide_cape",
+  "model": "a_wolfhide_cape",
+  "category": "Armour",
+  "stackable": false,
+  "value": 95,
+  "weight": 0.5,
+  "tradeable": true,
+  "slot": "Cape",
+  "requirements": [
+   {
+    "skill": "Defense",
+    "level": 1
+   }
+  ],
+  "stats": {
+   "defenseMelee": 2,
+   "defenseRanged": 2,
+   "defenseMagic": 1
+  }
+ },
+ {
+  "id": "yew_logs",
+  "name": "Elderyew Logs",
+  "description": "Freshly cut elderyew logs.",
+  "icon": "yew_logs",
+  "model": "logs",
+  "category": "Resource",
+  "stackable": false,
+  "value": 90,
+  "weight": 0.5,
+  "tradeable": true,
+  "tint": "yew"
+ },
+ {
+  "id": "yew_longbow",
+  "name": "Elderyew Longbow",
+  "description": "A tall bow with long reach.",
+  "icon": "yew_longbow",
+  "model": "w_longbow",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 432,
+  "weight": 1.5,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "yew",
+  "weaponType": "Bow",
+  "twoHanded": true,
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 64
+   }
+  ],
+  "stats": {
+   "attackRanged": 62,
+   "attackSpeed": 6,
+   "attackRange": 9
+  }
+ },
+ {
+  "id": "yew_shortbow",
+  "name": "Elderyew Shortbow",
+  "description": "A short bow.",
+  "icon": "yew_shortbow",
+  "model": "w_shortbow",
+  "category": "Weapon",
+  "stackable": false,
+  "value": 288,
+  "weight": 1.0,
+  "tradeable": true,
+  "slot": "Weapon",
+  "tint": "yew",
+  "weaponType": "Bow",
+  "twoHanded": true,
+  "requirements": [
+   {
+    "skill": "Ranged",
+    "level": 64
+   }
+  ],
+  "stats": {
+   "attackRanged": 48,
+   "attackSpeed": 4,
+   "attackRange": 7
+  }
+ }
+]

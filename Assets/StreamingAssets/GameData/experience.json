@@ -1,0 +1,11 @@
+{
+ "maxLevel": 99,
+ "formula": "geometric",
+ "base": 80.0,
+ "growth": 1.1,
+ "linear": 20.0,
+ "comment": "Total XP for level L = floor(base*(growth^(L-1)-1)/(growth-1) + linear*(L-1)).",
+ "startingLevels": {
+  "Vitality": 10
+ }
+}

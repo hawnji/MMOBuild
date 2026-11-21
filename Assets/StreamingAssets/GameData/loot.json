@@ -1,0 +1,563 @@
+[
+ {
+  "id": "rat",
+  "always": [
+   {
+    "item": "bones",
+    "min": 1,
+    "max": 1
+   }
+  ],
+  "rolls": 1,
+  "entries": [
+   {
+    "item": "coins",
+    "min": 1,
+    "max": 5,
+    "weight": 3
+   },
+   {
+    "item": "raw_meat",
+    "min": 1,
+    "max": 1,
+    "weight": 2
+   }
+  ],
+  "nothingWeight": 5,
+  "rare": [],
+  "rareChance": 0.0
+ },
+ {
+  "id": "goblin",
+  "always": [
+   {
+    "item": "bones",
+    "min": 1,
+    "max": 1
+   }
+  ],
+  "rolls": 1,
+  "entries": [
+   {
+    "item": "coins",
+    "min": 3,
+    "max": 15,
+    "weight": 5
+   },
+   {
+    "item": "bronze_dagger",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   },
+   {
+    "item": "goblin_charm",
+    "min": 1,
+    "max": 1,
+    "weight": 3
+   },
+   {
+    "item": "air_rune",
+    "min": 4,
+    "max": 8,
+    "weight": 2
+   },
+   {
+    "item": "mind_rune",
+    "min": 2,
+    "max": 5,
+    "weight": 2
+   },
+   {
+    "item": "bait_worms",
+    "min": 5,
+    "max": 10,
+    "weight": 2
+   },
+   {
+    "item": "potato_seed",
+    "min": 1,
+    "max": 3,
+    "weight": 2
+   }
+  ],
+  "nothingWeight": 4,
+  "rare": [
+   {
+    "item": "old_map_scrap",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   },
+   {
+    "item": "uncut_amber",
+    "min": 1,
+    "max": 1,
+    "weight": 2
+   }
+  ],
+  "rareChance": 0.02
+ },
+ {
+  "id": "wolf",
+  "always": [
+   {
+    "item": "big_bones",
+    "min": 1,
+    "max": 1
+   },
+   {
+    "item": "wolf_pelt",
+    "min": 1,
+    "max": 1
+   }
+  ],
+  "rolls": 1,
+  "entries": [
+   {
+    "item": "raw_meat",
+    "min": 1,
+    "max": 2,
+    "weight": 3
+   }
+  ],
+  "nothingWeight": 3,
+  "rare": [],
+  "rareChance": 0.0
+ },
+ {
+  "id": "skeleton",
+  "always": [
+   {
+    "item": "bones",
+    "min": 1,
+    "max": 1
+   }
+  ],
+  "rolls": 1,
+  "entries": [
+   {
+    "item": "coins",
+    "min": 10,
+    "max": 40,
+    "weight": 5
+   },
+   {
+    "item": "iron_sword",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   },
+   {
+    "item": "iron_helm",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   },
+   {
+    "item": "chaos_rune",
+    "min": 2,
+    "max": 5,
+    "weight": 2
+   },
+   {
+    "item": "iron_arrow",
+    "min": 5,
+    "max": 15,
+    "weight": 2
+   },
+   {
+    "item": "sunroot_seed",
+    "min": 1,
+    "max": 2,
+    "weight": 2
+   }
+  ],
+  "nothingWeight": 4,
+  "rare": [
+   {
+    "item": "uncut_jade",
+    "min": 1,
+    "max": 1,
+    "weight": 2
+   },
+   {
+    "item": "ruin_relic",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   }
+  ],
+  "rareChance": 0.03
+ },
+ {
+  "id": "spider",
+  "always": [],
+  "rolls": 1,
+  "entries": [
+   {
+    "item": "coins",
+    "min": 5,
+    "max": 20,
+    "weight": 3
+   },
+   {
+    "item": "thread",
+    "min": 3,
+    "max": 10,
+    "weight": 4
+   },
+   {
+    "item": "mirewort_seed",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   }
+  ],
+  "nothingWeight": 3,
+  "rare": [],
+  "rareChance": 0.0
+ },
+ {
+  "id": "zombie",
+  "always": [
+   {
+    "item": "bones",
+    "min": 1,
+    "max": 1
+   }
+  ],
+  "rolls": 1,
+  "entries": [
+   {
+    "item": "coins",
+    "min": 8,
+    "max": 30,
+    "weight": 4
+   },
+   {
+    "item": "raw_meat",
+    "min": 1,
+    "max": 1,
+    "weight": 2
+   },
+   {
+    "item": "steel_mace",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   },
+   {
+    "item": "mirewort_seed",
+    "min": 1,
+    "max": 2,
+    "weight": 2
+   },
+   {
+    "item": "earth_rune",
+    "min": 5,
+    "max": 12,
+    "weight": 2
+   }
+  ],
+  "nothingWeight": 4,
+  "rare": [],
+  "rareChance": 0.0
+ },
+ {
+  "id": "orc",
+  "always": [
+   {
+    "item": "big_bones",
+    "min": 1,
+    "max": 1
+   }
+  ],
+  "rolls": 1,
+  "entries": [
+   {
+    "item": "coins",
+    "min": 20,
+    "max": 80,
+    "weight": 5
+   },
+   {
+    "item": "steel_axe",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   },
+   {
+    "item": "steel_chest",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   },
+   {
+    "item": "coal_ore",
+    "min": 2,
+    "max": 5,
+    "weight": 2
+   },
+   {
+    "item": "fire_rune",
+    "min": 5,
+    "max": 15,
+    "weight": 2
+   }
+  ],
+  "nothingWeight": 3,
+  "rare": [
+   {
+    "item": "uncut_garnet",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   }
+  ],
+  "rareChance": 0.03
+ },
+ {
+  "id": "troll",
+  "always": [
+   {
+    "item": "big_bones",
+    "min": 1,
+    "max": 2
+   }
+  ],
+  "rolls": 1,
+  "entries": [
+   {
+    "item": "coins",
+    "min": 50,
+    "max": 200,
+    "weight": 5
+   },
+   {
+    "item": "mithril_ore",
+    "min": 1,
+    "max": 3,
+    "weight": 2
+   },
+   {
+    "item": "mithril_greatsword",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   },
+   {
+    "item": "hearty_stew",
+    "min": 1,
+    "max": 2,
+    "weight": 2
+   }
+  ],
+  "nothingWeight": 2,
+  "rare": [
+   {
+    "item": "uncut_sapphire",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   }
+  ],
+  "rareChance": 0.04
+ },
+ {
+  "id": "bandit",
+  "always": [
+   {
+    "item": "bones",
+    "min": 1,
+    "max": 1
+   }
+  ],
+  "rolls": 1,
+  "entries": [
+   {
+    "item": "coins",
+    "min": 15,
+    "max": 60,
+    "weight": 6
+   },
+   {
+    "item": "leather_body",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   },
+   {
+    "item": "oak_shortbow",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   },
+   {
+    "item": "bronze_arrow",
+    "min": 10,
+    "max": 25,
+    "weight": 2
+   },
+   {
+    "item": "lockpick",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   }
+  ],
+  "nothingWeight": 3,
+  "rare": [],
+  "rareChance": 0.0
+ },
+ {
+  "id": "forest_spirit",
+  "always": [],
+  "rolls": 1,
+  "entries": [
+   {
+    "item": "spirit_shard",
+    "min": 1,
+    "max": 2,
+    "weight": 4
+   },
+   {
+    "item": "life_rune",
+    "min": 3,
+    "max": 8,
+    "weight": 3
+   },
+   {
+    "item": "ashbloom_seed",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   }
+  ],
+  "nothingWeight": 2,
+  "rare": [
+   {
+    "item": "emberwood_staff",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   }
+  ],
+  "rareChance": 0.01
+ },
+ {
+  "id": "boss_warden",
+  "always": [
+   {
+    "item": "big_bones",
+    "min": 3,
+    "max": 3
+   },
+   {
+    "item": "coins",
+    "min": 500,
+    "max": 1500
+   },
+   {
+    "item": "ruin_relic",
+    "min": 1,
+    "max": 2
+   }
+  ],
+  "rolls": 3,
+  "entries": [
+   {
+    "item": "duskite_ore",
+    "min": 3,
+    "max": 8,
+    "weight": 3
+   },
+   {
+    "item": "duskite_greatsword",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   },
+   {
+    "item": "duskite_chest",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   },
+   {
+    "item": "void_rune",
+    "min": 20,
+    "max": 50,
+    "weight": 3
+   },
+   {
+    "item": "uncut_starstone",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   }
+  ],
+  "nothingWeight": 0,
+  "rare": [
+   {
+    "item": "starmetal_sword",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   }
+  ],
+  "rareChance": 0.05
+ },
+ {
+  "id": "boss_mirequeen",
+  "always": [
+   {
+    "item": "big_bones",
+    "min": 2,
+    "max": 2
+   },
+   {
+    "item": "coins",
+    "min": 400,
+    "max": 1000
+   }
+  ],
+  "rolls": 2,
+  "entries": [
+   {
+    "item": "mirewort_seed",
+    "min": 3,
+    "max": 6,
+    "weight": 3
+   },
+   {
+    "item": "healing_potion",
+    "min": 2,
+    "max": 4,
+    "weight": 3
+   },
+   {
+    "item": "mithril_chest",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   },
+   {
+    "item": "sapphire_amulet",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   }
+  ],
+  "nothingWeight": 0,
+  "rare": [
+   {
+    "item": "uncut_starstone",
+    "min": 1,
+    "max": 1,
+    "weight": 1
+   }
+  ],
+  "rareChance": 0.05
+ }
+]
