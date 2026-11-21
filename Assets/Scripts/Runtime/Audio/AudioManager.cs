@@ -121,9 +121,6 @@ namespace Embervale.Client
             {
                 (_aActive ? _musicA : _musicB).volume = Settings.MusicVolume;
             }
-            // Pool sources follow the listener when not spatial-relevant.
-            var cam = Camera.main;
-            if (cam != null) transform.position = cam.transform.position;
         }
 
         /// <summary>Hooks the GameClient's sound/combat events. Called by the UI when entering the world.</summary>
