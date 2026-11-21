@@ -13,7 +13,7 @@ namespace Embervale.Client
     /// </summary>
     public sealed class EntityView : MonoBehaviour
     {
-        public EntitySnapshot Snapshot;
+        [System.NonSerialized] public EntitySnapshot Snapshot;
         public CharacterRig Rig;
         public AnimationDriver Anim;
         public GameObject Visual;
