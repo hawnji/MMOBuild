@@ -68,6 +68,7 @@ def main(render_previews=True):
     core.save_blend("creatures", 1)
     with open(os.path.join(OUT, "creature_visuals.json"), "w") as f:
         json.dump(visuals, f, indent=1)
+    core.publish_runtime(os.path.join(OUT, "creature_visuals.json"))
     if render_previews:
         preview.contact_sheet(shots, os.path.join(preview.PREVIEW_DIR, "creatures_sheet.png"), cols=6, cell=220)
     core.write_manifest("creatures")

@@ -277,6 +277,15 @@ def generate_textures(force=False):
         json.dump({"cells": CELLS, "cellPx": CELL_PX, "names": PALETTE_NAMES,
                    "colors": {k: list(v) for k, v in PALETTE.items()}, "tints": {k: list(v) for k, v in TINTS.items()}},
                   f, indent=1)
+    publish_runtime(os.path.join(TEX_DIR, "palette.json"))
+
+
+def publish_runtime(path):
+    """Copies a generated JSON file to Assets/StreamingAssets/Art so the Unity client can read it at runtime."""
+    import shutil
+    dst_dir = os.path.join(REPO, "Assets", "StreamingAssets", "Art")
+    os.makedirs(dst_dir, exist_ok=True)
+    shutil.copyfile(path, os.path.join(dst_dir, os.path.basename(path)))
 
 
 # ---------------------------------------------------------------------------

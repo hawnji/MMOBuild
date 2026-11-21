@@ -70,6 +70,7 @@ def main(render_previews=True):
     core.save_blend("equipment", 1)
     with open(os.path.join(OUT, "equipment_attach.json"), "w") as f:
         json.dump({"default": DEFAULT_ATTACH, "models": attach}, f, indent=1)
+    core.publish_runtime(os.path.join(OUT, "equipment_attach.json"))
     if render_previews:
         preview.contact_sheet(paths, os.path.join(preview.PREVIEW_DIR, "equipment_sheet.png"), cols=8, cell=160)
         showcase()
