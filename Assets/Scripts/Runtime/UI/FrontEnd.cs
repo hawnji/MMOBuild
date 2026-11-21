@@ -266,7 +266,7 @@ namespace Embervale.Client
 
             _slot = new GameObject("CharacterSlot").transform;
             _slot.SetParent(_root.transform, false);
-            _slot.localRotation = Quaternion.Euler(0, 200, 0);
+            _slot.localRotation = Quaternion.Euler(0, 20, 0);   // models face -Z; turn them toward the stage camera
 
             var camGo = new GameObject("FrontEndCamera");
             camGo.transform.SetParent(_root.transform, false);
