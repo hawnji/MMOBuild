@@ -94,11 +94,13 @@ namespace Embervale.Client
             Disconnect();
             Offline = false;
             NewClient();
-            _net = new LiteNetClientTransport(Client);
-            Client.SetTransport(_net);
-            _net.OnConnected += () => { Client.Connect(); SetStatus("Connected. Logging in..."); };
-            _net.OnDisconnected += reason =>
+            var net = new LiteNetClientTransport(Client);
+            _net = net;
+            Client.SetTransport(net);
+            net.OnConnected += () => { if (_net != net) return; Client.Connect(); SetStatus("Connected. Logging in..."); };
+            net.OnDisconnected += reason =>
             {
+                if (_net != net) return;   // ignore the old connection we closed ourselves
                 SetStatus("Disconnected: " + reason);
                 ReturnToLogin();
             };
@@ -111,20 +113,26 @@ namespace Embervale.Client
 
         private void NewClient()
         {
-            Client = new GameClient(Db);
-            Client.OnAuthResult += (ok, msg) =>
+            var c = new GameClient(Db);
+            Client = c;
+            // Every handler ignores events from a client that has since been replaced. Shutting down the
+            // offline world kicks its old client ("Local world closed."), which must not reset a new
+            // online connection back to the login screen.
+            c.OnAuthResult += (ok, msg) =>
             {
+                if (Client != c) return;
                 SetStatus(msg);
                 if (!ok) { Disconnect(); SetState(ClientState.Login); }
             };
-            Client.OnCharacterList += () =>
+            c.OnCharacterList += () =>
             {
+                if (Client != c) return;
                 if (State == ClientState.InWorld) TearDownWorld();
-                SetState(Client.Characters.Count == 0 ? ClientState.CharacterCreate : ClientState.CharacterSelect);
+                SetState(c.Characters.Count == 0 ? ClientState.CharacterCreate : ClientState.CharacterSelect);
             };
-            Client.OnCharacterResult += (ok, msg) => SetStatus(msg);
-            Client.OnEnterWorld += EnterWorld;
-            Client.OnKicked += reason => { SetStatus(reason); ReturnToLogin(); };
+            c.OnCharacterResult += (ok, msg) => { if (Client == c) SetStatus(msg); };
+            c.OnEnterWorld += () => { if (Client == c) EnterWorld(); };
+            c.OnKicked += reason => { if (Client != c) return; SetStatus(reason); ReturnToLogin(); };
         }
 
         public void CreateCharacter(string name, Shared.Simulation.Appearance a) => Client?.CreateCharacter(name, a);
@@ -148,9 +156,11 @@ namespace Embervale.Client
 
         private void Disconnect()
         {
-            if (_net != null) { _net.Disconnect(); _net = null; }
-            if (_local != null) { _local.Dispose(); _local = null; }
-            Client = null;
+            Client = null;   // first, so the old client's final events (kick on shutdown) are ignored
+            var net = _net; _net = null;
+            var local = _local; _local = null;
+            net?.Disconnect();
+            local?.Dispose();
         }
 
         private void SetStatus(string s)
