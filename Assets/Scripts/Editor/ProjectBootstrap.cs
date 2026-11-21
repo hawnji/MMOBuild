@@ -413,7 +413,12 @@ namespace Embervale.EditorTools
             if (!File.Exists(ScenePath))
             {
                 var scene = EditorSceneManager.NewScene(NewSceneSetup.DefaultGameObjects, NewSceneMode.Single);
-                foreach (var light in UnityEngine.Object.FindObjectsByType<Light>(FindObjectsSortMode.None)) UnityEngine.Object.DestroyImmediate(light.gameObject);
+#if UNITY_6000_6_OR_NEWER
+                var lights = UnityEngine.Object.FindObjectsByType<Light>();
+#else
+                var lights = UnityEngine.Object.FindObjectsByType<Light>(FindObjectsSortMode.None);
+#endif
+                foreach (var light in lights) UnityEngine.Object.DestroyImmediate(light.gameObject);
                 var cam = Camera.main;
                 if (cam != null)
                 {
