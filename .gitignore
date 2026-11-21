@@ -1,0 +1,63 @@
+# ---- Unity generated ----
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/Assets/Plugins/Editor/JetBrains*
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+crashlytics-build.properties
+/Assets/StreamingAssets/aa.meta
+/Assets/StreamingAssets/aa/*
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ---- IDE ----
+.vs/
+.vscode/
+.idea/
+.gradle/
+*.csproj
+*.sln
+!Server/**/*.csproj
+!Server/*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ---- .NET server build output ----
+Server/**/bin/
+Server/**/obj/
+Server/**/TestResults/
+
+# ---- Blender ----
+*.blend1
+*.blend2
+__pycache__/
+*.pyc
+
+# ---- Local secrets / private config (never commit) ----
+*.env
+.env*
+Server/**/appsettings.Local.json
+Server/**/secrets*.json
+Server/Data/*.db
+Server/Data/*.db-*
+*.pem
+*.key
